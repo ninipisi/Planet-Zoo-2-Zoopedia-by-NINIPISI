@@ -1,0 +1,1990 @@
+{
+ "schema": 2,
+ "dlcs": [
+  {
+   "id": "base",
+   "default": true,
+   "url": "https://store.steampowered.com/app/3219030/Planet_Zoo_2/"
+  },
+  {
+   "id": "deluxe",
+   "default": false
+  }
+ ],
+ "continents": [
+  "africa",
+  "asia",
+  "europe",
+  "northAmerica",
+  "southAmerica",
+  "oceania",
+  "arctic",
+  "arcticOcean",
+  "atlanticOcean",
+  "indianOcean",
+  "pacificOcean",
+  "southernOcean"
+ ],
+ "biomes": [
+  "desert",
+  "savannah",
+  "temperate",
+  "taiga",
+  "tundra",
+  "tropical",
+  "wetlands",
+  "lakesRivers",
+  "estuarine",
+  "mangrove",
+  "reef",
+  "openSea"
+ ],
+ "roles": [
+  "scavenger",
+  "terrestrialPollinator",
+  "aerialPollinator",
+  "soilRooter",
+  "wetlandEngineer",
+  "preyLarge",
+  "preySmall",
+  "smallUnderwaterPrey",
+  "preyMedium",
+  "mediumUnderwaterPrey",
+  "terrestrialForager",
+  "aerialForager",
+  "predator",
+  "underwaterPredator",
+  "terrestrialSeedDisperser",
+  "aerialSeedDisperser",
+  "terrestrialSporeDisperser",
+  "lowBrowser",
+  "highBrowser",
+  "grazer",
+  "underwaterGrazer",
+  "freshwaterFish",
+  "saltwaterFish"
+ ],
+ "statuses": [
+  {
+   "id": "ew",
+   "code": "EW"
+  },
+  {
+   "id": "cr",
+   "code": "CR"
+  },
+  {
+   "id": "en",
+   "code": "EN"
+  },
+  {
+   "id": "vu",
+   "code": "VU"
+  },
+  {
+   "id": "nt",
+   "code": "NT"
+  },
+  {
+   "id": "lc",
+   "code": "LC"
+  },
+  {
+   "id": "dom",
+   "code": "DO"
+  },
+  {
+   "id": "dd",
+   "code": "DD"
+  },
+  {
+   "id": "ne",
+   "code": "NE"
+  }
+ ],
+ "animalsFile": "data/tiere.json",
+ "compatFile": "data/compat.json",
+ "categories": [
+  {
+   "id": "enclosure",
+   "type": "land",
+   "tab": "tab.land",
+   "sizeKey": "land",
+   "filters": [
+    "search",
+    "status",
+    "biomes",
+    "continents",
+    "roles",
+    "temp",
+    "size",
+    "climbProof",
+    "walk",
+    "gift",
+    "owned"
+   ],
+   "columns": [
+    {
+     "id": "name",
+     "group": "grp.general",
+     "label": "col.name",
+     "type": "name",
+     "sortable": true,
+     "fixed": true
+    },
+    {
+     "id": "status",
+     "group": "grp.general",
+     "label": "col.status",
+     "type": "status",
+     "sortable": true
+    },
+    {
+     "id": "dlc",
+     "group": "grp.general",
+     "label": "col.dlc",
+     "type": "dlc",
+     "sortable": true,
+     "hidden": true
+    },
+    {
+     "id": "roles",
+     "group": "grp.general",
+     "label": "col.roles",
+     "type": "roles",
+     "sortable": false,
+     "hidden": true
+    },
+    {
+     "id": "continents",
+     "group": "grp.general",
+     "label": "col.continents",
+     "type": "continents",
+     "sortable": false,
+     "hidden": true
+    },
+    {
+     "id": "biomes",
+     "group": "grp.general",
+     "label": "col.biomes",
+     "type": "biomes",
+     "sortable": false
+    },
+    {
+     "id": "temp",
+     "group": "grp.climate",
+     "label": "col.temp",
+     "type": "temp",
+     "sortable": true,
+     "icon": "temp",
+     "unit": "°C"
+    },
+    {
+     "id": "humidity",
+     "group": "grp.climate",
+     "label": "col.humidity",
+     "type": "range",
+     "sortable": true,
+     "path": "humidity",
+     "icon": "humidity",
+     "unit": "%"
+    },
+    {
+     "id": "salinity",
+     "group": "grp.climate",
+     "label": "col.salinity",
+     "type": "num",
+     "sortable": true,
+     "path": "salinity",
+     "icon": "salinity"
+    },
+    {
+     "id": "shelter",
+     "group": "grp.req",
+     "label": "col.shelter",
+     "type": "area",
+     "sortable": true,
+     "path": "area1.shelter",
+     "icon": "shelter",
+     "unit": "m²"
+    },
+    {
+     "id": "water",
+     "group": "grp.req",
+     "label": "col.water",
+     "type": "area",
+     "sortable": true,
+     "path": "area1.water",
+     "icon": "water",
+     "unit": "m²"
+    },
+    {
+     "id": "deep",
+     "group": "grp.req",
+     "label": "col.deep",
+     "type": "area",
+     "sortable": true,
+     "path": "area1.deep",
+     "icon": "deep",
+     "unit": "m²"
+    },
+    {
+     "id": "climb",
+     "group": "grp.req",
+     "label": "col.climb",
+     "type": "area",
+     "sortable": true,
+     "path": "area1.climb",
+     "icon": "climb",
+     "unit": "m²"
+    },
+    {
+     "id": "land",
+     "group": "grp.req",
+     "label": "col.land",
+     "type": "area",
+     "sortable": true,
+     "path": "area1.land",
+     "icon": "land",
+     "unit": "m²"
+    },
+    {
+     "id": "flight",
+     "group": "grp.req",
+     "label": "col.flight",
+     "type": "area",
+     "sortable": true,
+     "path": "area1.flight",
+     "icon": "flight",
+     "unit": "m²"
+    },
+    {
+     "id": "inc_shelter",
+     "group": "grp.inc",
+     "label": "col.shelter",
+     "type": "area",
+     "sortable": true,
+     "calc": "inc.shelter",
+     "icon": "shelter",
+     "unit": "m²"
+    },
+    {
+     "id": "inc_water",
+     "group": "grp.inc",
+     "label": "col.water",
+     "type": "area",
+     "sortable": true,
+     "calc": "inc.water",
+     "icon": "water",
+     "unit": "m²"
+    },
+    {
+     "id": "inc_deep",
+     "group": "grp.inc",
+     "label": "col.deep",
+     "type": "area",
+     "sortable": true,
+     "calc": "inc.deep",
+     "icon": "deep",
+     "unit": "m²"
+    },
+    {
+     "id": "inc_climb",
+     "group": "grp.inc",
+     "label": "col.climb",
+     "type": "area",
+     "sortable": true,
+     "calc": "inc.climb",
+     "icon": "climb",
+     "unit": "m²"
+    },
+    {
+     "id": "inc_land",
+     "group": "grp.inc",
+     "label": "col.land",
+     "type": "area",
+     "sortable": true,
+     "calc": "inc.land",
+     "icon": "land",
+     "unit": "m²"
+    },
+    {
+     "id": "inc_flight",
+     "group": "grp.inc",
+     "label": "col.flight",
+     "type": "area",
+     "sortable": true,
+     "calc": "inc.flight",
+     "icon": "flight",
+     "unit": "m²"
+    },
+    {
+     "id": "atMin_shelter",
+     "group": "grp.atMin",
+     "label": "col.shelter",
+     "type": "area",
+     "sortable": true,
+     "calc": "atMin.shelter",
+     "icon": "shelter",
+     "unit": "m²",
+     "hidden": true
+    },
+    {
+     "id": "atMin_water",
+     "group": "grp.atMin",
+     "label": "col.water",
+     "type": "area",
+     "sortable": true,
+     "calc": "atMin.water",
+     "icon": "water",
+     "unit": "m²",
+     "hidden": true
+    },
+    {
+     "id": "atMin_deep",
+     "group": "grp.atMin",
+     "label": "col.deep",
+     "type": "area",
+     "sortable": true,
+     "calc": "atMin.deep",
+     "icon": "deep",
+     "unit": "m²",
+     "hidden": true
+    },
+    {
+     "id": "atMin_climb",
+     "group": "grp.atMin",
+     "label": "col.climb",
+     "type": "area",
+     "sortable": true,
+     "calc": "atMin.climb",
+     "icon": "climb",
+     "unit": "m²",
+     "hidden": true
+    },
+    {
+     "id": "atMin_land",
+     "group": "grp.atMin",
+     "label": "col.land",
+     "type": "area",
+     "sortable": true,
+     "calc": "atMin.land",
+     "icon": "land",
+     "unit": "m²",
+     "hidden": true
+    },
+    {
+     "id": "atMin_flight",
+     "group": "grp.atMin",
+     "label": "col.flight",
+     "type": "area",
+     "sortable": true,
+     "calc": "atMin.flight",
+     "icon": "flight",
+     "unit": "m²",
+     "hidden": true
+    },
+    {
+     "id": "atMax_shelter",
+     "group": "grp.atMax",
+     "label": "col.shelter",
+     "type": "area",
+     "sortable": true,
+     "calc": "atMax.shelter",
+     "icon": "shelter",
+     "unit": "m²",
+     "hidden": true
+    },
+    {
+     "id": "atMax_water",
+     "group": "grp.atMax",
+     "label": "col.water",
+     "type": "area",
+     "sortable": true,
+     "calc": "atMax.water",
+     "icon": "water",
+     "unit": "m²",
+     "hidden": true
+    },
+    {
+     "id": "atMax_deep",
+     "group": "grp.atMax",
+     "label": "col.deep",
+     "type": "area",
+     "sortable": true,
+     "calc": "atMax.deep",
+     "icon": "deep",
+     "unit": "m²",
+     "hidden": true
+    },
+    {
+     "id": "atMax_climb",
+     "group": "grp.atMax",
+     "label": "col.climb",
+     "type": "area",
+     "sortable": true,
+     "calc": "atMax.climb",
+     "icon": "climb",
+     "unit": "m²",
+     "hidden": true
+    },
+    {
+     "id": "atMax_land",
+     "group": "grp.atMax",
+     "label": "col.land",
+     "type": "area",
+     "sortable": true,
+     "calc": "atMax.land",
+     "icon": "land",
+     "unit": "m²",
+     "hidden": true
+    },
+    {
+     "id": "atMax_flight",
+     "group": "grp.atMax",
+     "label": "col.flight",
+     "type": "area",
+     "sortable": true,
+     "calc": "atMax.flight",
+     "icon": "flight",
+     "unit": "m²",
+     "hidden": true
+    },
+    {
+     "id": "climbProof",
+     "group": "grp.fence",
+     "label": "col.climbProof",
+     "type": "bool",
+     "sortable": true,
+     "path": "fence.climbProof",
+     "icon": "fence",
+     "hidden": true
+    },
+    {
+     "id": "fenceStr",
+     "group": "grp.fence",
+     "label": "col.fenceStr",
+     "type": "num",
+     "sortable": true,
+     "path": "fence.strength",
+     "icon": "strength"
+    },
+    {
+     "id": "fenceH",
+     "group": "grp.fence",
+     "label": "col.fenceH",
+     "type": "meter",
+     "sortable": true,
+     "path": "fence.height",
+     "icon": "height",
+     "unit": "m"
+    },
+    {
+     "id": "moat",
+     "group": "grp.fence",
+     "label": "col.moat",
+     "type": "moat",
+     "sortable": true,
+     "path": "fence.moat",
+     "hidden": true
+    },
+    {
+     "id": "group",
+     "group": "grp.social",
+     "label": "col.group",
+     "type": "rangeMinMax",
+     "sortable": true,
+     "path": "social"
+    },
+    {
+     "id": "ratio",
+     "group": "grp.social",
+     "label": "col.ratio",
+     "type": "ratio",
+     "sortable": true,
+     "hidden": true
+    },
+    {
+     "id": "maleOnly",
+     "group": "grp.social",
+     "label": "col.maleOnly",
+     "type": "range",
+     "sortable": true,
+     "path": "social.maleOnly",
+     "hidden": true
+    },
+    {
+     "id": "femaleOnly",
+     "group": "grp.social",
+     "label": "col.femaleOnly",
+     "type": "range",
+     "sortable": true,
+     "path": "social.femaleOnly",
+     "hidden": true
+    },
+    {
+     "id": "walk",
+     "group": "grp.social",
+     "label": "col.walk",
+     "type": "walk",
+     "sortable": true,
+     "path": "walkthrough"
+    },
+    {
+     "id": "maturity",
+     "group": "grp.cycle",
+     "label": "col.maturity",
+     "type": "time",
+     "sortable": true,
+     "path": "lifecycle.maturity",
+     "hidden": true
+    },
+    {
+     "id": "sterility",
+     "group": "grp.cycle",
+     "label": "col.sterility",
+     "type": "time",
+     "sortable": true,
+     "path": "lifecycle.sterility",
+     "hidden": true
+    },
+    {
+     "id": "litter",
+     "group": "grp.cycle",
+     "label": "col.litter",
+     "type": "range",
+     "sortable": true,
+     "path": "lifecycle.litter",
+     "hidden": true
+    },
+    {
+     "id": "gestation",
+     "group": "grp.cycle",
+     "label": "col.gestation",
+     "type": "time",
+     "sortable": true,
+     "path": "lifecycle.gestation",
+     "hidden": true
+    },
+    {
+     "id": "interval",
+     "group": "grp.cycle",
+     "label": "col.interval",
+     "type": "time",
+     "sortable": true,
+     "path": "lifecycle.interval",
+     "hidden": true
+    }
+   ]
+  },
+  {
+   "id": "aviary",
+   "type": "flying",
+   "tab": "tab.flying",
+   "sizeKey": "flight",
+   "filters": [
+    "search",
+    "status",
+    "biomes",
+    "continents",
+    "roles",
+    "temp",
+    "size",
+    "walk",
+    "gift",
+    "owned"
+   ],
+   "columns": [
+    {
+     "id": "name",
+     "group": "grp.general",
+     "label": "col.name",
+     "type": "name",
+     "sortable": true,
+     "fixed": true
+    },
+    {
+     "id": "status",
+     "group": "grp.general",
+     "label": "col.status",
+     "type": "status",
+     "sortable": true
+    },
+    {
+     "id": "dlc",
+     "group": "grp.general",
+     "label": "col.dlc",
+     "type": "dlc",
+     "sortable": true,
+     "hidden": true
+    },
+    {
+     "id": "roles",
+     "group": "grp.general",
+     "label": "col.roles",
+     "type": "roles",
+     "sortable": false,
+     "hidden": true
+    },
+    {
+     "id": "continents",
+     "group": "grp.general",
+     "label": "col.continents",
+     "type": "continents",
+     "sortable": false,
+     "hidden": true
+    },
+    {
+     "id": "biomes",
+     "group": "grp.general",
+     "label": "col.biomes",
+     "type": "biomes",
+     "sortable": false
+    },
+    {
+     "id": "temp",
+     "group": "grp.climate",
+     "label": "col.temp",
+     "type": "temp",
+     "sortable": true,
+     "icon": "temp",
+     "unit": "°C"
+    },
+    {
+     "id": "humidity",
+     "group": "grp.climate",
+     "label": "col.humidity",
+     "type": "range",
+     "sortable": true,
+     "path": "humidity",
+     "icon": "humidity",
+     "unit": "%"
+    },
+    {
+     "id": "salinity",
+     "group": "grp.climate",
+     "label": "col.salinity",
+     "type": "num",
+     "sortable": true,
+     "path": "salinity",
+     "icon": "salinity"
+    },
+    {
+     "id": "shelter",
+     "group": "grp.req",
+     "label": "col.shelter",
+     "type": "area",
+     "sortable": true,
+     "path": "area1.shelter",
+     "icon": "shelter",
+     "unit": "m²"
+    },
+    {
+     "id": "water",
+     "group": "grp.req",
+     "label": "col.water",
+     "type": "area",
+     "sortable": true,
+     "path": "area1.water",
+     "icon": "water",
+     "unit": "m²"
+    },
+    {
+     "id": "deep",
+     "group": "grp.req",
+     "label": "col.deep",
+     "type": "area",
+     "sortable": true,
+     "path": "area1.deep",
+     "icon": "deep",
+     "unit": "m²"
+    },
+    {
+     "id": "climb",
+     "group": "grp.req",
+     "label": "col.climb",
+     "type": "area",
+     "sortable": true,
+     "path": "area1.climb",
+     "icon": "climb",
+     "unit": "m²"
+    },
+    {
+     "id": "land",
+     "group": "grp.req",
+     "label": "col.land",
+     "type": "area",
+     "sortable": true,
+     "path": "area1.land",
+     "icon": "land",
+     "unit": "m²"
+    },
+    {
+     "id": "flight",
+     "group": "grp.req",
+     "label": "col.flight",
+     "type": "area",
+     "sortable": true,
+     "path": "area1.flight",
+     "icon": "flight",
+     "unit": "m²"
+    },
+    {
+     "id": "inc_shelter",
+     "group": "grp.inc",
+     "label": "col.shelter",
+     "type": "area",
+     "sortable": true,
+     "calc": "inc.shelter",
+     "icon": "shelter",
+     "unit": "m²"
+    },
+    {
+     "id": "inc_water",
+     "group": "grp.inc",
+     "label": "col.water",
+     "type": "area",
+     "sortable": true,
+     "calc": "inc.water",
+     "icon": "water",
+     "unit": "m²"
+    },
+    {
+     "id": "inc_deep",
+     "group": "grp.inc",
+     "label": "col.deep",
+     "type": "area",
+     "sortable": true,
+     "calc": "inc.deep",
+     "icon": "deep",
+     "unit": "m²"
+    },
+    {
+     "id": "inc_climb",
+     "group": "grp.inc",
+     "label": "col.climb",
+     "type": "area",
+     "sortable": true,
+     "calc": "inc.climb",
+     "icon": "climb",
+     "unit": "m²"
+    },
+    {
+     "id": "inc_land",
+     "group": "grp.inc",
+     "label": "col.land",
+     "type": "area",
+     "sortable": true,
+     "calc": "inc.land",
+     "icon": "land",
+     "unit": "m²"
+    },
+    {
+     "id": "inc_flight",
+     "group": "grp.inc",
+     "label": "col.flight",
+     "type": "area",
+     "sortable": true,
+     "calc": "inc.flight",
+     "icon": "flight",
+     "unit": "m²"
+    },
+    {
+     "id": "atMin_shelter",
+     "group": "grp.atMin",
+     "label": "col.shelter",
+     "type": "area",
+     "sortable": true,
+     "calc": "atMin.shelter",
+     "icon": "shelter",
+     "unit": "m²",
+     "hidden": true
+    },
+    {
+     "id": "atMin_water",
+     "group": "grp.atMin",
+     "label": "col.water",
+     "type": "area",
+     "sortable": true,
+     "calc": "atMin.water",
+     "icon": "water",
+     "unit": "m²",
+     "hidden": true
+    },
+    {
+     "id": "atMin_deep",
+     "group": "grp.atMin",
+     "label": "col.deep",
+     "type": "area",
+     "sortable": true,
+     "calc": "atMin.deep",
+     "icon": "deep",
+     "unit": "m²",
+     "hidden": true
+    },
+    {
+     "id": "atMin_climb",
+     "group": "grp.atMin",
+     "label": "col.climb",
+     "type": "area",
+     "sortable": true,
+     "calc": "atMin.climb",
+     "icon": "climb",
+     "unit": "m²",
+     "hidden": true
+    },
+    {
+     "id": "atMin_land",
+     "group": "grp.atMin",
+     "label": "col.land",
+     "type": "area",
+     "sortable": true,
+     "calc": "atMin.land",
+     "icon": "land",
+     "unit": "m²",
+     "hidden": true
+    },
+    {
+     "id": "atMin_flight",
+     "group": "grp.atMin",
+     "label": "col.flight",
+     "type": "area",
+     "sortable": true,
+     "calc": "atMin.flight",
+     "icon": "flight",
+     "unit": "m²",
+     "hidden": true
+    },
+    {
+     "id": "atMax_shelter",
+     "group": "grp.atMax",
+     "label": "col.shelter",
+     "type": "area",
+     "sortable": true,
+     "calc": "atMax.shelter",
+     "icon": "shelter",
+     "unit": "m²",
+     "hidden": true
+    },
+    {
+     "id": "atMax_water",
+     "group": "grp.atMax",
+     "label": "col.water",
+     "type": "area",
+     "sortable": true,
+     "calc": "atMax.water",
+     "icon": "water",
+     "unit": "m²",
+     "hidden": true
+    },
+    {
+     "id": "atMax_deep",
+     "group": "grp.atMax",
+     "label": "col.deep",
+     "type": "area",
+     "sortable": true,
+     "calc": "atMax.deep",
+     "icon": "deep",
+     "unit": "m²",
+     "hidden": true
+    },
+    {
+     "id": "atMax_climb",
+     "group": "grp.atMax",
+     "label": "col.climb",
+     "type": "area",
+     "sortable": true,
+     "calc": "atMax.climb",
+     "icon": "climb",
+     "unit": "m²",
+     "hidden": true
+    },
+    {
+     "id": "atMax_land",
+     "group": "grp.atMax",
+     "label": "col.land",
+     "type": "area",
+     "sortable": true,
+     "calc": "atMax.land",
+     "icon": "land",
+     "unit": "m²",
+     "hidden": true
+    },
+    {
+     "id": "atMax_flight",
+     "group": "grp.atMax",
+     "label": "col.flight",
+     "type": "area",
+     "sortable": true,
+     "calc": "atMax.flight",
+     "icon": "flight",
+     "unit": "m²",
+     "hidden": true
+    },
+    {
+     "id": "climbProof",
+     "group": "grp.fence",
+     "label": "col.climbProof",
+     "type": "bool",
+     "sortable": true,
+     "path": "fence.climbProof",
+     "icon": "fence",
+     "hidden": true
+    },
+    {
+     "id": "fenceStr",
+     "group": "grp.fence",
+     "label": "col.fenceStr",
+     "type": "num",
+     "sortable": true,
+     "path": "fence.strength",
+     "icon": "strength"
+    },
+    {
+     "id": "fenceH",
+     "group": "grp.fence",
+     "label": "col.fenceH",
+     "type": "meter",
+     "sortable": true,
+     "path": "fence.height",
+     "icon": "height",
+     "unit": "m"
+    },
+    {
+     "id": "moat",
+     "group": "grp.fence",
+     "label": "col.moat",
+     "type": "moat",
+     "sortable": true,
+     "path": "fence.moat",
+     "hidden": true
+    },
+    {
+     "id": "group",
+     "group": "grp.social",
+     "label": "col.group",
+     "type": "rangeMinMax",
+     "sortable": true,
+     "path": "social"
+    },
+    {
+     "id": "ratio",
+     "group": "grp.social",
+     "label": "col.ratio",
+     "type": "ratio",
+     "sortable": true,
+     "hidden": true
+    },
+    {
+     "id": "maleOnly",
+     "group": "grp.social",
+     "label": "col.maleOnly",
+     "type": "range",
+     "sortable": true,
+     "path": "social.maleOnly",
+     "hidden": true
+    },
+    {
+     "id": "femaleOnly",
+     "group": "grp.social",
+     "label": "col.femaleOnly",
+     "type": "range",
+     "sortable": true,
+     "path": "social.femaleOnly",
+     "hidden": true
+    },
+    {
+     "id": "walk",
+     "group": "grp.social",
+     "label": "col.walk",
+     "type": "walk",
+     "sortable": true,
+     "path": "walkthrough"
+    },
+    {
+     "id": "maturity",
+     "group": "grp.cycle",
+     "label": "col.maturity",
+     "type": "time",
+     "sortable": true,
+     "path": "lifecycle.maturity",
+     "hidden": true
+    },
+    {
+     "id": "sterility",
+     "group": "grp.cycle",
+     "label": "col.sterility",
+     "type": "time",
+     "sortable": true,
+     "path": "lifecycle.sterility",
+     "hidden": true
+    },
+    {
+     "id": "litter",
+     "group": "grp.cycle",
+     "label": "col.litter",
+     "type": "range",
+     "sortable": true,
+     "path": "lifecycle.litter",
+     "hidden": true
+    },
+    {
+     "id": "gestation",
+     "group": "grp.cycle",
+     "label": "col.gestation",
+     "type": "time",
+     "sortable": true,
+     "path": "lifecycle.gestation",
+     "hidden": true
+    },
+    {
+     "id": "interval",
+     "group": "grp.cycle",
+     "label": "col.interval",
+     "type": "time",
+     "sortable": true,
+     "path": "lifecycle.interval",
+     "hidden": true
+    }
+   ]
+  },
+  {
+   "id": "aquarium",
+   "type": "aquarium",
+   "tab": "tab.aquarium",
+   "filters": [
+    "search",
+    "status",
+    "biomes",
+    "continents",
+    "roles",
+    "temp",
+    "walk",
+    "gift",
+    "owned"
+   ],
+   "columns": [
+    {
+     "id": "name",
+     "group": "grp.general",
+     "label": "col.name",
+     "type": "name",
+     "sortable": true,
+     "fixed": true
+    },
+    {
+     "id": "status",
+     "group": "grp.general",
+     "label": "col.status",
+     "type": "status",
+     "sortable": true
+    },
+    {
+     "id": "dlc",
+     "group": "grp.general",
+     "label": "col.dlc",
+     "type": "dlc",
+     "sortable": true,
+     "hidden": true
+    },
+    {
+     "id": "roles",
+     "group": "grp.general",
+     "label": "col.roles",
+     "type": "roles",
+     "sortable": false,
+     "hidden": true
+    },
+    {
+     "id": "continents",
+     "group": "grp.general",
+     "label": "col.continents",
+     "type": "continents",
+     "sortable": false,
+     "hidden": true
+    },
+    {
+     "id": "biomes",
+     "group": "grp.general",
+     "label": "col.biomes",
+     "type": "biomes",
+     "sortable": false
+    },
+    {
+     "id": "temp",
+     "group": "grp.climate",
+     "label": "col.temp",
+     "type": "temp",
+     "sortable": true,
+     "icon": "temp",
+     "unit": "°C"
+    },
+    {
+     "id": "humidity",
+     "group": "grp.climate",
+     "label": "col.humidity",
+     "type": "range",
+     "sortable": true,
+     "path": "humidity",
+     "icon": "humidity",
+     "unit": "%"
+    },
+    {
+     "id": "salinity",
+     "group": "grp.climate",
+     "label": "col.salinity",
+     "type": "num",
+     "sortable": true,
+     "path": "salinity",
+     "icon": "salinity"
+    },
+    {
+     "id": "shelter",
+     "group": "grp.req",
+     "label": "col.shelter",
+     "type": "area",
+     "sortable": true,
+     "path": "area1.shelter",
+     "icon": "shelter",
+     "unit": "m²"
+    },
+    {
+     "id": "water",
+     "group": "grp.req",
+     "label": "col.water",
+     "type": "area",
+     "sortable": true,
+     "path": "area1.water",
+     "icon": "water",
+     "unit": "m²"
+    },
+    {
+     "id": "deep",
+     "group": "grp.req",
+     "label": "col.deep",
+     "type": "area",
+     "sortable": true,
+     "path": "area1.deep",
+     "icon": "deep",
+     "unit": "m²"
+    },
+    {
+     "id": "climb",
+     "group": "grp.req",
+     "label": "col.climb",
+     "type": "area",
+     "sortable": true,
+     "path": "area1.climb",
+     "icon": "climb",
+     "unit": "m²"
+    },
+    {
+     "id": "land",
+     "group": "grp.req",
+     "label": "col.land",
+     "type": "area",
+     "sortable": true,
+     "path": "area1.land",
+     "icon": "land",
+     "unit": "m²"
+    },
+    {
+     "id": "flight",
+     "group": "grp.req",
+     "label": "col.flight",
+     "type": "area",
+     "sortable": true,
+     "path": "area1.flight",
+     "icon": "flight",
+     "unit": "m²"
+    },
+    {
+     "id": "inc_shelter",
+     "group": "grp.inc",
+     "label": "col.shelter",
+     "type": "area",
+     "sortable": true,
+     "calc": "inc.shelter",
+     "icon": "shelter",
+     "unit": "m²"
+    },
+    {
+     "id": "inc_water",
+     "group": "grp.inc",
+     "label": "col.water",
+     "type": "area",
+     "sortable": true,
+     "calc": "inc.water",
+     "icon": "water",
+     "unit": "m²"
+    },
+    {
+     "id": "inc_deep",
+     "group": "grp.inc",
+     "label": "col.deep",
+     "type": "area",
+     "sortable": true,
+     "calc": "inc.deep",
+     "icon": "deep",
+     "unit": "m²"
+    },
+    {
+     "id": "inc_climb",
+     "group": "grp.inc",
+     "label": "col.climb",
+     "type": "area",
+     "sortable": true,
+     "calc": "inc.climb",
+     "icon": "climb",
+     "unit": "m²"
+    },
+    {
+     "id": "inc_land",
+     "group": "grp.inc",
+     "label": "col.land",
+     "type": "area",
+     "sortable": true,
+     "calc": "inc.land",
+     "icon": "land",
+     "unit": "m²"
+    },
+    {
+     "id": "inc_flight",
+     "group": "grp.inc",
+     "label": "col.flight",
+     "type": "area",
+     "sortable": true,
+     "calc": "inc.flight",
+     "icon": "flight",
+     "unit": "m²"
+    },
+    {
+     "id": "atMin_shelter",
+     "group": "grp.atMin",
+     "label": "col.shelter",
+     "type": "area",
+     "sortable": true,
+     "calc": "atMin.shelter",
+     "icon": "shelter",
+     "unit": "m²",
+     "hidden": true
+    },
+    {
+     "id": "atMin_water",
+     "group": "grp.atMin",
+     "label": "col.water",
+     "type": "area",
+     "sortable": true,
+     "calc": "atMin.water",
+     "icon": "water",
+     "unit": "m²",
+     "hidden": true
+    },
+    {
+     "id": "atMin_deep",
+     "group": "grp.atMin",
+     "label": "col.deep",
+     "type": "area",
+     "sortable": true,
+     "calc": "atMin.deep",
+     "icon": "deep",
+     "unit": "m²",
+     "hidden": true
+    },
+    {
+     "id": "atMin_climb",
+     "group": "grp.atMin",
+     "label": "col.climb",
+     "type": "area",
+     "sortable": true,
+     "calc": "atMin.climb",
+     "icon": "climb",
+     "unit": "m²",
+     "hidden": true
+    },
+    {
+     "id": "atMin_land",
+     "group": "grp.atMin",
+     "label": "col.land",
+     "type": "area",
+     "sortable": true,
+     "calc": "atMin.land",
+     "icon": "land",
+     "unit": "m²",
+     "hidden": true
+    },
+    {
+     "id": "atMin_flight",
+     "group": "grp.atMin",
+     "label": "col.flight",
+     "type": "area",
+     "sortable": true,
+     "calc": "atMin.flight",
+     "icon": "flight",
+     "unit": "m²",
+     "hidden": true
+    },
+    {
+     "id": "atMax_shelter",
+     "group": "grp.atMax",
+     "label": "col.shelter",
+     "type": "area",
+     "sortable": true,
+     "calc": "atMax.shelter",
+     "icon": "shelter",
+     "unit": "m²",
+     "hidden": true
+    },
+    {
+     "id": "atMax_water",
+     "group": "grp.atMax",
+     "label": "col.water",
+     "type": "area",
+     "sortable": true,
+     "calc": "atMax.water",
+     "icon": "water",
+     "unit": "m²",
+     "hidden": true
+    },
+    {
+     "id": "atMax_deep",
+     "group": "grp.atMax",
+     "label": "col.deep",
+     "type": "area",
+     "sortable": true,
+     "calc": "atMax.deep",
+     "icon": "deep",
+     "unit": "m²",
+     "hidden": true
+    },
+    {
+     "id": "atMax_climb",
+     "group": "grp.atMax",
+     "label": "col.climb",
+     "type": "area",
+     "sortable": true,
+     "calc": "atMax.climb",
+     "icon": "climb",
+     "unit": "m²",
+     "hidden": true
+    },
+    {
+     "id": "atMax_land",
+     "group": "grp.atMax",
+     "label": "col.land",
+     "type": "area",
+     "sortable": true,
+     "calc": "atMax.land",
+     "icon": "land",
+     "unit": "m²",
+     "hidden": true
+    },
+    {
+     "id": "atMax_flight",
+     "group": "grp.atMax",
+     "label": "col.flight",
+     "type": "area",
+     "sortable": true,
+     "calc": "atMax.flight",
+     "icon": "flight",
+     "unit": "m²",
+     "hidden": true
+    },
+    {
+     "id": "climbProof",
+     "group": "grp.fence",
+     "label": "col.climbProof",
+     "type": "bool",
+     "sortable": true,
+     "path": "fence.climbProof",
+     "icon": "fence",
+     "hidden": true
+    },
+    {
+     "id": "fenceStr",
+     "group": "grp.fence",
+     "label": "col.fenceStr",
+     "type": "num",
+     "sortable": true,
+     "path": "fence.strength",
+     "icon": "strength"
+    },
+    {
+     "id": "fenceH",
+     "group": "grp.fence",
+     "label": "col.fenceH",
+     "type": "meter",
+     "sortable": true,
+     "path": "fence.height",
+     "icon": "height",
+     "unit": "m"
+    },
+    {
+     "id": "moat",
+     "group": "grp.fence",
+     "label": "col.moat",
+     "type": "moat",
+     "sortable": true,
+     "path": "fence.moat",
+     "hidden": true
+    },
+    {
+     "id": "group",
+     "group": "grp.social",
+     "label": "col.group",
+     "type": "rangeMinMax",
+     "sortable": true,
+     "path": "social"
+    },
+    {
+     "id": "ratio",
+     "group": "grp.social",
+     "label": "col.ratio",
+     "type": "ratio",
+     "sortable": true,
+     "hidden": true
+    },
+    {
+     "id": "maleOnly",
+     "group": "grp.social",
+     "label": "col.maleOnly",
+     "type": "range",
+     "sortable": true,
+     "path": "social.maleOnly",
+     "hidden": true
+    },
+    {
+     "id": "femaleOnly",
+     "group": "grp.social",
+     "label": "col.femaleOnly",
+     "type": "range",
+     "sortable": true,
+     "path": "social.femaleOnly",
+     "hidden": true
+    },
+    {
+     "id": "walk",
+     "group": "grp.social",
+     "label": "col.walk",
+     "type": "walk",
+     "sortable": true,
+     "path": "walkthrough"
+    },
+    {
+     "id": "maturity",
+     "group": "grp.cycle",
+     "label": "col.maturity",
+     "type": "time",
+     "sortable": true,
+     "path": "lifecycle.maturity",
+     "hidden": true
+    },
+    {
+     "id": "sterility",
+     "group": "grp.cycle",
+     "label": "col.sterility",
+     "type": "time",
+     "sortable": true,
+     "path": "lifecycle.sterility",
+     "hidden": true
+    },
+    {
+     "id": "litter",
+     "group": "grp.cycle",
+     "label": "col.litter",
+     "type": "range",
+     "sortable": true,
+     "path": "lifecycle.litter",
+     "hidden": true
+    },
+    {
+     "id": "gestation",
+     "group": "grp.cycle",
+     "label": "col.gestation",
+     "type": "time",
+     "sortable": true,
+     "path": "lifecycle.gestation",
+     "hidden": true
+    },
+    {
+     "id": "interval",
+     "group": "grp.cycle",
+     "label": "col.interval",
+     "type": "time",
+     "sortable": true,
+     "path": "lifecycle.interval",
+     "hidden": true
+    }
+   ]
+  },
+  {
+   "id": "vivarium",
+   "type": "vivarium",
+   "tab": "tab.vivarium",
+   "filters": [
+    "search",
+    "status",
+    "biomes",
+    "continents",
+    "roles",
+    "temp",
+    "walk",
+    "gift",
+    "owned"
+   ],
+   "columns": [
+    {
+     "id": "name",
+     "group": "grp.general",
+     "label": "col.name",
+     "type": "name",
+     "sortable": true,
+     "fixed": true
+    },
+    {
+     "id": "status",
+     "group": "grp.general",
+     "label": "col.status",
+     "type": "status",
+     "sortable": true
+    },
+    {
+     "id": "dlc",
+     "group": "grp.general",
+     "label": "col.dlc",
+     "type": "dlc",
+     "sortable": true,
+     "hidden": true
+    },
+    {
+     "id": "roles",
+     "group": "grp.general",
+     "label": "col.roles",
+     "type": "roles",
+     "sortable": false,
+     "hidden": true
+    },
+    {
+     "id": "continents",
+     "group": "grp.general",
+     "label": "col.continents",
+     "type": "continents",
+     "sortable": false,
+     "hidden": true
+    },
+    {
+     "id": "biomes",
+     "group": "grp.general",
+     "label": "col.biomes",
+     "type": "biomes",
+     "sortable": false
+    },
+    {
+     "id": "temp",
+     "group": "grp.climate",
+     "label": "col.temp",
+     "type": "temp",
+     "sortable": true,
+     "icon": "temp",
+     "unit": "°C"
+    },
+    {
+     "id": "humidity",
+     "group": "grp.climate",
+     "label": "col.humidity",
+     "type": "range",
+     "sortable": true,
+     "path": "humidity",
+     "icon": "humidity",
+     "unit": "%"
+    },
+    {
+     "id": "salinity",
+     "group": "grp.climate",
+     "label": "col.salinity",
+     "type": "num",
+     "sortable": true,
+     "path": "salinity",
+     "icon": "salinity"
+    },
+    {
+     "id": "shelter",
+     "group": "grp.req",
+     "label": "col.shelter",
+     "type": "area",
+     "sortable": true,
+     "path": "area1.shelter",
+     "icon": "shelter",
+     "unit": "m²"
+    },
+    {
+     "id": "water",
+     "group": "grp.req",
+     "label": "col.water",
+     "type": "area",
+     "sortable": true,
+     "path": "area1.water",
+     "icon": "water",
+     "unit": "m²"
+    },
+    {
+     "id": "deep",
+     "group": "grp.req",
+     "label": "col.deep",
+     "type": "area",
+     "sortable": true,
+     "path": "area1.deep",
+     "icon": "deep",
+     "unit": "m²"
+    },
+    {
+     "id": "climb",
+     "group": "grp.req",
+     "label": "col.climb",
+     "type": "area",
+     "sortable": true,
+     "path": "area1.climb",
+     "icon": "climb",
+     "unit": "m²"
+    },
+    {
+     "id": "land",
+     "group": "grp.req",
+     "label": "col.land",
+     "type": "area",
+     "sortable": true,
+     "path": "area1.land",
+     "icon": "land",
+     "unit": "m²"
+    },
+    {
+     "id": "flight",
+     "group": "grp.req",
+     "label": "col.flight",
+     "type": "area",
+     "sortable": true,
+     "path": "area1.flight",
+     "icon": "flight",
+     "unit": "m²"
+    },
+    {
+     "id": "inc_shelter",
+     "group": "grp.inc",
+     "label": "col.shelter",
+     "type": "area",
+     "sortable": true,
+     "calc": "inc.shelter",
+     "icon": "shelter",
+     "unit": "m²"
+    },
+    {
+     "id": "inc_water",
+     "group": "grp.inc",
+     "label": "col.water",
+     "type": "area",
+     "sortable": true,
+     "calc": "inc.water",
+     "icon": "water",
+     "unit": "m²"
+    },
+    {
+     "id": "inc_deep",
+     "group": "grp.inc",
+     "label": "col.deep",
+     "type": "area",
+     "sortable": true,
+     "calc": "inc.deep",
+     "icon": "deep",
+     "unit": "m²"
+    },
+    {
+     "id": "inc_climb",
+     "group": "grp.inc",
+     "label": "col.climb",
+     "type": "area",
+     "sortable": true,
+     "calc": "inc.climb",
+     "icon": "climb",
+     "unit": "m²"
+    },
+    {
+     "id": "inc_land",
+     "group": "grp.inc",
+     "label": "col.land",
+     "type": "area",
+     "sortable": true,
+     "calc": "inc.land",
+     "icon": "land",
+     "unit": "m²"
+    },
+    {
+     "id": "inc_flight",
+     "group": "grp.inc",
+     "label": "col.flight",
+     "type": "area",
+     "sortable": true,
+     "calc": "inc.flight",
+     "icon": "flight",
+     "unit": "m²"
+    },
+    {
+     "id": "atMin_shelter",
+     "group": "grp.atMin",
+     "label": "col.shelter",
+     "type": "area",
+     "sortable": true,
+     "calc": "atMin.shelter",
+     "icon": "shelter",
+     "unit": "m²",
+     "hidden": true
+    },
+    {
+     "id": "atMin_water",
+     "group": "grp.atMin",
+     "label": "col.water",
+     "type": "area",
+     "sortable": true,
+     "calc": "atMin.water",
+     "icon": "water",
+     "unit": "m²",
+     "hidden": true
+    },
+    {
+     "id": "atMin_deep",
+     "group": "grp.atMin",
+     "label": "col.deep",
+     "type": "area",
+     "sortable": true,
+     "calc": "atMin.deep",
+     "icon": "deep",
+     "unit": "m²",
+     "hidden": true
+    },
+    {
+     "id": "atMin_climb",
+     "group": "grp.atMin",
+     "label": "col.climb",
+     "type": "area",
+     "sortable": true,
+     "calc": "atMin.climb",
+     "icon": "climb",
+     "unit": "m²",
+     "hidden": true
+    },
+    {
+     "id": "atMin_land",
+     "group": "grp.atMin",
+     "label": "col.land",
+     "type": "area",
+     "sortable": true,
+     "calc": "atMin.land",
+     "icon": "land",
+     "unit": "m²",
+     "hidden": true
+    },
+    {
+     "id": "atMin_flight",
+     "group": "grp.atMin",
+     "label": "col.flight",
+     "type": "area",
+     "sortable": true,
+     "calc": "atMin.flight",
+     "icon": "flight",
+     "unit": "m²",
+     "hidden": true
+    },
+    {
+     "id": "atMax_shelter",
+     "group": "grp.atMax",
+     "label": "col.shelter",
+     "type": "area",
+     "sortable": true,
+     "calc": "atMax.shelter",
+     "icon": "shelter",
+     "unit": "m²",
+     "hidden": true
+    },
+    {
+     "id": "atMax_water",
+     "group": "grp.atMax",
+     "label": "col.water",
+     "type": "area",
+     "sortable": true,
+     "calc": "atMax.water",
+     "icon": "water",
+     "unit": "m²",
+     "hidden": true
+    },
+    {
+     "id": "atMax_deep",
+     "group": "grp.atMax",
+     "label": "col.deep",
+     "type": "area",
+     "sortable": true,
+     "calc": "atMax.deep",
+     "icon": "deep",
+     "unit": "m²",
+     "hidden": true
+    },
+    {
+     "id": "atMax_climb",
+     "group": "grp.atMax",
+     "label": "col.climb",
+     "type": "area",
+     "sortable": true,
+     "calc": "atMax.climb",
+     "icon": "climb",
+     "unit": "m²",
+     "hidden": true
+    },
+    {
+     "id": "atMax_land",
+     "group": "grp.atMax",
+     "label": "col.land",
+     "type": "area",
+     "sortable": true,
+     "calc": "atMax.land",
+     "icon": "land",
+     "unit": "m²",
+     "hidden": true
+    },
+    {
+     "id": "atMax_flight",
+     "group": "grp.atMax",
+     "label": "col.flight",
+     "type": "area",
+     "sortable": true,
+     "calc": "atMax.flight",
+     "icon": "flight",
+     "unit": "m²",
+     "hidden": true
+    },
+    {
+     "id": "climbProof",
+     "group": "grp.fence",
+     "label": "col.climbProof",
+     "type": "bool",
+     "sortable": true,
+     "path": "fence.climbProof",
+     "icon": "fence",
+     "hidden": true
+    },
+    {
+     "id": "fenceStr",
+     "group": "grp.fence",
+     "label": "col.fenceStr",
+     "type": "num",
+     "sortable": true,
+     "path": "fence.strength",
+     "icon": "strength"
+    },
+    {
+     "id": "fenceH",
+     "group": "grp.fence",
+     "label": "col.fenceH",
+     "type": "meter",
+     "sortable": true,
+     "path": "fence.height",
+     "icon": "height",
+     "unit": "m"
+    },
+    {
+     "id": "moat",
+     "group": "grp.fence",
+     "label": "col.moat",
+     "type": "moat",
+     "sortable": true,
+     "path": "fence.moat",
+     "hidden": true
+    },
+    {
+     "id": "group",
+     "group": "grp.social",
+     "label": "col.group",
+     "type": "rangeMinMax",
+     "sortable": true,
+     "path": "social"
+    },
+    {
+     "id": "ratio",
+     "group": "grp.social",
+     "label": "col.ratio",
+     "type": "ratio",
+     "sortable": true,
+     "hidden": true
+    },
+    {
+     "id": "maleOnly",
+     "group": "grp.social",
+     "label": "col.maleOnly",
+     "type": "range",
+     "sortable": true,
+     "path": "social.maleOnly",
+     "hidden": true
+    },
+    {
+     "id": "femaleOnly",
+     "group": "grp.social",
+     "label": "col.femaleOnly",
+     "type": "range",
+     "sortable": true,
+     "path": "social.femaleOnly",
+     "hidden": true
+    },
+    {
+     "id": "walk",
+     "group": "grp.social",
+     "label": "col.walk",
+     "type": "walk",
+     "sortable": true,
+     "path": "walkthrough"
+    },
+    {
+     "id": "maturity",
+     "group": "grp.cycle",
+     "label": "col.maturity",
+     "type": "time",
+     "sortable": true,
+     "path": "lifecycle.maturity",
+     "hidden": true
+    },
+    {
+     "id": "sterility",
+     "group": "grp.cycle",
+     "label": "col.sterility",
+     "type": "time",
+     "sortable": true,
+     "path": "lifecycle.sterility",
+     "hidden": true
+    },
+    {
+     "id": "litter",
+     "group": "grp.cycle",
+     "label": "col.litter",
+     "type": "range",
+     "sortable": true,
+     "path": "lifecycle.litter",
+     "hidden": true
+    },
+    {
+     "id": "gestation",
+     "group": "grp.cycle",
+     "label": "col.gestation",
+     "type": "time",
+     "sortable": true,
+     "path": "lifecycle.gestation",
+     "hidden": true
+    },
+    {
+     "id": "interval",
+     "group": "grp.cycle",
+     "label": "col.interval",
+     "type": "time",
+     "sortable": true,
+     "path": "lifecycle.interval",
+     "hidden": true
+    }
+   ]
+  }
+ ]
+}

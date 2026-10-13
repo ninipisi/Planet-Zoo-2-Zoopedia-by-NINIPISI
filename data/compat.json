@@ -1,0 +1,2265 @@
+{
+ "_comment": "Wird aus der Excel (Spalten „Zusammenleben“) erzeugt. benefit: a profitiert von b; neutral: verträglich ohne Bonus. Nicht aufgeführte Paare können nicht zusammenleben.",
+ "pairs": [
+  {
+   "a": "afrikanischer-steppenelefant",
+   "b": "massai-giraffe",
+   "type": "neutral"
+  },
+  {
+   "a": "afrikanischer-steppenelefant",
+   "b": "netzgiraffe",
+   "type": "neutral"
+  },
+  {
+   "a": "afrikanischer-steppenelefant",
+   "b": "spitzmaulnashorn",
+   "type": "neutral"
+  },
+  {
+   "a": "afrikanischer-strauss",
+   "b": "massai-giraffe",
+   "type": "neutral"
+  },
+  {
+   "a": "afrikanischer-strauss",
+   "b": "netzgiraffe",
+   "type": "neutral"
+  },
+  {
+   "a": "afrikanischer-strauss",
+   "b": "nyala",
+   "type": "neutral"
+  },
+  {
+   "a": "afrikanischer-strauss",
+   "b": "rappenantilope",
+   "type": "neutral"
+  },
+  {
+   "a": "afrikanischer-strauss",
+   "b": "schwarzbueffel",
+   "type": "neutral"
+  },
+  {
+   "a": "afrikanischer-strauss",
+   "b": "spiessbock",
+   "type": "neutral"
+  },
+  {
+   "a": "afrikanischer-strauss",
+   "b": "springbock",
+   "type": "neutral"
+  },
+  {
+   "a": "afrikanischer-strauss",
+   "b": "steppenzebra",
+   "type": "neutral"
+  },
+  {
+   "a": "afrikanischer-strauss",
+   "b": "streifengnu",
+   "type": "neutral"
+  },
+  {
+   "a": "afrikanischer-strauss",
+   "b": "thomson-gazelle",
+   "type": "neutral"
+  },
+  {
+   "a": "afrikanischer-strauss",
+   "b": "warzenschwein",
+   "type": "neutral"
+  },
+  {
+   "a": "afrikanischer-strauss",
+   "b": "weissrueckengeier",
+   "type": "neutral"
+  },
+  {
+   "a": "afrikanischer-strauss",
+   "b": "weissschwanzgnu",
+   "type": "neutral"
+  },
+  {
+   "a": "brabantbuntbarsch",
+   "b": "harlekin-regenbogenfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "brabantbuntbarsch",
+   "b": "prachtschmerle",
+   "type": "neutral"
+  },
+  {
+   "a": "brabantbuntbarsch",
+   "b": "riesengurami",
+   "type": "neutral"
+  },
+  {
+   "a": "clown-anemonenfisch",
+   "b": "dreifleck-preussenfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "clown-anemonenfisch",
+   "b": "gelber-doktorfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "clown-anemonenfisch",
+   "b": "goldband-fuesilier",
+   "type": "neutral"
+  },
+  {
+   "a": "clown-anemonenfisch",
+   "b": "indo-pazifischer-feldwebelfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "clown-anemonenfisch",
+   "b": "kurznasen-doktorfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "clown-anemonenfisch",
+   "b": "koenigsmakrele",
+   "type": "neutral"
+  },
+  {
+   "a": "clown-anemonenfisch",
+   "b": "langflossen-fledermausfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "clown-anemonenfisch",
+   "b": "nordpazifischer-blauflossen-thunfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "clown-anemonenfisch",
+   "b": "orient-suesslippe",
+   "type": "neutral"
+  },
+  {
+   "a": "clown-anemonenfisch",
+   "b": "paletten-doktorfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "clown-anemonenfisch",
+   "b": "pazifische-sardine",
+   "type": "neutral"
+  },
+  {
+   "a": "clown-anemonenfisch",
+   "b": "schwarm-wimpelfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "doppelhornvogel",
+   "b": "javanische-buschelster",
+   "type": "neutral"
+  },
+  {
+   "a": "doppelhornvogel",
+   "b": "langschwanzedelsittich",
+   "type": "neutral"
+  },
+  {
+   "a": "doppelhornvogel",
+   "b": "malaysischer-tapir",
+   "type": "neutral"
+  },
+  {
+   "a": "doppelhornvogel",
+   "b": "nordsulawesisches-babirusa",
+   "type": "neutral"
+  },
+  {
+   "a": "doppelhornvogel",
+   "b": "siamang",
+   "type": "neutral"
+  },
+  {
+   "a": "doppelhornvogel",
+   "b": "sumatra-orang-utan",
+   "type": "neutral"
+  },
+  {
+   "a": "doppelhornvogel",
+   "b": "wildschwein",
+   "type": "neutral"
+  },
+  {
+   "a": "doppelhornvogel",
+   "b": "zwergotter",
+   "type": "neutral"
+  },
+  {
+   "a": "dreifleck-preussenfisch",
+   "b": "gelber-doktorfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "dreifleck-preussenfisch",
+   "b": "goldband-fuesilier",
+   "type": "neutral"
+  },
+  {
+   "a": "dreifleck-preussenfisch",
+   "b": "indo-pazifischer-feldwebelfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "dreifleck-preussenfisch",
+   "b": "kurznasen-doktorfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "dreifleck-preussenfisch",
+   "b": "koenigsmakrele",
+   "type": "neutral"
+  },
+  {
+   "a": "dreifleck-preussenfisch",
+   "b": "langflossen-fledermausfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "dreifleck-preussenfisch",
+   "b": "nordpazifischer-blauflossen-thunfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "dreifleck-preussenfisch",
+   "b": "orient-suesslippe",
+   "type": "neutral"
+  },
+  {
+   "a": "dreifleck-preussenfisch",
+   "b": "paletten-doktorfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "dreifleck-preussenfisch",
+   "b": "pazifische-sardine",
+   "type": "neutral"
+  },
+  {
+   "a": "dreifleck-preussenfisch",
+   "b": "schwarm-wimpelfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "dunkler-riesenzackenbarsch",
+   "b": "echte-karettschildkroete",
+   "type": "neutral"
+  },
+  {
+   "a": "dunkler-riesenzackenbarsch",
+   "b": "gefleckter-adlerrochen",
+   "type": "neutral"
+  },
+  {
+   "a": "dunkler-riesenzackenbarsch",
+   "b": "grosse-goldmakrele",
+   "type": "neutral"
+  },
+  {
+   "a": "dunkler-riesenzackenbarsch",
+   "b": "indo-pazifischer-leopardenhai",
+   "type": "neutral"
+  },
+  {
+   "a": "dunkler-riesenzackenbarsch",
+   "b": "javanischer-kuhnasenrochen",
+   "type": "neutral"
+  },
+  {
+   "a": "dunkler-riesenzackenbarsch",
+   "b": "leopard-drueckerfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "dunkler-riesenzackenbarsch",
+   "b": "mondfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "dunkler-riesenzackenbarsch",
+   "b": "napoleon-lippfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "dunkler-riesenzackenbarsch",
+   "b": "rotfeuerfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "dunkler-riesenzackenbarsch",
+   "b": "sandtigerhai",
+   "type": "neutral"
+  },
+  {
+   "a": "dunkler-riesenzackenbarsch",
+   "b": "schwarzflecken-kugelfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "dunkler-riesenzackenbarsch",
+   "b": "schwarzspitzenriffhai",
+   "type": "neutral"
+  },
+  {
+   "a": "dunkler-riesenzackenbarsch",
+   "b": "segelflossen-schnapper",
+   "type": "neutral"
+  },
+  {
+   "a": "echte-karettschildkroete",
+   "b": "gefleckter-adlerrochen",
+   "type": "neutral"
+  },
+  {
+   "a": "echte-karettschildkroete",
+   "b": "grosse-goldmakrele",
+   "type": "neutral"
+  },
+  {
+   "a": "echte-karettschildkroete",
+   "b": "indo-pazifischer-leopardenhai",
+   "type": "neutral"
+  },
+  {
+   "a": "echte-karettschildkroete",
+   "b": "javanischer-kuhnasenrochen",
+   "type": "neutral"
+  },
+  {
+   "a": "echte-karettschildkroete",
+   "b": "leopard-drueckerfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "echte-karettschildkroete",
+   "b": "napoleon-lippfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "echte-karettschildkroete",
+   "b": "rotfeuerfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "echte-karettschildkroete",
+   "b": "sandtigerhai",
+   "type": "neutral"
+  },
+  {
+   "a": "echte-karettschildkroete",
+   "b": "schwarzflecken-kugelfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "echte-karettschildkroete",
+   "b": "schwarzspitzenriffhai",
+   "type": "neutral"
+  },
+  {
+   "a": "echte-karettschildkroete",
+   "b": "segelflossen-schnapper",
+   "type": "neutral"
+  },
+  {
+   "a": "erdferkel",
+   "b": "erdmaennchen",
+   "type": "neutral"
+  },
+  {
+   "a": "erdferkel",
+   "b": "sekretaer",
+   "type": "neutral"
+  },
+  {
+   "a": "erdferkel",
+   "b": "wildschwein",
+   "type": "neutral"
+  },
+  {
+   "a": "erdmaennchen",
+   "b": "sekretaer",
+   "type": "neutral"
+  },
+  {
+   "a": "erdmaennchen",
+   "b": "wildschwein",
+   "type": "neutral"
+  },
+  {
+   "a": "europaeischer-wisent",
+   "b": "rothirsch",
+   "type": "neutral"
+  },
+  {
+   "a": "europaeischer-wisent",
+   "b": "wildschwein",
+   "type": "neutral"
+  },
+  {
+   "a": "gefleckter-adlerrochen",
+   "b": "dunkler-riesenzackenbarsch",
+   "type": "benefit"
+  },
+  {
+   "a": "gefleckter-adlerrochen",
+   "b": "echte-karettschildkroete",
+   "type": "benefit"
+  },
+  {
+   "a": "gefleckter-adlerrochen",
+   "b": "grosse-goldmakrele",
+   "type": "benefit"
+  },
+  {
+   "a": "gefleckter-adlerrochen",
+   "b": "indo-pazifischer-leopardenhai",
+   "type": "benefit"
+  },
+  {
+   "a": "gefleckter-adlerrochen",
+   "b": "javanischer-kuhnasenrochen",
+   "type": "benefit"
+  },
+  {
+   "a": "gefleckter-adlerrochen",
+   "b": "leopard-drueckerfisch",
+   "type": "benefit"
+  },
+  {
+   "a": "gefleckter-adlerrochen",
+   "b": "napoleon-lippfisch",
+   "type": "benefit"
+  },
+  {
+   "a": "gefleckter-adlerrochen",
+   "b": "sandtigerhai",
+   "type": "benefit"
+  },
+  {
+   "a": "gefleckter-adlerrochen",
+   "b": "schwarzflecken-kugelfisch",
+   "type": "benefit"
+  },
+  {
+   "a": "gefleckter-adlerrochen",
+   "b": "schwarzspitzenriffhai",
+   "type": "benefit"
+  },
+  {
+   "a": "gefleckter-adlerrochen",
+   "b": "segelflossen-schnapper",
+   "type": "benefit"
+  },
+  {
+   "a": "gefleckter-adlerrochen",
+   "b": "rotfeuerfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "gelber-doktorfisch",
+   "b": "goldband-fuesilier",
+   "type": "neutral"
+  },
+  {
+   "a": "gelber-doktorfisch",
+   "b": "indo-pazifischer-feldwebelfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "gelber-doktorfisch",
+   "b": "kurznasen-doktorfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "gelber-doktorfisch",
+   "b": "koenigsmakrele",
+   "type": "neutral"
+  },
+  {
+   "a": "gelber-doktorfisch",
+   "b": "langflossen-fledermausfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "gelber-doktorfisch",
+   "b": "nordpazifischer-blauflossen-thunfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "gelber-doktorfisch",
+   "b": "orient-suesslippe",
+   "type": "neutral"
+  },
+  {
+   "a": "gelber-doktorfisch",
+   "b": "paletten-doktorfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "gelber-doktorfisch",
+   "b": "pazifische-sardine",
+   "type": "neutral"
+  },
+  {
+   "a": "gelber-doktorfisch",
+   "b": "schwarm-wimpelfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "goldband-fuesilier",
+   "b": "indo-pazifischer-feldwebelfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "goldband-fuesilier",
+   "b": "kurznasen-doktorfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "goldband-fuesilier",
+   "b": "koenigsmakrele",
+   "type": "neutral"
+  },
+  {
+   "a": "goldband-fuesilier",
+   "b": "langflossen-fledermausfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "goldband-fuesilier",
+   "b": "nordpazifischer-blauflossen-thunfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "goldband-fuesilier",
+   "b": "orient-suesslippe",
+   "type": "neutral"
+  },
+  {
+   "a": "goldband-fuesilier",
+   "b": "paletten-doktorfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "goldband-fuesilier",
+   "b": "pazifische-sardine",
+   "type": "neutral"
+  },
+  {
+   "a": "goldband-fuesilier",
+   "b": "schwarm-wimpelfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "goldenes-loewenaeffchen",
+   "b": "katta",
+   "type": "neutral"
+  },
+  {
+   "a": "goldenes-loewenaeffchen",
+   "b": "riesentukan",
+   "type": "neutral"
+  },
+  {
+   "a": "gefleckter-adlerrochen",
+   "b": "grosse-goldmakrele",
+   "type": "neutral"
+  },
+  {
+   "a": "grosse-goldmakrele",
+   "b": "indo-pazifischer-leopardenhai",
+   "type": "neutral"
+  },
+  {
+   "a": "grosse-goldmakrele",
+   "b": "javanischer-kuhnasenrochen",
+   "type": "neutral"
+  },
+  {
+   "a": "grosse-goldmakrele",
+   "b": "leopard-drueckerfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "grosse-goldmakrele",
+   "b": "mondfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "grosse-goldmakrele",
+   "b": "napoleon-lippfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "grosse-goldmakrele",
+   "b": "rotfeuerfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "grosse-goldmakrele",
+   "b": "sandtigerhai",
+   "type": "neutral"
+  },
+  {
+   "a": "grosse-goldmakrele",
+   "b": "schwarzflecken-kugelfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "grosse-goldmakrele",
+   "b": "schwarzspitzenriffhai",
+   "type": "neutral"
+  },
+  {
+   "a": "grosse-goldmakrele",
+   "b": "segelflossen-schnapper",
+   "type": "neutral"
+  },
+  {
+   "a": "grosser-panda",
+   "b": "kleiner-panda",
+   "type": "neutral"
+  },
+  {
+   "a": "harlekin-regenbogenfisch",
+   "b": "prachtschmerle",
+   "type": "neutral"
+  },
+  {
+   "a": "harlekin-regenbogenfisch",
+   "b": "riesengurami",
+   "type": "neutral"
+  },
+  {
+   "a": "indo-pazifischer-feldwebelfisch",
+   "b": "kurznasen-doktorfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "indo-pazifischer-feldwebelfisch",
+   "b": "koenigsmakrele",
+   "type": "neutral"
+  },
+  {
+   "a": "indo-pazifischer-feldwebelfisch",
+   "b": "langflossen-fledermausfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "indo-pazifischer-feldwebelfisch",
+   "b": "nordpazifischer-blauflossen-thunfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "indo-pazifischer-feldwebelfisch",
+   "b": "orient-suesslippe",
+   "type": "neutral"
+  },
+  {
+   "a": "indo-pazifischer-feldwebelfisch",
+   "b": "paletten-doktorfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "indo-pazifischer-feldwebelfisch",
+   "b": "pazifische-sardine",
+   "type": "neutral"
+  },
+  {
+   "a": "indo-pazifischer-feldwebelfisch",
+   "b": "schwarm-wimpelfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "indo-pazifischer-leopardenhai",
+   "b": "dunkler-riesenzackenbarsch",
+   "type": "benefit"
+  },
+  {
+   "a": "indo-pazifischer-leopardenhai",
+   "b": "echte-karettschildkroete",
+   "type": "benefit"
+  },
+  {
+   "a": "indo-pazifischer-leopardenhai",
+   "b": "gefleckter-adlerrochen",
+   "type": "benefit"
+  },
+  {
+   "a": "indo-pazifischer-leopardenhai",
+   "b": "grosse-goldmakrele",
+   "type": "benefit"
+  },
+  {
+   "a": "indo-pazifischer-leopardenhai",
+   "b": "javanischer-kuhnasenrochen",
+   "type": "benefit"
+  },
+  {
+   "a": "indo-pazifischer-leopardenhai",
+   "b": "leopard-drueckerfisch",
+   "type": "benefit"
+  },
+  {
+   "a": "indo-pazifischer-leopardenhai",
+   "b": "napoleon-lippfisch",
+   "type": "benefit"
+  },
+  {
+   "a": "indo-pazifischer-leopardenhai",
+   "b": "sandtigerhai",
+   "type": "benefit"
+  },
+  {
+   "a": "indo-pazifischer-leopardenhai",
+   "b": "schwarzflecken-kugelfisch",
+   "type": "benefit"
+  },
+  {
+   "a": "indo-pazifischer-leopardenhai",
+   "b": "schwarzspitzenriffhai",
+   "type": "benefit"
+  },
+  {
+   "a": "indo-pazifischer-leopardenhai",
+   "b": "segelflossen-schnapper",
+   "type": "benefit"
+  },
+  {
+   "a": "indo-pazifischer-leopardenhai",
+   "b": "mondfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "indo-pazifischer-leopardenhai",
+   "b": "rotfeuerfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "javanische-buschelster",
+   "b": "langschwanzedelsittich",
+   "type": "neutral"
+  },
+  {
+   "a": "javanische-buschelster",
+   "b": "malaysischer-tapir",
+   "type": "neutral"
+  },
+  {
+   "a": "javanische-buschelster",
+   "b": "nordsulawesisches-babirusa",
+   "type": "neutral"
+  },
+  {
+   "a": "javanische-buschelster",
+   "b": "siamang",
+   "type": "neutral"
+  },
+  {
+   "a": "javanische-buschelster",
+   "b": "sumatra-orang-utan",
+   "type": "neutral"
+  },
+  {
+   "a": "javanische-buschelster",
+   "b": "wildschwein",
+   "type": "neutral"
+  },
+  {
+   "a": "javanische-buschelster",
+   "b": "zwergotter",
+   "type": "neutral"
+  },
+  {
+   "a": "javanischer-kuhnasenrochen",
+   "b": "dunkler-riesenzackenbarsch",
+   "type": "benefit"
+  },
+  {
+   "a": "javanischer-kuhnasenrochen",
+   "b": "echte-karettschildkroete",
+   "type": "benefit"
+  },
+  {
+   "a": "javanischer-kuhnasenrochen",
+   "b": "gefleckter-adlerrochen",
+   "type": "benefit"
+  },
+  {
+   "a": "javanischer-kuhnasenrochen",
+   "b": "grosse-goldmakrele",
+   "type": "benefit"
+  },
+  {
+   "a": "javanischer-kuhnasenrochen",
+   "b": "indo-pazifischer-leopardenhai",
+   "type": "benefit"
+  },
+  {
+   "a": "javanischer-kuhnasenrochen",
+   "b": "leopard-drueckerfisch",
+   "type": "benefit"
+  },
+  {
+   "a": "javanischer-kuhnasenrochen",
+   "b": "napoleon-lippfisch",
+   "type": "benefit"
+  },
+  {
+   "a": "javanischer-kuhnasenrochen",
+   "b": "sandtigerhai",
+   "type": "benefit"
+  },
+  {
+   "a": "javanischer-kuhnasenrochen",
+   "b": "schwarzflecken-kugelfisch",
+   "type": "benefit"
+  },
+  {
+   "a": "javanischer-kuhnasenrochen",
+   "b": "schwarzspitzenriffhai",
+   "type": "benefit"
+  },
+  {
+   "a": "javanischer-kuhnasenrochen",
+   "b": "segelflossen-schnapper",
+   "type": "benefit"
+  },
+  {
+   "a": "javanischer-kuhnasenrochen",
+   "b": "rotfeuerfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "koi",
+   "b": "rotfeder",
+   "type": "neutral"
+  },
+  {
+   "a": "koenigsmakrele",
+   "b": "kurznasen-doktorfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "kurznasen-doktorfisch",
+   "b": "langflossen-fledermausfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "kurznasen-doktorfisch",
+   "b": "nordpazifischer-blauflossen-thunfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "kurznasen-doktorfisch",
+   "b": "orient-suesslippe",
+   "type": "neutral"
+  },
+  {
+   "a": "kurznasen-doktorfisch",
+   "b": "paletten-doktorfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "kurznasen-doktorfisch",
+   "b": "pazifische-sardine",
+   "type": "neutral"
+  },
+  {
+   "a": "kurznasen-doktorfisch",
+   "b": "schwarm-wimpelfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "koenigsmakrele",
+   "b": "langflossen-fledermausfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "koenigsmakrele",
+   "b": "nordpazifischer-blauflossen-thunfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "koenigsmakrele",
+   "b": "orient-suesslippe",
+   "type": "neutral"
+  },
+  {
+   "a": "koenigsmakrele",
+   "b": "paletten-doktorfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "koenigsmakrele",
+   "b": "pazifische-sardine",
+   "type": "neutral"
+  },
+  {
+   "a": "koenigsmakrele",
+   "b": "schwarm-wimpelfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "langflossen-fledermausfisch",
+   "b": "nordpazifischer-blauflossen-thunfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "langflossen-fledermausfisch",
+   "b": "orient-suesslippe",
+   "type": "neutral"
+  },
+  {
+   "a": "langflossen-fledermausfisch",
+   "b": "paletten-doktorfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "langflossen-fledermausfisch",
+   "b": "pazifische-sardine",
+   "type": "neutral"
+  },
+  {
+   "a": "langflossen-fledermausfisch",
+   "b": "schwarm-wimpelfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "langschwanzedelsittich",
+   "b": "malaysischer-tapir",
+   "type": "neutral"
+  },
+  {
+   "a": "langschwanzedelsittich",
+   "b": "nordsulawesisches-babirusa",
+   "type": "neutral"
+  },
+  {
+   "a": "langschwanzedelsittich",
+   "b": "siamang",
+   "type": "neutral"
+  },
+  {
+   "a": "langschwanzedelsittich",
+   "b": "sumatra-orang-utan",
+   "type": "neutral"
+  },
+  {
+   "a": "langschwanzedelsittich",
+   "b": "wildschwein",
+   "type": "neutral"
+  },
+  {
+   "a": "langschwanzedelsittich",
+   "b": "zwergotter",
+   "type": "neutral"
+  },
+  {
+   "a": "gefleckter-adlerrochen",
+   "b": "leopard-drueckerfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "indo-pazifischer-leopardenhai",
+   "b": "leopard-drueckerfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "javanischer-kuhnasenrochen",
+   "b": "leopard-drueckerfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "leopard-drueckerfisch",
+   "b": "mondfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "leopard-drueckerfisch",
+   "b": "napoleon-lippfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "leopard-drueckerfisch",
+   "b": "rotfeuerfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "leopard-drueckerfisch",
+   "b": "sandtigerhai",
+   "type": "neutral"
+  },
+  {
+   "a": "leopard-drueckerfisch",
+   "b": "schwarzflecken-kugelfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "leopard-drueckerfisch",
+   "b": "schwarzspitzenriffhai",
+   "type": "neutral"
+  },
+  {
+   "a": "leopard-drueckerfisch",
+   "b": "segelflossen-schnapper",
+   "type": "neutral"
+  },
+  {
+   "a": "malaysischer-tapir",
+   "b": "nordsulawesisches-babirusa",
+   "type": "neutral"
+  },
+  {
+   "a": "malaysischer-tapir",
+   "b": "siamang",
+   "type": "neutral"
+  },
+  {
+   "a": "malaysischer-tapir",
+   "b": "sumatra-orang-utan",
+   "type": "neutral"
+  },
+  {
+   "a": "malaysischer-tapir",
+   "b": "wildschwein",
+   "type": "neutral"
+  },
+  {
+   "a": "malaysischer-tapir",
+   "b": "zwergotter",
+   "type": "neutral"
+  },
+  {
+   "a": "massai-giraffe",
+   "b": "afrikanischer-strauss",
+   "type": "benefit"
+  },
+  {
+   "a": "massai-giraffe",
+   "b": "netzgiraffe",
+   "type": "benefit"
+  },
+  {
+   "a": "massai-giraffe",
+   "b": "nyala",
+   "type": "benefit"
+  },
+  {
+   "a": "massai-giraffe",
+   "b": "rappenantilope",
+   "type": "benefit"
+  },
+  {
+   "a": "massai-giraffe",
+   "b": "schwarzbueffel",
+   "type": "benefit"
+  },
+  {
+   "a": "massai-giraffe",
+   "b": "spiessbock",
+   "type": "benefit"
+  },
+  {
+   "a": "massai-giraffe",
+   "b": "springbock",
+   "type": "benefit"
+  },
+  {
+   "a": "massai-giraffe",
+   "b": "steppenzebra",
+   "type": "benefit"
+  },
+  {
+   "a": "massai-giraffe",
+   "b": "streifengnu",
+   "type": "benefit"
+  },
+  {
+   "a": "massai-giraffe",
+   "b": "thomson-gazelle",
+   "type": "benefit"
+  },
+  {
+   "a": "massai-giraffe",
+   "b": "warzenschwein",
+   "type": "benefit"
+  },
+  {
+   "a": "massai-giraffe",
+   "b": "weissrueckengeier",
+   "type": "benefit"
+  },
+  {
+   "a": "massai-giraffe",
+   "b": "weissschwanzgnu",
+   "type": "benefit"
+  },
+  {
+   "a": "massai-giraffe",
+   "b": "spitzmaulnashorn",
+   "type": "neutral"
+  },
+  {
+   "a": "mondfisch",
+   "b": "napoleon-lippfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "mondfisch",
+   "b": "schwarzflecken-kugelfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "mondfisch",
+   "b": "segelflossen-schnapper",
+   "type": "neutral"
+  },
+  {
+   "a": "napoleon-lippfisch",
+   "b": "dunkler-riesenzackenbarsch",
+   "type": "benefit"
+  },
+  {
+   "a": "napoleon-lippfisch",
+   "b": "echte-karettschildkroete",
+   "type": "benefit"
+  },
+  {
+   "a": "napoleon-lippfisch",
+   "b": "gefleckter-adlerrochen",
+   "type": "benefit"
+  },
+  {
+   "a": "napoleon-lippfisch",
+   "b": "grosse-goldmakrele",
+   "type": "benefit"
+  },
+  {
+   "a": "napoleon-lippfisch",
+   "b": "indo-pazifischer-leopardenhai",
+   "type": "benefit"
+  },
+  {
+   "a": "napoleon-lippfisch",
+   "b": "javanischer-kuhnasenrochen",
+   "type": "benefit"
+  },
+  {
+   "a": "napoleon-lippfisch",
+   "b": "leopard-drueckerfisch",
+   "type": "benefit"
+  },
+  {
+   "a": "napoleon-lippfisch",
+   "b": "sandtigerhai",
+   "type": "benefit"
+  },
+  {
+   "a": "napoleon-lippfisch",
+   "b": "schwarzflecken-kugelfisch",
+   "type": "benefit"
+  },
+  {
+   "a": "napoleon-lippfisch",
+   "b": "schwarzspitzenriffhai",
+   "type": "benefit"
+  },
+  {
+   "a": "napoleon-lippfisch",
+   "b": "segelflossen-schnapper",
+   "type": "benefit"
+  },
+  {
+   "a": "napoleon-lippfisch",
+   "b": "rotfeuerfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "netzgiraffe",
+   "b": "afrikanischer-strauss",
+   "type": "benefit"
+  },
+  {
+   "a": "netzgiraffe",
+   "b": "massai-giraffe",
+   "type": "benefit"
+  },
+  {
+   "a": "netzgiraffe",
+   "b": "nyala",
+   "type": "benefit"
+  },
+  {
+   "a": "netzgiraffe",
+   "b": "rappenantilope",
+   "type": "benefit"
+  },
+  {
+   "a": "netzgiraffe",
+   "b": "schwarzbueffel",
+   "type": "benefit"
+  },
+  {
+   "a": "netzgiraffe",
+   "b": "spiessbock",
+   "type": "benefit"
+  },
+  {
+   "a": "netzgiraffe",
+   "b": "springbock",
+   "type": "benefit"
+  },
+  {
+   "a": "netzgiraffe",
+   "b": "steppenzebra",
+   "type": "benefit"
+  },
+  {
+   "a": "netzgiraffe",
+   "b": "streifengnu",
+   "type": "benefit"
+  },
+  {
+   "a": "netzgiraffe",
+   "b": "thomson-gazelle",
+   "type": "benefit"
+  },
+  {
+   "a": "netzgiraffe",
+   "b": "warzenschwein",
+   "type": "benefit"
+  },
+  {
+   "a": "netzgiraffe",
+   "b": "weissrueckengeier",
+   "type": "benefit"
+  },
+  {
+   "a": "netzgiraffe",
+   "b": "weissschwanzgnu",
+   "type": "benefit"
+  },
+  {
+   "a": "netzgiraffe",
+   "b": "spitzmaulnashorn",
+   "type": "neutral"
+  },
+  {
+   "a": "nordpazifischer-blauflossen-thunfisch",
+   "b": "orient-suesslippe",
+   "type": "neutral"
+  },
+  {
+   "a": "nordpazifischer-blauflossen-thunfisch",
+   "b": "paletten-doktorfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "nordpazifischer-blauflossen-thunfisch",
+   "b": "pazifische-sardine",
+   "type": "neutral"
+  },
+  {
+   "a": "nordpazifischer-blauflossen-thunfisch",
+   "b": "schwarm-wimpelfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "nordsulawesisches-babirusa",
+   "b": "siamang",
+   "type": "neutral"
+  },
+  {
+   "a": "nordsulawesisches-babirusa",
+   "b": "sumatra-orang-utan",
+   "type": "neutral"
+  },
+  {
+   "a": "nordsulawesisches-babirusa",
+   "b": "wildschwein",
+   "type": "neutral"
+  },
+  {
+   "a": "nordsulawesisches-babirusa",
+   "b": "zwergotter",
+   "type": "neutral"
+  },
+  {
+   "a": "nyala",
+   "b": "afrikanischer-strauss",
+   "type": "benefit"
+  },
+  {
+   "a": "nyala",
+   "b": "massai-giraffe",
+   "type": "benefit"
+  },
+  {
+   "a": "nyala",
+   "b": "netzgiraffe",
+   "type": "benefit"
+  },
+  {
+   "a": "nyala",
+   "b": "rappenantilope",
+   "type": "benefit"
+  },
+  {
+   "a": "nyala",
+   "b": "schwarzbueffel",
+   "type": "benefit"
+  },
+  {
+   "a": "nyala",
+   "b": "spiessbock",
+   "type": "benefit"
+  },
+  {
+   "a": "nyala",
+   "b": "springbock",
+   "type": "benefit"
+  },
+  {
+   "a": "nyala",
+   "b": "steppenzebra",
+   "type": "benefit"
+  },
+  {
+   "a": "nyala",
+   "b": "streifengnu",
+   "type": "benefit"
+  },
+  {
+   "a": "nyala",
+   "b": "thomson-gazelle",
+   "type": "benefit"
+  },
+  {
+   "a": "nyala",
+   "b": "warzenschwein",
+   "type": "benefit"
+  },
+  {
+   "a": "nyala",
+   "b": "weissrueckengeier",
+   "type": "benefit"
+  },
+  {
+   "a": "nyala",
+   "b": "weissschwanzgnu",
+   "type": "benefit"
+  },
+  {
+   "a": "orient-suesslippe",
+   "b": "paletten-doktorfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "orient-suesslippe",
+   "b": "pazifische-sardine",
+   "type": "neutral"
+  },
+  {
+   "a": "orient-suesslippe",
+   "b": "schwarm-wimpelfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "paletten-doktorfisch",
+   "b": "pazifische-sardine",
+   "type": "neutral"
+  },
+  {
+   "a": "paletten-doktorfisch",
+   "b": "schwarm-wimpelfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "pazifische-sardine",
+   "b": "schwarm-wimpelfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "prachtschmerle",
+   "b": "riesengurami",
+   "type": "neutral"
+  },
+  {
+   "a": "przewalski-pferd",
+   "b": "rothirsch",
+   "type": "neutral"
+  },
+  {
+   "a": "przewalski-pferd",
+   "b": "trampeltier",
+   "type": "neutral"
+  },
+  {
+   "a": "rappenantilope",
+   "b": "afrikanischer-strauss",
+   "type": "benefit"
+  },
+  {
+   "a": "rappenantilope",
+   "b": "massai-giraffe",
+   "type": "benefit"
+  },
+  {
+   "a": "rappenantilope",
+   "b": "netzgiraffe",
+   "type": "benefit"
+  },
+  {
+   "a": "rappenantilope",
+   "b": "nyala",
+   "type": "benefit"
+  },
+  {
+   "a": "rappenantilope",
+   "b": "schwarzbueffel",
+   "type": "benefit"
+  },
+  {
+   "a": "rappenantilope",
+   "b": "spiessbock",
+   "type": "benefit"
+  },
+  {
+   "a": "rappenantilope",
+   "b": "springbock",
+   "type": "benefit"
+  },
+  {
+   "a": "rappenantilope",
+   "b": "steppenzebra",
+   "type": "benefit"
+  },
+  {
+   "a": "rappenantilope",
+   "b": "streifengnu",
+   "type": "benefit"
+  },
+  {
+   "a": "rappenantilope",
+   "b": "thomson-gazelle",
+   "type": "benefit"
+  },
+  {
+   "a": "rappenantilope",
+   "b": "warzenschwein",
+   "type": "benefit"
+  },
+  {
+   "a": "rappenantilope",
+   "b": "weissrueckengeier",
+   "type": "benefit"
+  },
+  {
+   "a": "rappenantilope",
+   "b": "weissschwanzgnu",
+   "type": "benefit"
+  },
+  {
+   "a": "rosaflamingo",
+   "b": "rothirsch",
+   "type": "neutral"
+  },
+  {
+   "a": "rosaflamingo",
+   "b": "schuhschnabel",
+   "type": "neutral"
+  },
+  {
+   "a": "rosaflamingo",
+   "b": "schwarzbueffel",
+   "type": "neutral"
+  },
+  {
+   "a": "rosaflamingo",
+   "b": "wildschwein",
+   "type": "neutral"
+  },
+  {
+   "a": "rotfeuerfisch",
+   "b": "sandtigerhai",
+   "type": "neutral"
+  },
+  {
+   "a": "rotfeuerfisch",
+   "b": "schwarzflecken-kugelfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "rotfeuerfisch",
+   "b": "schwarzspitzenriffhai",
+   "type": "neutral"
+  },
+  {
+   "a": "rotfeuerfisch",
+   "b": "segelflossen-schnapper",
+   "type": "neutral"
+  },
+  {
+   "a": "rothirsch",
+   "b": "schwarzbueffel",
+   "type": "neutral"
+  },
+  {
+   "a": "rothirsch",
+   "b": "trampeltier",
+   "type": "neutral"
+  },
+  {
+   "a": "rothirsch",
+   "b": "wildschwein",
+   "type": "neutral"
+  },
+  {
+   "a": "gefleckter-adlerrochen",
+   "b": "sandtigerhai",
+   "type": "neutral"
+  },
+  {
+   "a": "indo-pazifischer-leopardenhai",
+   "b": "sandtigerhai",
+   "type": "neutral"
+  },
+  {
+   "a": "javanischer-kuhnasenrochen",
+   "b": "sandtigerhai",
+   "type": "neutral"
+  },
+  {
+   "a": "napoleon-lippfisch",
+   "b": "sandtigerhai",
+   "type": "neutral"
+  },
+  {
+   "a": "sandtigerhai",
+   "b": "schwarzflecken-kugelfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "sandtigerhai",
+   "b": "schwarzspitzenriffhai",
+   "type": "neutral"
+  },
+  {
+   "a": "sandtigerhai",
+   "b": "segelflossen-schnapper",
+   "type": "neutral"
+  },
+  {
+   "a": "schwarzbueffel",
+   "b": "afrikanischer-strauss",
+   "type": "benefit"
+  },
+  {
+   "a": "schwarzbueffel",
+   "b": "massai-giraffe",
+   "type": "benefit"
+  },
+  {
+   "a": "schwarzbueffel",
+   "b": "netzgiraffe",
+   "type": "benefit"
+  },
+  {
+   "a": "schwarzbueffel",
+   "b": "nyala",
+   "type": "benefit"
+  },
+  {
+   "a": "schwarzbueffel",
+   "b": "rappenantilope",
+   "type": "benefit"
+  },
+  {
+   "a": "schwarzbueffel",
+   "b": "spiessbock",
+   "type": "benefit"
+  },
+  {
+   "a": "schwarzbueffel",
+   "b": "springbock",
+   "type": "benefit"
+  },
+  {
+   "a": "schwarzbueffel",
+   "b": "steppenzebra",
+   "type": "benefit"
+  },
+  {
+   "a": "schwarzbueffel",
+   "b": "streifengnu",
+   "type": "benefit"
+  },
+  {
+   "a": "schwarzbueffel",
+   "b": "thomson-gazelle",
+   "type": "benefit"
+  },
+  {
+   "a": "schwarzbueffel",
+   "b": "warzenschwein",
+   "type": "benefit"
+  },
+  {
+   "a": "schwarzbueffel",
+   "b": "weissrueckengeier",
+   "type": "benefit"
+  },
+  {
+   "a": "schwarzbueffel",
+   "b": "weissschwanzgnu",
+   "type": "benefit"
+  },
+  {
+   "a": "schwarzbueffel",
+   "b": "wildschwein",
+   "type": "neutral"
+  },
+  {
+   "a": "gefleckter-adlerrochen",
+   "b": "schwarzflecken-kugelfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "indo-pazifischer-leopardenhai",
+   "b": "schwarzflecken-kugelfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "javanischer-kuhnasenrochen",
+   "b": "schwarzflecken-kugelfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "napoleon-lippfisch",
+   "b": "schwarzflecken-kugelfisch",
+   "type": "neutral"
+  },
+  {
+   "a": "schwarzflecken-kugelfisch",
+   "b": "schwarzspitzenriffhai",
+   "type": "neutral"
+  },
+  {
+   "a": "schwarzflecken-kugelfisch",
+   "b": "segelflossen-schnapper",
+   "type": "neutral"
+  },
+  {
+   "a": "gefleckter-adlerrochen",
+   "b": "schwarzspitzenriffhai",
+   "type": "neutral"
+  },
+  {
+   "a": "indo-pazifischer-leopardenhai",
+   "b": "schwarzspitzenriffhai",
+   "type": "neutral"
+  },
+  {
+   "a": "javanischer-kuhnasenrochen",
+   "b": "schwarzspitzenriffhai",
+   "type": "neutral"
+  },
+  {
+   "a": "napoleon-lippfisch",
+   "b": "schwarzspitzenriffhai",
+   "type": "neutral"
+  },
+  {
+   "a": "schwarzspitzenriffhai",
+   "b": "segelflossen-schnapper",
+   "type": "neutral"
+  },
+  {
+   "a": "gefleckter-adlerrochen",
+   "b": "segelflossen-schnapper",
+   "type": "neutral"
+  },
+  {
+   "a": "indo-pazifischer-leopardenhai",
+   "b": "segelflossen-schnapper",
+   "type": "neutral"
+  },
+  {
+   "a": "javanischer-kuhnasenrochen",
+   "b": "segelflossen-schnapper",
+   "type": "neutral"
+  },
+  {
+   "a": "napoleon-lippfisch",
+   "b": "segelflossen-schnapper",
+   "type": "neutral"
+  },
+  {
+   "a": "sekretaer",
+   "b": "wildschwein",
+   "type": "neutral"
+  },
+  {
+   "a": "siamang",
+   "b": "sumatra-orang-utan",
+   "type": "neutral"
+  },
+  {
+   "a": "siamang",
+   "b": "wildschwein",
+   "type": "neutral"
+  },
+  {
+   "a": "siamang",
+   "b": "zwergotter",
+   "type": "neutral"
+  },
+  {
+   "a": "spiessbock",
+   "b": "afrikanischer-strauss",
+   "type": "benefit"
+  },
+  {
+   "a": "spiessbock",
+   "b": "massai-giraffe",
+   "type": "benefit"
+  },
+  {
+   "a": "spiessbock",
+   "b": "netzgiraffe",
+   "type": "benefit"
+  },
+  {
+   "a": "spiessbock",
+   "b": "nyala",
+   "type": "benefit"
+  },
+  {
+   "a": "spiessbock",
+   "b": "rappenantilope",
+   "type": "benefit"
+  },
+  {
+   "a": "spiessbock",
+   "b": "schwarzbueffel",
+   "type": "benefit"
+  },
+  {
+   "a": "spiessbock",
+   "b": "springbock",
+   "type": "benefit"
+  },
+  {
+   "a": "spiessbock",
+   "b": "steppenzebra",
+   "type": "benefit"
+  },
+  {
+   "a": "spiessbock",
+   "b": "streifengnu",
+   "type": "benefit"
+  },
+  {
+   "a": "spiessbock",
+   "b": "thomson-gazelle",
+   "type": "benefit"
+  },
+  {
+   "a": "spiessbock",
+   "b": "warzenschwein",
+   "type": "benefit"
+  },
+  {
+   "a": "spiessbock",
+   "b": "weissrueckengeier",
+   "type": "benefit"
+  },
+  {
+   "a": "spiessbock",
+   "b": "weissschwanzgnu",
+   "type": "benefit"
+  },
+  {
+   "a": "springbock",
+   "b": "afrikanischer-strauss",
+   "type": "benefit"
+  },
+  {
+   "a": "springbock",
+   "b": "massai-giraffe",
+   "type": "benefit"
+  },
+  {
+   "a": "springbock",
+   "b": "netzgiraffe",
+   "type": "benefit"
+  },
+  {
+   "a": "springbock",
+   "b": "nyala",
+   "type": "benefit"
+  },
+  {
+   "a": "springbock",
+   "b": "rappenantilope",
+   "type": "benefit"
+  },
+  {
+   "a": "springbock",
+   "b": "schwarzbueffel",
+   "type": "benefit"
+  },
+  {
+   "a": "springbock",
+   "b": "spiessbock",
+   "type": "benefit"
+  },
+  {
+   "a": "springbock",
+   "b": "steppenzebra",
+   "type": "benefit"
+  },
+  {
+   "a": "springbock",
+   "b": "streifengnu",
+   "type": "benefit"
+  },
+  {
+   "a": "springbock",
+   "b": "thomson-gazelle",
+   "type": "benefit"
+  },
+  {
+   "a": "springbock",
+   "b": "warzenschwein",
+   "type": "benefit"
+  },
+  {
+   "a": "springbock",
+   "b": "weissrueckengeier",
+   "type": "benefit"
+  },
+  {
+   "a": "springbock",
+   "b": "weissschwanzgnu",
+   "type": "benefit"
+  },
+  {
+   "a": "steppenzebra",
+   "b": "afrikanischer-strauss",
+   "type": "benefit"
+  },
+  {
+   "a": "steppenzebra",
+   "b": "massai-giraffe",
+   "type": "benefit"
+  },
+  {
+   "a": "steppenzebra",
+   "b": "netzgiraffe",
+   "type": "benefit"
+  },
+  {
+   "a": "steppenzebra",
+   "b": "nyala",
+   "type": "benefit"
+  },
+  {
+   "a": "steppenzebra",
+   "b": "rappenantilope",
+   "type": "benefit"
+  },
+  {
+   "a": "steppenzebra",
+   "b": "schwarzbueffel",
+   "type": "benefit"
+  },
+  {
+   "a": "steppenzebra",
+   "b": "spiessbock",
+   "type": "benefit"
+  },
+  {
+   "a": "steppenzebra",
+   "b": "springbock",
+   "type": "benefit"
+  },
+  {
+   "a": "steppenzebra",
+   "b": "streifengnu",
+   "type": "benefit"
+  },
+  {
+   "a": "steppenzebra",
+   "b": "thomson-gazelle",
+   "type": "benefit"
+  },
+  {
+   "a": "steppenzebra",
+   "b": "warzenschwein",
+   "type": "benefit"
+  },
+  {
+   "a": "steppenzebra",
+   "b": "weissrueckengeier",
+   "type": "benefit"
+  },
+  {
+   "a": "steppenzebra",
+   "b": "weissschwanzgnu",
+   "type": "benefit"
+  },
+  {
+   "a": "streifengnu",
+   "b": "afrikanischer-strauss",
+   "type": "benefit"
+  },
+  {
+   "a": "streifengnu",
+   "b": "massai-giraffe",
+   "type": "benefit"
+  },
+  {
+   "a": "streifengnu",
+   "b": "netzgiraffe",
+   "type": "benefit"
+  },
+  {
+   "a": "streifengnu",
+   "b": "nyala",
+   "type": "benefit"
+  },
+  {
+   "a": "streifengnu",
+   "b": "rappenantilope",
+   "type": "benefit"
+  },
+  {
+   "a": "streifengnu",
+   "b": "schwarzbueffel",
+   "type": "benefit"
+  },
+  {
+   "a": "streifengnu",
+   "b": "spiessbock",
+   "type": "benefit"
+  },
+  {
+   "a": "streifengnu",
+   "b": "springbock",
+   "type": "benefit"
+  },
+  {
+   "a": "streifengnu",
+   "b": "steppenzebra",
+   "type": "benefit"
+  },
+  {
+   "a": "streifengnu",
+   "b": "thomson-gazelle",
+   "type": "benefit"
+  },
+  {
+   "a": "streifengnu",
+   "b": "warzenschwein",
+   "type": "benefit"
+  },
+  {
+   "a": "streifengnu",
+   "b": "weissrueckengeier",
+   "type": "benefit"
+  },
+  {
+   "a": "streifengnu",
+   "b": "weissschwanzgnu",
+   "type": "benefit"
+  },
+  {
+   "a": "sumatra-orang-utan",
+   "b": "wildschwein",
+   "type": "neutral"
+  },
+  {
+   "a": "sumatra-orang-utan",
+   "b": "zwergotter",
+   "type": "neutral"
+  },
+  {
+   "a": "thomson-gazelle",
+   "b": "afrikanischer-strauss",
+   "type": "benefit"
+  },
+  {
+   "a": "thomson-gazelle",
+   "b": "massai-giraffe",
+   "type": "benefit"
+  },
+  {
+   "a": "thomson-gazelle",
+   "b": "netzgiraffe",
+   "type": "benefit"
+  },
+  {
+   "a": "thomson-gazelle",
+   "b": "nyala",
+   "type": "benefit"
+  },
+  {
+   "a": "thomson-gazelle",
+   "b": "rappenantilope",
+   "type": "benefit"
+  },
+  {
+   "a": "thomson-gazelle",
+   "b": "schwarzbueffel",
+   "type": "benefit"
+  },
+  {
+   "a": "thomson-gazelle",
+   "b": "spiessbock",
+   "type": "benefit"
+  },
+  {
+   "a": "thomson-gazelle",
+   "b": "springbock",
+   "type": "benefit"
+  },
+  {
+   "a": "thomson-gazelle",
+   "b": "steppenzebra",
+   "type": "benefit"
+  },
+  {
+   "a": "thomson-gazelle",
+   "b": "streifengnu",
+   "type": "benefit"
+  },
+  {
+   "a": "thomson-gazelle",
+   "b": "warzenschwein",
+   "type": "benefit"
+  },
+  {
+   "a": "thomson-gazelle",
+   "b": "weissrueckengeier",
+   "type": "benefit"
+  },
+  {
+   "a": "thomson-gazelle",
+   "b": "weissschwanzgnu",
+   "type": "benefit"
+  },
+  {
+   "a": "warzenschwein",
+   "b": "afrikanischer-strauss",
+   "type": "benefit"
+  },
+  {
+   "a": "warzenschwein",
+   "b": "massai-giraffe",
+   "type": "benefit"
+  },
+  {
+   "a": "warzenschwein",
+   "b": "netzgiraffe",
+   "type": "benefit"
+  },
+  {
+   "a": "warzenschwein",
+   "b": "nyala",
+   "type": "benefit"
+  },
+  {
+   "a": "warzenschwein",
+   "b": "rappenantilope",
+   "type": "benefit"
+  },
+  {
+   "a": "warzenschwein",
+   "b": "schwarzbueffel",
+   "type": "benefit"
+  },
+  {
+   "a": "warzenschwein",
+   "b": "spiessbock",
+   "type": "benefit"
+  },
+  {
+   "a": "warzenschwein",
+   "b": "springbock",
+   "type": "benefit"
+  },
+  {
+   "a": "warzenschwein",
+   "b": "steppenzebra",
+   "type": "benefit"
+  },
+  {
+   "a": "warzenschwein",
+   "b": "streifengnu",
+   "type": "benefit"
+  },
+  {
+   "a": "warzenschwein",
+   "b": "thomson-gazelle",
+   "type": "benefit"
+  },
+  {
+   "a": "warzenschwein",
+   "b": "weissrueckengeier",
+   "type": "benefit"
+  },
+  {
+   "a": "warzenschwein",
+   "b": "weissschwanzgnu",
+   "type": "benefit"
+  },
+  {
+   "a": "massai-giraffe",
+   "b": "weissrueckengeier",
+   "type": "neutral"
+  },
+  {
+   "a": "netzgiraffe",
+   "b": "weissrueckengeier",
+   "type": "neutral"
+  },
+  {
+   "a": "nyala",
+   "b": "weissrueckengeier",
+   "type": "neutral"
+  },
+  {
+   "a": "rappenantilope",
+   "b": "weissrueckengeier",
+   "type": "neutral"
+  },
+  {
+   "a": "schwarzbueffel",
+   "b": "weissrueckengeier",
+   "type": "neutral"
+  },
+  {
+   "a": "spiessbock",
+   "b": "weissrueckengeier",
+   "type": "neutral"
+  },
+  {
+   "a": "springbock",
+   "b": "weissrueckengeier",
+   "type": "neutral"
+  },
+  {
+   "a": "steppenzebra",
+   "b": "weissrueckengeier",
+   "type": "neutral"
+  },
+  {
+   "a": "streifengnu",
+   "b": "weissrueckengeier",
+   "type": "neutral"
+  },
+  {
+   "a": "thomson-gazelle",
+   "b": "weissrueckengeier",
+   "type": "neutral"
+  },
+  {
+   "a": "warzenschwein",
+   "b": "weissrueckengeier",
+   "type": "neutral"
+  },
+  {
+   "a": "weissrueckengeier",
+   "b": "weissschwanzgnu",
+   "type": "neutral"
+  },
+  {
+   "a": "weissschwanzgnu",
+   "b": "afrikanischer-strauss",
+   "type": "benefit"
+  },
+  {
+   "a": "weissschwanzgnu",
+   "b": "massai-giraffe",
+   "type": "benefit"
+  },
+  {
+   "a": "weissschwanzgnu",
+   "b": "netzgiraffe",
+   "type": "benefit"
+  },
+  {
+   "a": "weissschwanzgnu",
+   "b": "nyala",
+   "type": "benefit"
+  },
+  {
+   "a": "weissschwanzgnu",
+   "b": "rappenantilope",
+   "type": "benefit"
+  },
+  {
+   "a": "weissschwanzgnu",
+   "b": "schwarzbueffel",
+   "type": "benefit"
+  },
+  {
+   "a": "weissschwanzgnu",
+   "b": "spiessbock",
+   "type": "benefit"
+  },
+  {
+   "a": "weissschwanzgnu",
+   "b": "springbock",
+   "type": "benefit"
+  },
+  {
+   "a": "weissschwanzgnu",
+   "b": "steppenzebra",
+   "type": "benefit"
+  },
+  {
+   "a": "weissschwanzgnu",
+   "b": "streifengnu",
+   "type": "benefit"
+  },
+  {
+   "a": "weissschwanzgnu",
+   "b": "thomson-gazelle",
+   "type": "benefit"
+  },
+  {
+   "a": "weissschwanzgnu",
+   "b": "warzenschwein",
+   "type": "benefit"
+  },
+  {
+   "a": "weissschwanzgnu",
+   "b": "weissrueckengeier",
+   "type": "benefit"
+  },
+  {
+   "a": "westlicher-flachlandgorilla",
+   "b": "westlicher-schimpanse",
+   "type": "neutral"
+  },
+  {
+   "a": "wildschwein",
+   "b": "zwergotter",
+   "type": "neutral"
+  }
+ ]
+}

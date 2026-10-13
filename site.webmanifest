@@ -1,0 +1,15 @@
+{
+ "name": "Zoopedia – Planet Zoo 2",
+ "short_name": "Zoopedia",
+ "description": "Inoffizielle Fan-Zoopedia für Planet Zoo 2",
+ "start_url": "./",
+ "display": "standalone",
+ "background_color": "#fbf1e0",
+ "theme_color": "#1e8a74",
+ "icons": [
+  { "src": "assets/icons/logo-192.png", "sizes": "192x192", "type": "image/png" },
+  { "src": "assets/icons/logo-512.png", "sizes": "512x512", "type": "image/png" },
+  { "src": "assets/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+  { "src": "assets/logo.svg", "sizes": "any", "type": "image/svg+xml" }
+ ]
+}

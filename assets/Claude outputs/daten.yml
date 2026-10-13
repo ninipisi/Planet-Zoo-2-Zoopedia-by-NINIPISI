@@ -1,0 +1,40 @@
+# Erzeugt die Webseiten-Daten automatisch, sobald die Excel-Vorlage oder die Übersetzungen hochgeladen werden.
+name: Daten aus Excel erzeugen
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "daten/Zoopedia_PZ2_Daten.xlsx"
+      - "i18n/translations.tsv"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: openpyxl installieren
+        run: pip install openpyxl
+      - name: Excel -> data/*.json
+        run: |
+          if [ -f daten/Zoopedia_PZ2_Daten.xlsx ]; then
+            python tools/excel_to_json.py daten/Zoopedia_PZ2_Daten.xlsx
+          fi
+      - name: Übersetzungen -> translations.json
+        run: python tools/build_i18n.py
+      - name: Logik testen
+        run: node tools/test_logic.js
+      - name: Änderungen speichern
+        run: |
+          git config user.name "zoopedia-bot"
+          git config user.email "zoopedia-bot@users.noreply.github.com"
+          git add data i18n/translations.json
+          git diff --cached --quiet || git commit -m "Daten aus Excel aktualisiert"
+          git push
