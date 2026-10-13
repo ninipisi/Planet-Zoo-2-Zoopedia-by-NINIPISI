@@ -8,7 +8,8 @@
   },
   {
    "id": "deluxe",
-   "default": false
+   "default": false,
+   "url": "https://store.steampowered.com/app/4515760/Planet_Zoo_2_Deluxe_Upgrade_Pack/"
   }
  ],
  "continents": [
@@ -144,8 +145,7 @@
      "group": "grp.general",
      "label": "col.dlc",
      "type": "dlc",
-     "sortable": true,
-     "hidden": true
+     "sortable": true
     },
     {
      "id": "roles",
@@ -160,8 +160,7 @@
      "group": "grp.general",
      "label": "col.continents",
      "type": "continents",
-     "sortable": false,
-     "hidden": true
+     "sortable": false
     },
     {
      "id": "biomes",
@@ -187,7 +186,8 @@
      "sortable": true,
      "path": "humidity",
      "icon": "humidity",
-     "unit": "%"
+     "unit": "%",
+     "hidden": true
     },
     {
      "id": "salinity",
@@ -196,7 +196,8 @@
      "type": "num",
      "sortable": true,
      "path": "salinity",
-     "icon": "salinity"
+     "icon": "salinity",
+     "hidden": true
     },
     {
      "id": "shelter",
@@ -266,7 +267,8 @@
      "sortable": true,
      "calc": "inc.shelter",
      "icon": "shelter",
-     "unit": "m²"
+     "unit": "m²",
+     "hidden": true
     },
     {
      "id": "inc_water",
@@ -276,7 +278,8 @@
      "sortable": true,
      "calc": "inc.water",
      "icon": "water",
-     "unit": "m²"
+     "unit": "m²",
+     "hidden": true
     },
     {
      "id": "inc_deep",
@@ -286,7 +289,8 @@
      "sortable": true,
      "calc": "inc.deep",
      "icon": "deep",
-     "unit": "m²"
+     "unit": "m²",
+     "hidden": true
     },
     {
      "id": "inc_climb",
@@ -296,7 +300,8 @@
      "sortable": true,
      "calc": "inc.climb",
      "icon": "climb",
-     "unit": "m²"
+     "unit": "m²",
+     "hidden": true
     },
     {
      "id": "inc_land",
@@ -306,7 +311,8 @@
      "sortable": true,
      "calc": "inc.land",
      "icon": "land",
-     "unit": "m²"
+     "unit": "m²",
+     "hidden": true
     },
     {
      "id": "inc_flight",
@@ -316,7 +322,8 @@
      "sortable": true,
      "calc": "inc.flight",
      "icon": "flight",
-     "unit": "m²"
+     "unit": "m²",
+     "hidden": true
     },
     {
      "id": "atMin_shelter",
@@ -457,8 +464,7 @@
      "type": "bool",
      "sortable": true,
      "path": "fence.climbProof",
-     "icon": "fence",
-     "hidden": true
+     "icon": "fence"
     },
     {
      "id": "fenceStr",
@@ -485,8 +491,7 @@
      "label": "col.moat",
      "type": "moat",
      "sortable": true,
-     "path": "fence.moat",
-     "hidden": true
+     "path": "fence.moat"
     },
     {
      "id": "group",
@@ -501,8 +506,7 @@
      "group": "grp.social",
      "label": "col.ratio",
      "type": "ratio",
-     "sortable": true,
-     "hidden": true
+     "sortable": true
     },
     {
      "id": "maleOnly",
@@ -510,8 +514,7 @@
      "label": "col.maleOnly",
      "type": "range",
      "sortable": true,
-     "path": "social.maleOnly",
-     "hidden": true
+     "path": "social.maleOnly"
     },
     {
      "id": "femaleOnly",
@@ -519,8 +522,7 @@
      "label": "col.femaleOnly",
      "type": "range",
      "sortable": true,
-     "path": "social.femaleOnly",
-     "hidden": true
+     "path": "social.femaleOnly"
     },
     {
      "id": "walk",
@@ -536,8 +538,7 @@
      "label": "col.maturity",
      "type": "time",
      "sortable": true,
-     "path": "lifecycle.maturity",
-     "hidden": true
+     "path": "lifecycle.maturity"
     },
     {
      "id": "sterility",
@@ -545,8 +546,7 @@
      "label": "col.sterility",
      "type": "time",
      "sortable": true,
-     "path": "lifecycle.sterility",
-     "hidden": true
+     "path": "lifecycle.sterility"
     },
     {
      "id": "litter",
@@ -554,8 +554,7 @@
      "label": "col.litter",
      "type": "range",
      "sortable": true,
-     "path": "lifecycle.litter",
-     "hidden": true
+     "path": "lifecycle.litter"
     },
     {
      "id": "gestation",
@@ -563,8 +562,7 @@
      "label": "col.gestation",
      "type": "time",
      "sortable": true,
-     "path": "lifecycle.gestation",
-     "hidden": true
+     "path": "lifecycle.gestation"
     },
     {
      "id": "interval",
@@ -572,8 +570,7 @@
      "label": "col.interval",
      "type": "time",
      "sortable": true,
-     "path": "lifecycle.interval",
-     "hidden": true
+     "path": "lifecycle.interval"
     }
    ]
   },
@@ -615,8 +612,7 @@
      "group": "grp.general",
      "label": "col.dlc",
      "type": "dlc",
-     "sortable": true,
-     "hidden": true
+     "sortable": true
     },
     {
      "id": "roles",
@@ -631,8 +627,7 @@
      "group": "grp.general",
      "label": "col.continents",
      "type": "continents",
-     "sortable": false,
-     "hidden": true
+     "sortable": false
     },
     {
      "id": "biomes",
@@ -658,7 +653,8 @@
      "sortable": true,
      "path": "humidity",
      "icon": "humidity",
-     "unit": "%"
+     "unit": "%",
+     "hidden": true
     },
     {
      "id": "salinity",
@@ -667,7 +663,8 @@
      "type": "num",
      "sortable": true,
      "path": "salinity",
-     "icon": "salinity"
+     "icon": "salinity",
+     "hidden": true
     },
     {
      "id": "shelter",
@@ -737,7 +734,8 @@
      "sortable": true,
      "calc": "inc.shelter",
      "icon": "shelter",
-     "unit": "m²"
+     "unit": "m²",
+     "hidden": true
     },
     {
      "id": "inc_water",
@@ -747,7 +745,8 @@
      "sortable": true,
      "calc": "inc.water",
      "icon": "water",
-     "unit": "m²"
+     "unit": "m²",
+     "hidden": true
     },
     {
      "id": "inc_deep",
@@ -757,7 +756,8 @@
      "sortable": true,
      "calc": "inc.deep",
      "icon": "deep",
-     "unit": "m²"
+     "unit": "m²",
+     "hidden": true
     },
     {
      "id": "inc_climb",
@@ -767,7 +767,8 @@
      "sortable": true,
      "calc": "inc.climb",
      "icon": "climb",
-     "unit": "m²"
+     "unit": "m²",
+     "hidden": true
     },
     {
      "id": "inc_land",
@@ -777,7 +778,8 @@
      "sortable": true,
      "calc": "inc.land",
      "icon": "land",
-     "unit": "m²"
+     "unit": "m²",
+     "hidden": true
     },
     {
      "id": "inc_flight",
@@ -787,7 +789,8 @@
      "sortable": true,
      "calc": "inc.flight",
      "icon": "flight",
-     "unit": "m²"
+     "unit": "m²",
+     "hidden": true
     },
     {
      "id": "atMin_shelter",
@@ -928,8 +931,7 @@
      "type": "bool",
      "sortable": true,
      "path": "fence.climbProof",
-     "icon": "fence",
-     "hidden": true
+     "icon": "fence"
     },
     {
      "id": "fenceStr",
@@ -956,8 +958,7 @@
      "label": "col.moat",
      "type": "moat",
      "sortable": true,
-     "path": "fence.moat",
-     "hidden": true
+     "path": "fence.moat"
     },
     {
      "id": "group",
@@ -972,8 +973,7 @@
      "group": "grp.social",
      "label": "col.ratio",
      "type": "ratio",
-     "sortable": true,
-     "hidden": true
+     "sortable": true
     },
     {
      "id": "maleOnly",
@@ -981,8 +981,7 @@
      "label": "col.maleOnly",
      "type": "range",
      "sortable": true,
-     "path": "social.maleOnly",
-     "hidden": true
+     "path": "social.maleOnly"
     },
     {
      "id": "femaleOnly",
@@ -990,8 +989,7 @@
      "label": "col.femaleOnly",
      "type": "range",
      "sortable": true,
-     "path": "social.femaleOnly",
-     "hidden": true
+     "path": "social.femaleOnly"
     },
     {
      "id": "walk",
@@ -1007,8 +1005,7 @@
      "label": "col.maturity",
      "type": "time",
      "sortable": true,
-     "path": "lifecycle.maturity",
-     "hidden": true
+     "path": "lifecycle.maturity"
     },
     {
      "id": "sterility",
@@ -1016,8 +1013,7 @@
      "label": "col.sterility",
      "type": "time",
      "sortable": true,
-     "path": "lifecycle.sterility",
-     "hidden": true
+     "path": "lifecycle.sterility"
     },
     {
      "id": "litter",
@@ -1025,8 +1021,7 @@
      "label": "col.litter",
      "type": "range",
      "sortable": true,
-     "path": "lifecycle.litter",
-     "hidden": true
+     "path": "lifecycle.litter"
     },
     {
      "id": "gestation",
@@ -1034,8 +1029,7 @@
      "label": "col.gestation",
      "type": "time",
      "sortable": true,
-     "path": "lifecycle.gestation",
-     "hidden": true
+     "path": "lifecycle.gestation"
     },
     {
      "id": "interval",
@@ -1043,8 +1037,7 @@
      "label": "col.interval",
      "type": "time",
      "sortable": true,
-     "path": "lifecycle.interval",
-     "hidden": true
+     "path": "lifecycle.interval"
     }
    ]
   },
@@ -1084,8 +1077,7 @@
      "group": "grp.general",
      "label": "col.dlc",
      "type": "dlc",
-     "sortable": true,
-     "hidden": true
+     "sortable": true
     },
     {
      "id": "roles",
@@ -1100,8 +1092,7 @@
      "group": "grp.general",
      "label": "col.continents",
      "type": "continents",
-     "sortable": false,
-     "hidden": true
+     "sortable": false
     },
     {
      "id": "biomes",
@@ -1127,7 +1118,8 @@
      "sortable": true,
      "path": "humidity",
      "icon": "humidity",
-     "unit": "%"
+     "unit": "%",
+     "hidden": true
     },
     {
      "id": "salinity",
@@ -1136,7 +1128,8 @@
      "type": "num",
      "sortable": true,
      "path": "salinity",
-     "icon": "salinity"
+     "icon": "salinity",
+     "hidden": true
     },
     {
      "id": "shelter",
@@ -1206,7 +1199,8 @@
      "sortable": true,
      "calc": "inc.shelter",
      "icon": "shelter",
-     "unit": "m²"
+     "unit": "m²",
+     "hidden": true
     },
     {
      "id": "inc_water",
@@ -1216,7 +1210,8 @@
      "sortable": true,
      "calc": "inc.water",
      "icon": "water",
-     "unit": "m²"
+     "unit": "m²",
+     "hidden": true
     },
     {
      "id": "inc_deep",
@@ -1226,7 +1221,8 @@
      "sortable": true,
      "calc": "inc.deep",
      "icon": "deep",
-     "unit": "m²"
+     "unit": "m²",
+     "hidden": true
     },
     {
      "id": "inc_climb",
@@ -1236,7 +1232,8 @@
      "sortable": true,
      "calc": "inc.climb",
      "icon": "climb",
-     "unit": "m²"
+     "unit": "m²",
+     "hidden": true
     },
     {
      "id": "inc_land",
@@ -1246,7 +1243,8 @@
      "sortable": true,
      "calc": "inc.land",
      "icon": "land",
-     "unit": "m²"
+     "unit": "m²",
+     "hidden": true
     },
     {
      "id": "inc_flight",
@@ -1256,7 +1254,8 @@
      "sortable": true,
      "calc": "inc.flight",
      "icon": "flight",
-     "unit": "m²"
+     "unit": "m²",
+     "hidden": true
     },
     {
      "id": "atMin_shelter",
@@ -1397,8 +1396,7 @@
      "type": "bool",
      "sortable": true,
      "path": "fence.climbProof",
-     "icon": "fence",
-     "hidden": true
+     "icon": "fence"
     },
     {
      "id": "fenceStr",
@@ -1425,8 +1423,7 @@
      "label": "col.moat",
      "type": "moat",
      "sortable": true,
-     "path": "fence.moat",
-     "hidden": true
+     "path": "fence.moat"
     },
     {
      "id": "group",
@@ -1441,8 +1438,7 @@
      "group": "grp.social",
      "label": "col.ratio",
      "type": "ratio",
-     "sortable": true,
-     "hidden": true
+     "sortable": true
     },
     {
      "id": "maleOnly",
@@ -1450,8 +1446,7 @@
      "label": "col.maleOnly",
      "type": "range",
      "sortable": true,
-     "path": "social.maleOnly",
-     "hidden": true
+     "path": "social.maleOnly"
     },
     {
      "id": "femaleOnly",
@@ -1459,8 +1454,7 @@
      "label": "col.femaleOnly",
      "type": "range",
      "sortable": true,
-     "path": "social.femaleOnly",
-     "hidden": true
+     "path": "social.femaleOnly"
     },
     {
      "id": "walk",
@@ -1476,8 +1470,7 @@
      "label": "col.maturity",
      "type": "time",
      "sortable": true,
-     "path": "lifecycle.maturity",
-     "hidden": true
+     "path": "lifecycle.maturity"
     },
     {
      "id": "sterility",
@@ -1485,8 +1478,7 @@
      "label": "col.sterility",
      "type": "time",
      "sortable": true,
-     "path": "lifecycle.sterility",
-     "hidden": true
+     "path": "lifecycle.sterility"
     },
     {
      "id": "litter",
@@ -1494,8 +1486,7 @@
      "label": "col.litter",
      "type": "range",
      "sortable": true,
-     "path": "lifecycle.litter",
-     "hidden": true
+     "path": "lifecycle.litter"
     },
     {
      "id": "gestation",
@@ -1503,8 +1494,7 @@
      "label": "col.gestation",
      "type": "time",
      "sortable": true,
-     "path": "lifecycle.gestation",
-     "hidden": true
+     "path": "lifecycle.gestation"
     },
     {
      "id": "interval",
@@ -1512,8 +1502,7 @@
      "label": "col.interval",
      "type": "time",
      "sortable": true,
-     "path": "lifecycle.interval",
-     "hidden": true
+     "path": "lifecycle.interval"
     }
    ]
   },
@@ -1553,8 +1542,7 @@
      "group": "grp.general",
      "label": "col.dlc",
      "type": "dlc",
-     "sortable": true,
-     "hidden": true
+     "sortable": true
     },
     {
      "id": "roles",
@@ -1569,8 +1557,7 @@
      "group": "grp.general",
      "label": "col.continents",
      "type": "continents",
-     "sortable": false,
-     "hidden": true
+     "sortable": false
     },
     {
      "id": "biomes",
@@ -1596,7 +1583,8 @@
      "sortable": true,
      "path": "humidity",
      "icon": "humidity",
-     "unit": "%"
+     "unit": "%",
+     "hidden": true
     },
     {
      "id": "salinity",
@@ -1605,7 +1593,8 @@
      "type": "num",
      "sortable": true,
      "path": "salinity",
-     "icon": "salinity"
+     "icon": "salinity",
+     "hidden": true
     },
     {
      "id": "shelter",
@@ -1675,7 +1664,8 @@
      "sortable": true,
      "calc": "inc.shelter",
      "icon": "shelter",
-     "unit": "m²"
+     "unit": "m²",
+     "hidden": true
     },
     {
      "id": "inc_water",
@@ -1685,7 +1675,8 @@
      "sortable": true,
      "calc": "inc.water",
      "icon": "water",
-     "unit": "m²"
+     "unit": "m²",
+     "hidden": true
     },
     {
      "id": "inc_deep",
@@ -1695,7 +1686,8 @@
      "sortable": true,
      "calc": "inc.deep",
      "icon": "deep",
-     "unit": "m²"
+     "unit": "m²",
+     "hidden": true
     },
     {
      "id": "inc_climb",
@@ -1705,7 +1697,8 @@
      "sortable": true,
      "calc": "inc.climb",
      "icon": "climb",
-     "unit": "m²"
+     "unit": "m²",
+     "hidden": true
     },
     {
      "id": "inc_land",
@@ -1715,7 +1708,8 @@
      "sortable": true,
      "calc": "inc.land",
      "icon": "land",
-     "unit": "m²"
+     "unit": "m²",
+     "hidden": true
     },
     {
      "id": "inc_flight",
@@ -1725,7 +1719,8 @@
      "sortable": true,
      "calc": "inc.flight",
      "icon": "flight",
-     "unit": "m²"
+     "unit": "m²",
+     "hidden": true
     },
     {
      "id": "atMin_shelter",
@@ -1866,8 +1861,7 @@
      "type": "bool",
      "sortable": true,
      "path": "fence.climbProof",
-     "icon": "fence",
-     "hidden": true
+     "icon": "fence"
     },
     {
      "id": "fenceStr",
@@ -1894,8 +1888,7 @@
      "label": "col.moat",
      "type": "moat",
      "sortable": true,
-     "path": "fence.moat",
-     "hidden": true
+     "path": "fence.moat"
     },
     {
      "id": "group",
@@ -1910,8 +1903,7 @@
      "group": "grp.social",
      "label": "col.ratio",
      "type": "ratio",
-     "sortable": true,
-     "hidden": true
+     "sortable": true
     },
     {
      "id": "maleOnly",
@@ -1919,8 +1911,7 @@
      "label": "col.maleOnly",
      "type": "range",
      "sortable": true,
-     "path": "social.maleOnly",
-     "hidden": true
+     "path": "social.maleOnly"
     },
     {
      "id": "femaleOnly",
@@ -1928,8 +1919,7 @@
      "label": "col.femaleOnly",
      "type": "range",
      "sortable": true,
-     "path": "social.femaleOnly",
-     "hidden": true
+     "path": "social.femaleOnly"
     },
     {
      "id": "walk",
@@ -1945,8 +1935,7 @@
      "label": "col.maturity",
      "type": "time",
      "sortable": true,
-     "path": "lifecycle.maturity",
-     "hidden": true
+     "path": "lifecycle.maturity"
     },
     {
      "id": "sterility",
@@ -1954,8 +1943,7 @@
      "label": "col.sterility",
      "type": "time",
      "sortable": true,
-     "path": "lifecycle.sterility",
-     "hidden": true
+     "path": "lifecycle.sterility"
     },
     {
      "id": "litter",
@@ -1963,8 +1951,7 @@
      "label": "col.litter",
      "type": "range",
      "sortable": true,
-     "path": "lifecycle.litter",
-     "hidden": true
+     "path": "lifecycle.litter"
     },
     {
      "id": "gestation",
@@ -1972,8 +1959,7 @@
      "label": "col.gestation",
      "type": "time",
      "sortable": true,
-     "path": "lifecycle.gestation",
-     "hidden": true
+     "path": "lifecycle.gestation"
     },
     {
      "id": "interval",
@@ -1981,10 +1967,10 @@
      "label": "col.interval",
      "type": "time",
      "sortable": true,
-     "path": "lifecycle.interval",
-     "hidden": true
+     "path": "lifecycle.interval"
     }
    ]
   }
- ]
+ ],
+ "version": "1.0.3.1011968"
 }

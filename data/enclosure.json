@@ -1,0 +1,2643 @@
+{
+ "category": "enclosure",
+ "pending": true,
+ "animals": [
+  {
+   "name": "Afrikanischer Leopard",
+   "continents": [
+    "africa"
+   ],
+   "biomes": [
+    "savannah",
+    "tropical"
+   ],
+   "id": "afrikanischer-leopard",
+   "sci": "Panthera pardus pardus",
+   "dlc": "base",
+   "status": "vu",
+   "taxonomy": {
+    "class": "Mammalia",
+    "order": "Carnivora",
+    "family": "Felidae",
+    "genus": "Panthera"
+   },
+   "body": {
+    "sizeM": 0.65,
+    "sizeF": 0.6,
+    "measure": "Shoulder",
+    "weightM": 200,
+    "weightF": 150
+   },
+   "fence": {
+    "climbProof": true,
+    "strength": 3,
+    "height": 3
+   },
+   "names": {
+    "en": "African Leopard",
+    "fr": "Léopard d’Afrique",
+    "it": "Leopardo africano",
+    "es": "Leopardo africano",
+    "cs": "levhart africký",
+    "da": "afrikansk leopard",
+    "nl": "Afrikaanse luipaard",
+    "ja": "アフリカヒョウ",
+    "ko": "아프리카표범",
+    "pl": "lampart afrykański",
+    "pt-BR": "Leopardo africano",
+    "ru": "Африканский леопард",
+    "zh-CN": "非洲豹",
+    "th": "เสือดาวแอฟริกา",
+    "zh-TW": "非洲豹"
+   }
+  },
+  {
+   "name": "Afrikanischer Steppenelefant",
+   "continents": [
+    "africa"
+   ],
+   "biomes": [
+    "desert",
+    "savannah",
+    "wetlands"
+   ],
+   "id": "afrikanischer-steppenelefant",
+   "sci": "Loxodonta africana",
+   "dlc": "base",
+   "status": "en",
+   "taxonomy": {
+    "class": "Mammalia",
+    "order": "Proboscidea",
+    "family": "Elephantidae",
+    "genus": "Loxodonta"
+   },
+   "body": {
+    "sizeM": 3.2,
+    "sizeF": 2.6,
+    "measure": "Shoulder"
+   },
+   "fence": {
+    "climbProof": false,
+    "strength": 4,
+    "height": 3
+   },
+   "names": {
+    "en": "African Savannah Elephant",
+    "fr": "Éléphant de savane d’Afrique",
+    "it": "Elefante africano della savana",
+    "es": "Elefante africano de sabana",
+    "cs": "slon africký",
+    "da": "afrikansk savanneelefant",
+    "nl": "Afrikaanse savanneolifant",
+    "ja": "サバンナゾウ",
+    "ko": "아프리카사바나코끼리",
+    "pl": "słoń afrykański",
+    "pt-BR": "Elefante-da-savana",
+    "ru": "Африканский саванный слон",
+    "zh-CN": "非洲象",
+    "th": "ช้างสะวันนาแอฟริกา",
+    "zh-TW": "非洲象"
+   }
+  },
+  {
+   "name": "Afrikanischer Strauß",
+   "continents": [
+    "africa"
+   ],
+   "biomes": [
+    "savannah"
+   ],
+   "id": "afrikanischer-strauss",
+   "sci": "Struthio camelus",
+   "dlc": "base",
+   "status": "lc",
+   "taxonomy": {
+    "class": "Aves",
+    "order": "Struthioniformes",
+    "family": "Struthionidae",
+    "genus": "Struthio"
+   },
+   "body": {
+    "sizeM": 2.5,
+    "sizeF": 1.85,
+    "measure": "Height",
+    "weightM": 125,
+    "weightF": 110
+   },
+   "fence": {
+    "climbProof": false,
+    "strength": 2,
+    "height": 1.25
+   },
+   "names": {
+    "en": "Common Ostrich",
+    "fr": "Autruche d’Afrique",
+    "it": "Struzzo",
+    "es": "Avestruz",
+    "cs": "pštros dvouprstý",
+    "da": "struds",
+    "nl": "struisvogel",
+    "ja": "ダチョウ",
+    "ko": "타조",
+    "pl": "struś czerwonoskóry",
+    "pt-BR": "Avestruz",
+    "ru": "Африканский страус",
+    "zh-CN": "鸵鸟",
+    "th": "นกกระจอกเทศ",
+    "zh-TW": "鴕鳥"
+   }
+  },
+  {
+   "name": "Afrikanischer Wildhund",
+   "continents": [
+    "africa"
+   ],
+   "biomes": [
+    "savannah"
+   ],
+   "id": "afrikanischer-wildhund",
+   "sci": "Lycaon pictus",
+   "dlc": "base",
+   "status": "en",
+   "taxonomy": {
+    "class": "Mammalia",
+    "order": "Carnivora",
+    "family": "Canidae",
+    "genus": "Lycaon"
+   },
+   "body": {
+    "sizeM": 0.73,
+    "sizeF": 0.64,
+    "measure": "Shoulder"
+   },
+   "fence": {
+    "climbProof": false,
+    "strength": 2,
+    "height": 3
+   },
+   "names": {
+    "en": "African Wild Dog",
+    "fr": "Lycaon",
+    "it": "Licaone",
+    "es": "Perro salvaje africano",
+    "cs": "pes hyenovitý",
+    "da": "afrikansk vildhund",
+    "nl": "Afrikaanse wilde hond",
+    "ja": "リカオン",
+    "ko": "아프리카들개",
+    "pl": "likaon pstry",
+    "pt-BR": "Mabeco",
+    "ru": "Гиеновидная собака",
+    "zh-CN": "非洲野犬",
+    "th": "สุนัขป่าแอฟริกา",
+    "zh-TW": "非洲野犬"
+   }
+  },
+  {
+   "name": "Asiatischer Elefant",
+   "continents": [
+    "asia"
+   ],
+   "biomes": [
+    "savannah",
+    "tropical",
+    "wetlands"
+   ],
+   "id": "asiatischer-elefant",
+   "sci": "Elephas maximus",
+   "dlc": "base",
+   "status": "en",
+   "taxonomy": {
+    "class": "Mammalia",
+    "order": "Proboscidea",
+    "family": "Elephantidae",
+    "genus": "Elephas"
+   },
+   "body": {
+    "sizeM": 2.75,
+    "sizeF": 2.4,
+    "measure": "Shoulder"
+   },
+   "fence": {
+    "climbProof": false,
+    "strength": 4,
+    "height": 3
+   },
+   "names": {
+    "en": "Asian Elephant",
+    "fr": "Éléphant d’Asie",
+    "it": "Elefante asiatico",
+    "es": "Elefante asiático",
+    "cs": "slon indický",
+    "da": "asiatisk elefant",
+    "nl": "Aziatische olifant",
+    "ja": "アジアゾウ",
+    "ko": "아시아코끼리",
+    "pl": "słoń indyjski",
+    "pt-BR": "Elefante-Asiático",
+    "ru": "Азиатский слон",
+    "zh-CN": "亚洲象",
+    "th": "ช้างเอเชีย",
+    "zh-TW": "亞洲象"
+   }
+  },
+  {
+   "name": "Brillenpinguin",
+   "continents": [
+    "africa"
+   ],
+   "biomes": [
+    "savannah",
+    "openSea"
+   ],
+   "id": "brillenpinguin",
+   "sci": "Spheniscus demersus",
+   "dlc": "base",
+   "status": "cr",
+   "taxonomy": {
+    "class": "Aves",
+    "order": "Sphenisciformes",
+    "family": "Spheniscidae",
+    "genus": "Spheniscus"
+   },
+   "body": {
+    "sizeM": 0.65,
+    "sizeF": 0.64,
+    "measure": "Standing",
+    "weightM": 3.1,
+    "weightF": 3.1
+   },
+   "fence": {
+    "climbProof": false,
+    "strength": 2,
+    "height": 1
+   },
+   "names": {
+    "en": "African Penguin",
+    "fr": "Manchot du Cap",
+    "it": "Pinguino africano",
+    "es": "Pingüino africano",
+    "cs": "tučňák brýlový",
+    "da": "brillepingvin",
+    "nl": "Afrikaanse pinguïn",
+    "ja": "ケープペンギン",
+    "ko": "아프리카펭귄",
+    "pl": "pingwin przylądkowy",
+    "pt-BR": "Pinguim-africano",
+    "ru": "Очковый пингвин",
+    "zh-CN": "黑脚企鹅",
+    "th": "เพนกวินแอฟริกา",
+    "zh-TW": "黑腳企鵝"
+   }
+  },
+  {
+   "name": "Erdferkel",
+   "continents": [
+    "africa"
+   ],
+   "biomes": [
+    "savannah"
+   ],
+   "id": "erdferkel",
+   "sci": "Orycteropus afer",
+   "dlc": "base",
+   "status": "lc",
+   "taxonomy": {
+    "class": "Mammalia",
+    "order": "Tubulidentata",
+    "family": "Orycteropodidae",
+    "genus": "Orycteropus"
+   },
+   "body": {
+    "sizeM": 0.66,
+    "sizeF": 0.66,
+    "measure": "Shoulder",
+    "weightM": 50,
+    "weightF": 50
+   },
+   "fence": {
+    "climbProof": false,
+    "strength": 2,
+    "height": 1
+   },
+   "names": {
+    "en": "Aardvark",
+    "fr": "Oryctérope du Cap",
+    "it": "Oritteropo",
+    "es": "Cerdo hormiguero",
+    "cs": "hrabáč kapský",
+    "da": "jordsvin",
+    "nl": "aardvarken",
+    "ja": "ツチブタ",
+    "ko": "땅돼지",
+    "pl": "mrównik afrykański",
+    "pt-BR": "Porco-da-terra",
+    "ru": "Трубкозуб",
+    "zh-CN": "土豚",
+    "th": "อาร์ดวาร์ก",
+    "zh-TW": "土豚"
+   }
+  },
+  {
+   "name": "Erdmännchen",
+   "continents": [
+    "africa"
+   ],
+   "biomes": [
+    "desert",
+    "savannah"
+   ],
+   "id": "erdmaennchen",
+   "sci": "Suricata suricatta",
+   "dlc": "base",
+   "status": "lc",
+   "taxonomy": {
+    "class": "Mammalia",
+    "order": "Carnivora",
+    "family": "Herpestidae",
+    "genus": "Suricata"
+   },
+   "body": {
+    "sizeM": 0.3,
+    "sizeF": 0.3,
+    "measure": "Length",
+    "weightM": 0.775,
+    "weightF": 0.775
+   },
+   "fence": {
+    "climbProof": false,
+    "strength": 1,
+    "height": 1.25
+   },
+   "names": {
+    "en": "Meerkat",
+    "fr": "Suricate",
+    "it": "Suricato",
+    "es": "Suricata",
+    "cs": "surikata",
+    "da": "surikat",
+    "nl": "stokstaartje",
+    "ja": "ミーアキャット",
+    "ko": "미어캣",
+    "pl": "surykatka",
+    "pt-BR": "Suricato",
+    "ru": "Сурикат",
+    "zh-CN": "狐獴",
+    "th": "เมียร์แคต",
+    "zh-TW": "狐獴"
+   }
+  },
+  {
+   "name": "Eurasischer Luchs",
+   "continents": [
+    "asia",
+    "europe"
+   ],
+   "biomes": [
+    "temperate",
+    "taiga",
+    "tundra"
+   ],
+   "id": "eurasischer-luchs",
+   "sci": "Lynx lynx",
+   "dlc": "base",
+   "status": "lc",
+   "taxonomy": {
+    "class": "Mammalia",
+    "order": "Carnivora",
+    "family": "Felidae",
+    "genus": "Lynx"
+   },
+   "body": {
+    "sizeM": 0.63,
+    "sizeF": 0.58,
+    "measure": "Shoulder"
+   },
+   "fence": {
+    "climbProof": true,
+    "strength": 2,
+    "height": 3
+   },
+   "names": {
+    "en": "Eurasian Lynx",
+    "fr": "Lynx boréal",
+    "it": "Lince europea",
+    "es": "Lince boreal",
+    "cs": "rys ostrovid",
+    "da": "los",
+    "nl": "Euraziatische lynx",
+    "ja": "オオヤマネコ",
+    "ko": "스라소니",
+    "pl": "ryś euroazjatycki",
+    "pt-BR": "Lince-euroasiático",
+    "ru": "Обыкновенная рысь",
+    "zh-CN": "欧亚猞猁",
+    "th": "แมวป่าลิงซ์ยูเรเชีย",
+    "zh-TW": "歐亞猞猁"
+   }
+  },
+  {
+   "name": "Europäischer Biber",
+   "continents": [
+    "asia",
+    "europe"
+   ],
+   "biomes": [
+    "temperate",
+    "taiga",
+    "lakesRivers"
+   ],
+   "id": "europaeischer-biber",
+   "sci": "Castor fiber",
+   "dlc": "base",
+   "status": "lc",
+   "taxonomy": {
+    "class": "Mammalia",
+    "order": "Rodentia",
+    "family": "Castoridae",
+    "genus": "Castor"
+   },
+   "body": {
+    "sizeM": 0.9,
+    "sizeF": 0.9,
+    "measure": "NoseToRump",
+    "weightM": 20,
+    "weightF": 20
+   },
+   "fence": {
+    "climbProof": false,
+    "strength": 2,
+    "height": 1.25
+   },
+   "names": {
+    "en": "Eurasian Beaver",
+    "fr": "Castor d’Europe",
+    "it": "Castoro europeo",
+    "es": "Castor común",
+    "cs": "bobr evropský",
+    "da": "europæisk bæver",
+    "nl": "Europese bever",
+    "ja": "ヨーロッパビーバー",
+    "ko": "유라시아비버",
+    "pl": "bóbr europejski",
+    "pt-BR": "Castor-europeu",
+    "ru": "Обыкновенный бобр",
+    "zh-CN": "欧亚河狸",
+    "th": "บีเวอร์ยูเรเชีย",
+    "zh-TW": "歐亞河狸"
+   }
+  },
+  {
+   "name": "Europäischer Braunbär",
+   "continents": [
+    "asia",
+    "europe"
+   ],
+   "biomes": [
+    "temperate",
+    "taiga",
+    "tundra"
+   ],
+   "id": "europaeischer-braunbaer",
+   "sci": "Ursus arctos arctos",
+   "dlc": "base",
+   "status": "lc",
+   "taxonomy": {
+    "class": "Mammalia",
+    "order": "Carnivora",
+    "family": "Ursidae",
+    "genus": "Ursus"
+   },
+   "body": {
+    "sizeM": 2.1,
+    "sizeF": 1.8,
+    "measure": "NoseToRump"
+   },
+   "fence": {
+    "climbProof": true,
+    "strength": 3,
+    "height": 3
+   },
+   "names": {
+    "en": "Eurasian Brown Bear",
+    "fr": "Ours brun d’Europe",
+    "it": "Orso bruno eurasiatico",
+    "es": "Oso pardo europeo",
+    "cs": "medvěd hnědý",
+    "da": "europæisk brun bjørn",
+    "nl": "Europese bruine beer",
+    "ja": "ヨーロッパヒグマ",
+    "ko": "유럽불곰",
+    "pl": "niedźwiedź brunatny",
+    "pt-BR": "Urso-pardo-europeu",
+    "ru": "Европейский бурый медведь",
+    "zh-CN": "欧洲棕熊",
+    "th": "หมีสีน้ำตาลยูเรเชีย",
+    "zh-TW": "歐洲棕熊"
+   }
+  },
+  {
+   "name": "Europäischer Wisent",
+   "continents": [
+    "europe"
+   ],
+   "biomes": [
+    "temperate",
+    "taiga"
+   ],
+   "id": "europaeischer-wisent",
+   "sci": "Bison bonasus",
+   "dlc": "base",
+   "status": "nt",
+   "taxonomy": {
+    "class": "Mammalia",
+    "order": "Artiodactyla",
+    "family": "Bovidae",
+    "genus": "Bison"
+   },
+   "body": {
+    "sizeM": 2,
+    "sizeF": 1.83,
+    "measure": "Shoulder"
+   },
+   "fence": {
+    "climbProof": false,
+    "strength": 3,
+    "height": 1.25
+   },
+   "names": {
+    "en": "European Bison",
+    "fr": "Bison d’Europe",
+    "it": "Bisonte europeo",
+    "es": "Bisonte europeo",
+    "cs": "zubr evropský",
+    "da": "europæisk bison",
+    "nl": "wisent",
+    "ja": "ヨーロッパバイソン",
+    "ko": "유럽들소",
+    "pl": "żubr",
+    "pt-BR": "Bisão-europeu",
+    "ru": "Зубр",
+    "zh-CN": "欧洲野牛",
+    "th": "ไบซันยุโรป",
+    "zh-TW": "歐洲野牛"
+   }
+  },
+  {
+   "name": "Flusspferd",
+   "continents": [
+    "africa"
+   ],
+   "biomes": [
+    "savannah",
+    "wetlands",
+    "lakesRivers"
+   ],
+   "id": "flusspferd",
+   "sci": "Hippopotamus amphibius",
+   "dlc": "base",
+   "status": "vu",
+   "taxonomy": {
+    "class": "Mammalia",
+    "order": "Artiodactyla",
+    "family": "Hippopotamidae",
+    "genus": "Hippopotamus"
+   },
+   "body": {
+    "sizeM": 4.5,
+    "sizeF": 3.75,
+    "measure": "Length",
+    "weightM": 1750,
+    "weightF": 1250
+   },
+   "fence": {
+    "climbProof": false,
+    "strength": 4,
+    "height": 2
+   },
+   "names": {
+    "en": "Common Hippopotamus",
+    "fr": "Hippopotame commun",
+    "it": "Ippopotamo",
+    "es": "Hipopótamo común",
+    "cs": "hroch obojživelný",
+    "da": "flodhest",
+    "nl": "nijlpaard",
+    "ja": "カバ",
+    "ko": "하마",
+    "pl": "hipopotam nilowy",
+    "pt-BR": "Hipopótamo-comum",
+    "ru": "Обыкновенный бегемот",
+    "zh-CN": "河马",
+    "th": "ฮิปโปโปเตมัส",
+    "zh-TW": "河馬"
+   }
+  },
+  {
+   "name": "Galapagos-Riesenschildkröte",
+   "continents": [
+    "southAmerica"
+   ],
+   "biomes": [
+    "tropical"
+   ],
+   "id": "galapagos-riesenschildkroete",
+   "sci": "Chelonoidis nigra",
+   "dlc": "base",
+   "status": "vu",
+   "taxonomy": {
+    "class": "Reptilia",
+    "order": "Testudines",
+    "family": "Testudinidae",
+    "genus": "Chelonoidis"
+   },
+   "body": {
+    "sizeM": 1.3,
+    "sizeF": 1.15,
+    "measure": "Length"
+   },
+   "fence": {
+    "climbProof": false,
+    "strength": 1,
+    "height": 1
+   },
+   "names": {
+    "en": "Galápagos Giant Tortoise",
+    "fr": "Tortue géante des Galápagos",
+    "it": "Tartaruga gigante delle Galápagos",
+    "es": "Tortuga gigante de las Galápagos",
+    "cs": "želva sloní",
+    "da": "galápagoskæmpeskildpadde",
+    "nl": "Galápagosreuzenschildpad",
+    "ja": "ガラパゴスゾウガメ",
+    "ko": "갈라파고스땅거북",
+    "pl": "żółw słoniowy",
+    "pt-BR": "Tartaruga-gigante-de-galápagos",
+    "ru": "Галапагосская черепаха",
+    "zh-CN": "加拉帕戈斯象龟",
+    "th": "เต่ายักษ์กาลาปากอส",
+    "zh-TW": "加拉巴哥象龜"
+   }
+  },
+  {
+   "name": "Gangesgavial",
+   "continents": [
+    "asia"
+   ],
+   "biomes": [
+    "tropical",
+    "wetlands",
+    "lakesRivers"
+   ],
+   "id": "gangesgavial",
+   "sci": "Gavialis gangeticus",
+   "dlc": "base",
+   "status": "cr",
+   "taxonomy": {
+    "class": "Reptilia",
+    "order": "Crocodilia",
+    "family": "Gavialidae",
+    "genus": "Gavialis"
+   },
+   "body": {
+    "sizeM": 4.4,
+    "sizeF": 2.7,
+    "measure": "Length",
+    "weightM": 300,
+    "weightF": 105
+   },
+   "fence": {
+    "climbProof": false,
+    "strength": 2,
+    "height": 1
+   },
+   "names": {
+    "en": "Gharial",
+    "fr": "Gavial du Gange",
+    "it": "Gaviale",
+    "es": "Gavial",
+    "cs": "gaviál indický",
+    "da": "gavial",
+    "nl": "gaviaal",
+    "ja": "インドガビアル",
+    "ko": "가비알",
+    "pl": "gawial gangesowy",
+    "pt-BR": "Gavial",
+    "ru": "Гавиал",
+    "zh-CN": "恒河鳄",
+    "th": "ตะโขงอินเดีย",
+    "zh-TW": "恆河鱷"
+   }
+  },
+  {
+   "name": "Goldenes Löwenäffchen",
+   "continents": [
+    "southAmerica"
+   ],
+   "biomes": [
+    "tropical"
+   ],
+   "id": "goldenes-loewenaeffchen",
+   "sci": "Leontopithecus rosalia",
+   "dlc": "deluxe",
+   "status": "en",
+   "taxonomy": {
+    "class": "Mammalia",
+    "order": "Primates",
+    "family": "Callitrichidae",
+    "genus": "Leontopithecus"
+   },
+   "body": {
+    "sizeM": 0.27,
+    "sizeF": 0.27,
+    "measure": "NoseToRump"
+   },
+   "fence": {
+    "climbProof": true,
+    "strength": 1,
+    "height": 3,
+    "moat": {
+     "width": 3,
+     "depth": 1
+    }
+   },
+   "names": {
+    "en": "Golden Lion Tamarin",
+    "fr": "Tamarin-lion doré",
+    "it": "Scimmia leonina",
+    "es": "Tití león dorado",
+    "cs": "lvíček zlatý",
+    "da": "gylden løvetamarin",
+    "nl": "gouden leeuwaapje",
+    "ja": "ゴールデンライオンタマリン",
+    "ko": "황금사자타마린",
+    "pl": "lwiatka złota",
+    "pt-BR": "Mico-leão-dourado",
+    "ru": "Золотистая львиная игрунка",
+    "zh-CN": "金狮面狨",
+    "th": "ลิงทามารินสิงโตทอง",
+    "zh-TW": "金獅面狨"
+   }
+  },
+  {
+   "name": "Goodfellow-Baumkänguru",
+   "continents": [
+    "oceania"
+   ],
+   "biomes": [
+    "tropical"
+   ],
+   "id": "goodfellow-baumkaenguru",
+   "sci": "Dendrolagus goodfellowi",
+   "dlc": "base",
+   "status": "en",
+   "taxonomy": {
+    "class": "Mammalia",
+    "order": "Diprotodontia",
+    "family": "Macropodidae",
+    "genus": "Dendrolagus"
+   },
+   "body": {
+    "sizeM": 0.65,
+    "sizeF": 0.6,
+    "measure": "NoseToRump"
+   },
+   "fence": {
+    "climbProof": true,
+    "strength": 1,
+    "height": 1
+   },
+   "names": {
+    "en": "Goodfellow's Tree-Kangaroo",
+    "fr": "Dendrolague de Goodfellow",
+    "it": "Canguro arboricolo di Goodfellow",
+    "es": "Canguro arborícola de Goodfellow",
+    "cs": "klokan Goodfellowův",
+    "da": "Goodfellows trækænguru",
+    "nl": "Goodfellows boomkangoeroe",
+    "ja": "セスジキノボリカンガルー",
+    "ko": "굿펠로나무타기캥거루",
+    "pl": "kangur Goodfellowa",
+    "pt-BR": "Canguru-arborícola-de-Goodfellow",
+    "ru": "Древесный кенгуру Гудфеллоу",
+    "zh-CN": "古氏树袋鼠",
+    "th": "จิงโจ้ต้นไม้กู๊ดเฟลโลว์",
+    "zh-TW": "古氏樹袋鼠"
+   }
+  },
+  {
+   "name": "Grizzlybär",
+   "continents": [
+    "northAmerica"
+   ],
+   "biomes": [
+    "temperate",
+    "taiga",
+    "tundra",
+    "wetlands"
+   ],
+   "id": "grizzlybaer",
+   "sci": "Ursus arctos horribilis",
+   "dlc": "base",
+   "status": "lc",
+   "taxonomy": {
+    "class": "Mammalia",
+    "order": "Carnivora",
+    "family": "Ursidae",
+    "genus": "Ursus"
+   },
+   "body": {
+    "sizeM": 2.65,
+    "sizeF": 2.25,
+    "measure": "Length",
+    "weightM": 220,
+    "weightF": 165
+   },
+   "fence": {
+    "climbProof": true,
+    "strength": 4,
+    "height": 2
+   },
+   "names": {
+    "en": "Grizzly Bear",
+    "fr": "Grizzly",
+    "it": "Orso grizzly",
+    "es": "Oso grizzly",
+    "cs": "medvěd grizzly",
+    "da": "grizzlybjørn",
+    "nl": "grizzlybeer",
+    "ja": "ハイイログマ",
+    "ko": "회색곰",
+    "pl": "grizli",
+    "pt-BR": "Urso-cinzento",
+    "ru": "Гризли",
+    "zh-CN": "灰熊",
+    "th": "หมีกริซลี",
+    "zh-TW": "灰熊"
+   }
+  },
+  {
+   "name": "Großer Panda",
+   "continents": [
+    "asia"
+   ],
+   "biomes": [
+    "temperate"
+   ],
+   "id": "grosser-panda",
+   "sci": "Ailuropoda melanoleuca",
+   "dlc": "base",
+   "status": "vu",
+   "taxonomy": {
+    "class": "Mammalia",
+    "order": "Carnivora",
+    "family": "Ursidae",
+    "genus": "Ailuropoda"
+   },
+   "body": {
+    "sizeM": 1.55,
+    "sizeF": 1.55,
+    "measure": "NoseToRump"
+   },
+   "fence": {
+    "climbProof": true,
+    "strength": 4,
+    "height": 2
+   },
+   "names": {
+    "en": "Giant Panda",
+    "fr": "Panda géant",
+    "it": "Panda maggiore",
+    "es": "Oso panda",
+    "cs": "panda velká",
+    "da": "kæmpepanda",
+    "nl": "reuzenpanda",
+    "ja": "ジャイアントパンダ",
+    "ko": "대왕판다",
+    "pl": "panda wielka",
+    "pt-BR": "Panda-gigante",
+    "ru": "Большая панда",
+    "zh-CN": "大熊猫",
+    "th": "แพนด้ายักษ์",
+    "zh-TW": "大貓熊"
+   }
+  },
+  {
+   "name": "Katta",
+   "continents": [
+    "africa"
+   ],
+   "biomes": [
+    "tropical"
+   ],
+   "id": "katta",
+   "sci": "Lemur catta",
+   "dlc": "base",
+   "status": "en",
+   "taxonomy": {
+    "class": "Mammalia",
+    "order": "Primates",
+    "family": "Lemuridae",
+    "genus": "Lemur"
+   },
+   "body": {
+    "sizeM": 0.55,
+    "sizeF": 0.6,
+    "measure": "Standing",
+    "weightM": 2.7,
+    "weightF": 2.7
+   },
+   "fence": {
+    "climbProof": true,
+    "strength": 2,
+    "height": 3,
+    "moat": {
+     "width": 3,
+     "depth": 1
+    }
+   },
+   "names": {
+    "en": "Ring-Tailed Lemur",
+    "fr": "Lémur catta",
+    "it": "Lemure dalla coda ad anelli",
+    "es": "Lémur de cola anillada",
+    "cs": "lemur kata",
+    "da": "kattalemur",
+    "nl": "ringstaartmaki",
+    "ja": "ワオキツネザル",
+    "ko": "알락꼬리여우원숭이",
+    "pl": "lemur katta",
+    "pt-BR": "Lêmure-de-cauda-anelada",
+    "ru": "Кошачий лемур",
+    "zh-CN": "环尾狐猴",
+    "th": "ลีเมอร์หางแหวน",
+    "zh-TW": "環尾狐猴"
+   }
+  },
+  {
+   "name": "Kleiner Panda",
+   "continents": [
+    "asia"
+   ],
+   "biomes": [
+    "temperate",
+    "taiga"
+   ],
+   "id": "kleiner-panda",
+   "sci": "Ailurus fulgens",
+   "dlc": "base",
+   "status": "en",
+   "taxonomy": {
+    "class": "Mammalia",
+    "order": "Carnivora",
+    "family": "Ailuridae",
+    "genus": "Ailurus"
+   },
+   "body": {
+    "sizeM": 0.59,
+    "sizeF": 0.59,
+    "measure": "NoseToRump"
+   },
+   "fence": {
+    "climbProof": false,
+    "strength": 2,
+    "height": 3,
+    "moat": {
+     "width": 3,
+     "depth": 1
+    }
+   },
+   "names": {
+    "en": "Red Panda",
+    "fr": "Panda roux",
+    "it": "Panda minore",
+    "es": "Panda rojo",
+    "cs": "panda červená",
+    "da": "lille panda",
+    "nl": "kleine panda",
+    "ja": "レッサーパンダ",
+    "ko": "레서판다",
+    "pl": "pandka ruda",
+    "pt-BR": "Panda-vermelho",
+    "ru": "Малая панда",
+    "zh-CN": "小熊猫",
+    "th": "แพนด้าแดง",
+    "zh-TW": "小貓熊"
+   }
+  },
+  {
+   "name": "Komodowaran",
+   "continents": [
+    "asia"
+   ],
+   "biomes": [
+    "tropical",
+    "wetlands",
+    "mangrove"
+   ],
+   "id": "komodowaran",
+   "sci": "Varanus komodoensis",
+   "dlc": "base",
+   "status": "en",
+   "taxonomy": {
+    "class": "Reptilia",
+    "order": "Squamata",
+    "family": "Varanidae",
+    "genus": "Varanus"
+   },
+   "body": {
+    "sizeM": 2.85,
+    "sizeF": 2.3,
+    "measure": "Length",
+    "weightM": 85,
+    "weightF": 71
+   },
+   "fence": {
+    "climbProof": false,
+    "strength": 2,
+    "height": 1
+   },
+   "names": {
+    "en": "Komodo Dragon",
+    "fr": "Dragon de Komodo",
+    "it": "Drago di Komodo",
+    "es": "Dragón de Komodo",
+    "cs": "varan komodský",
+    "da": "komodovaran",
+    "nl": "komodovaraan",
+    "ja": "コモドオオトカゲ",
+    "ko": "코모도왕도마뱀",
+    "pl": "waran z Komodo",
+    "pt-BR": "Dragão-de-komodo",
+    "ru": "Комодский варан",
+    "zh-CN": "科莫多巨蜥",
+    "th": "มังกรโคโมโด",
+    "zh-TW": "科莫多巨蜥"
+   }
+  },
+  {
+   "name": "Leistenkrokodil",
+   "continents": [
+    "asia",
+    "oceania"
+   ],
+   "biomes": [
+    "tropical",
+    "estuarine",
+    "mangrove"
+   ],
+   "id": "leistenkrokodil",
+   "sci": "Crocodylus porosus",
+   "dlc": "base",
+   "status": "lc",
+   "taxonomy": {
+    "class": "Reptilia",
+    "order": "Crocodilia",
+    "family": "Crocodylidae",
+    "genus": "Crocodylus"
+   },
+   "body": {
+    "sizeM": 5.2,
+    "sizeF": 3.1,
+    "measure": "Length",
+    "weightM": 240,
+    "weightF": 160
+   },
+   "fence": {
+    "climbProof": false,
+    "strength": 3,
+    "height": 1
+   },
+   "names": {
+    "en": "Saltwater Crocodile",
+    "fr": "Crocodile marin",
+    "it": "Coccodrillo marino",
+    "es": "Cocodrilo marino",
+    "cs": "krokodýl mořský",
+    "da": "saltvandskrokodille",
+    "nl": "zoutwaterkrokodil",
+    "ja": "イリエワニ",
+    "ko": "바다악어",
+    "pl": "krokodyl różańcowy",
+    "pt-BR": "Crocodilo-de-água-salgada",
+    "ru": "Гребнистый крокодил",
+    "zh-CN": "湾鳄",
+    "th": "จระเข้น้ำเค็ม",
+    "zh-TW": "灣鱷"
+   }
+  },
+  {
+   "name": "Löwe",
+   "continents": [
+    "africa"
+   ],
+   "biomes": [
+    "savannah"
+   ],
+   "id": "loewe",
+   "sci": "Panthera leo",
+   "dlc": "base",
+   "status": "vu",
+   "taxonomy": {
+    "class": "Mammalia",
+    "order": "Carnivora",
+    "family": "Felidae",
+    "genus": "Panthera"
+   },
+   "body": {
+    "sizeM": 1.23,
+    "sizeF": 1.07,
+    "measure": "Shoulder"
+   },
+   "fence": {
+    "climbProof": true,
+    "strength": 3,
+    "height": 3
+   },
+   "names": {
+    "en": "Lion",
+    "fr": "Lion",
+    "it": "Leone",
+    "es": "León",
+    "cs": "lev pustinný",
+    "da": "løve",
+    "nl": "leeuw",
+    "ja": "ライオン",
+    "ko": "사자",
+    "pl": "lew afrykański",
+    "pt-BR": "Leão",
+    "ru": "Лев",
+    "zh-CN": "狮子",
+    "th": "สิงโต",
+    "zh-TW": "獅子"
+   }
+  },
+  {
+   "name": "Malaysischer Tapir",
+   "continents": [
+    "asia"
+   ],
+   "biomes": [
+    "tropical",
+    "wetlands"
+   ],
+   "id": "malaysischer-tapir",
+   "sci": "Tapirus indicus",
+   "dlc": "base",
+   "status": "en",
+   "taxonomy": {
+    "class": "Mammalia",
+    "order": "Perissodactyla",
+    "family": "Tapiridae",
+    "genus": "Tapirus"
+   },
+   "body": {
+    "sizeM": 0.95,
+    "sizeF": 1.05,
+    "measure": "Shoulder",
+    "weightM": 345,
+    "weightF": 405
+   },
+   "fence": {
+    "climbProof": false,
+    "strength": 2,
+    "height": 1.25
+   },
+   "names": {
+    "en": "Malayan Tapir",
+    "fr": "Tapir de Malaisie",
+    "it": "Tapiro della Malesia",
+    "es": "Tapir malayo",
+    "cs": "tapír čabrakový",
+    "da": "skabrakstapir",
+    "nl": "Maleise tapir",
+    "ja": "マレーバク",
+    "ko": "말레이맥",
+    "pl": "tapir czaprakowy",
+    "pt-BR": "Anta-malaia",
+    "ru": "Чепрачный тапир",
+    "zh-CN": "马来貘",
+    "th": "สมเสร็จ",
+    "zh-TW": "馬來貘"
+   }
+  },
+  {
+   "name": "Massai-Giraffe",
+   "continents": [
+    "africa"
+   ],
+   "biomes": [
+    "savannah"
+   ],
+   "id": "massai-giraffe",
+   "sci": "Giraffa tippelskirchi",
+   "dlc": "base",
+   "status": "en",
+   "taxonomy": {
+    "class": "Mammalia",
+    "order": "Artiodactyla",
+    "family": "Giraffidae",
+    "genus": "Giraffa"
+   },
+   "body": {
+    "sizeM": 5.4,
+    "sizeF": 4.7,
+    "measure": "Height"
+   },
+   "fence": {
+    "climbProof": false,
+    "strength": 2,
+    "height": 1.25
+   },
+   "names": {
+    "en": "Masai Giraffe",
+    "fr": "Girafe Masaï",
+    "it": "Giraffa masai",
+    "es": "Jirafa masái",
+    "cs": "žirafa masajská",
+    "da": "masaigiraf",
+    "nl": "Masaigiraffe",
+    "ja": "マサイキリン",
+    "ko": "마사이기린",
+    "pl": "żyrafa masajska",
+    "pt-BR": "Girafa-massai",
+    "ru": "Масайский жираф",
+    "zh-CN": "马赛长颈鹿",
+    "th": "ยีราฟมาไซ",
+    "zh-TW": "馬賽長頸鹿"
+   }
+  },
+  {
+   "name": "Netzgiraffe",
+   "continents": [
+    "africa"
+   ],
+   "biomes": [
+    "savannah"
+   ],
+   "id": "netzgiraffe",
+   "sci": "Giraffa reticulata",
+   "dlc": "base",
+   "status": "en",
+   "taxonomy": {
+    "class": "Mammalia",
+    "order": "Artiodactyla",
+    "family": "Giraffidae",
+    "genus": "Giraffa"
+   },
+   "body": {
+    "sizeM": 5.4,
+    "sizeF": 4.6,
+    "measure": "Height",
+    "weightM": 1190,
+    "weightF": 830
+   },
+   "fence": {
+    "climbProof": false,
+    "strength": 3,
+    "height": 2
+   },
+   "names": {
+    "en": "Reticulated Giraffe",
+    "fr": "Girafe réticulée",
+    "it": "Giraffa reticolata",
+    "es": "Jirafa reticulada",
+    "cs": "žirafa síťovaná",
+    "da": "netgiraf",
+    "nl": "netgiraffe",
+    "ja": "アミメキリン",
+    "ko": "그물무늬기린",
+    "pl": "żyrafa siatkowana",
+    "pt-BR": "Girafa-reticulada",
+    "ru": "Сетчатый жираф",
+    "zh-CN": "网纹长颈鹿",
+    "th": "ยีราฟลายร่างแห",
+    "zh-TW": "網紋長頸鹿"
+   }
+  },
+  {
+   "name": "Nilwaran",
+   "continents": [
+    "africa"
+   ],
+   "biomes": [
+    "savannah",
+    "wetlands"
+   ],
+   "id": "nilwaran",
+   "sci": "Varanus niloticus",
+   "dlc": "base",
+   "status": "lc",
+   "taxonomy": {
+    "class": "Reptilia",
+    "order": "Squamata",
+    "family": "Varanidae",
+    "genus": "Varanus"
+   },
+   "body": {
+    "sizeM": 2.1,
+    "sizeF": 1.9,
+    "measure": "Length",
+    "weightM": 8,
+    "weightF": 8
+   },
+   "fence": {
+    "climbProof": false,
+    "strength": 2,
+    "height": 0.5
+   },
+   "names": {
+    "en": "Nile Monitor",
+    "fr": "Varan du Nil",
+    "it": "Varano del Nilo",
+    "es": "Varano del Nilo",
+    "cs": "varan nilský",
+    "da": "nilvaran",
+    "nl": "nijlvaraan",
+    "ja": "ナイルオオトカゲ",
+    "ko": "나일왕도마뱀",
+    "pl": "waran nilowy",
+    "pt-BR": "Lagarto-do-Nilo",
+    "ru": "Нильский варан",
+    "zh-CN": "尼罗河巨蜥",
+    "th": "ตะกวดไนล์",
+    "zh-TW": "尼羅河巨蜥"
+   }
+  },
+  {
+   "name": "Nordsulawesisches Babirusa",
+   "continents": [
+    "asia"
+   ],
+   "biomes": [
+    "tropical"
+   ],
+   "id": "nordsulawesisches-babirusa",
+   "sci": "Babyrousa celebensis",
+   "dlc": "base",
+   "status": "vu",
+   "taxonomy": {
+    "class": "Mammalia",
+    "order": "Artiodactyla",
+    "family": "Suidae",
+    "genus": "Babyrousa"
+   },
+   "body": {
+    "sizeM": 0.66,
+    "sizeF": 0.58,
+    "measure": "Shoulder",
+    "weightM": 85,
+    "weightF": 61.5
+   },
+   "fence": {
+    "climbProof": false,
+    "strength": 2,
+    "height": 1.25
+   },
+   "names": {
+    "en": "North Sulawesi Babirusa",
+    "fr": "Babiroussa des Célèbes",
+    "it": "Babirussa di Sulawesi",
+    "es": "Babirusa de Sulawesi",
+    "cs": "babirusa celebeská",
+    "da": "sulawesi-hjortesvin",
+    "nl": "Noord-Sulawesi-babiroesa",
+    "ja": "スラウェシバビルサ",
+    "ko": "북술라웨시바비루사",
+    "pl": "babirusa celebeska",
+    "pt-BR": "Babirussa-das-celebes-do-norte",
+    "ru": "Северосулавесская бабирусса",
+    "zh-CN": "北苏拉威西鹿豚",
+    "th": "บาบิรูซาสุลาเวสีเหนือ",
+    "zh-TW": "北蘇拉威西鹿豚"
+   }
+  },
+  {
+   "name": "Nyala",
+   "continents": [
+    "africa"
+   ],
+   "biomes": [
+    "savannah"
+   ],
+   "id": "nyala",
+   "sci": "Tragelaphus angasii",
+   "dlc": "base",
+   "status": "lc",
+   "taxonomy": {
+    "class": "Mammalia",
+    "order": "Artiodactyla",
+    "family": "Bovidae",
+    "genus": "Tragelaphus"
+   },
+   "body": {
+    "sizeM": 1,
+    "sizeF": 0.8,
+    "measure": "Shoulder",
+    "weightM": 112,
+    "weightF": 64
+   },
+   "fence": {
+    "climbProof": false,
+    "strength": 2,
+    "height": 1.25
+   },
+   "names": {
+    "en": "Nyala",
+    "fr": "Nyala",
+    "it": "Nyala",
+    "es": "Niala",
+    "cs": "nyala nížinná",
+    "da": "nyala",
+    "nl": "nyala",
+    "ja": "ニアラ",
+    "ko": "니알라",
+    "pl": "niala",
+    "pt-BR": "Inhala",
+    "ru": "Ньяла",
+    "zh-CN": "安氏林羚",
+    "th": "แอนทีโลปนยาลา",
+    "zh-TW": "安氏林羚"
+   }
+  },
+  {
+   "name": "Przewalski-Pferd",
+   "continents": [
+    "asia"
+   ],
+   "biomes": [
+    "desert",
+    "savannah"
+   ],
+   "id": "przewalski-pferd",
+   "sci": "Equus ferus przewalskii",
+   "dlc": "base",
+   "status": "en",
+   "taxonomy": {
+    "class": "Mammalia",
+    "order": "Perissodactyla",
+    "family": "Equidae",
+    "genus": "Equus"
+   },
+   "body": {
+    "sizeM": 1.35,
+    "sizeF": 1.35,
+    "measure": "Shoulder",
+    "weightM": 305,
+    "weightF": 305
+   },
+   "fence": {
+    "climbProof": false,
+    "strength": 2,
+    "height": 1.25
+   },
+   "names": {
+    "en": "Przewalski's Horse",
+    "fr": "Cheval de Przewalski",
+    "it": "Cavallo di Przewalski",
+    "es": "Caballo de Przewalski",
+    "cs": "kůň Převalského",
+    "da": "Przewalskis hest",
+    "nl": "Przewalskipaard",
+    "ja": "モウコノウマ",
+    "ko": "프르제발스키말",
+    "pl": "koń Przewalskiego",
+    "pt-BR": "Cavalo-de-przewalski",
+    "ru": "Лошадь Пржевальского",
+    "zh-CN": "普氏野马",
+    "th": "ม้าป่าพเชวัลสกี",
+    "zh-TW": "普氏野馬"
+   }
+  },
+  {
+   "name": "Rappenantilope",
+   "continents": [
+    "africa"
+   ],
+   "biomes": [
+    "savannah"
+   ],
+   "id": "rappenantilope",
+   "sci": "Hippotragus niger",
+   "dlc": "base",
+   "status": "lc",
+   "taxonomy": {
+    "class": "Mammalia",
+    "order": "Artiodactyla",
+    "family": "Hippotraginae",
+    "genus": "Hippotragus"
+   },
+   "body": {
+    "sizeM": 1.25,
+    "sizeF": 1.1,
+    "measure": "Shoulder",
+    "weightM": 235,
+    "weightF": 220
+   },
+   "fence": {
+    "climbProof": false,
+    "strength": 2,
+    "height": 1.25
+   },
+   "names": {
+    "en": "Sable Antelope",
+    "fr": "Hippotrague noir",
+    "it": "Antilopi nere",
+    "es": "Antílope sable",
+    "cs": "antilopa vraná",
+    "da": "sabelantilope",
+    "nl": "zwarte paardenantilope",
+    "ja": "セーブルアンテロープ",
+    "ko": "검은영양",
+    "pl": "antylopa szablorożna",
+    "pt-BR": "Palanca-negra",
+    "ru": "Чёрная антилопа",
+    "zh-CN": "黑马羚",
+    "th": "แอนทีโลปดำ",
+    "zh-TW": "黑馬羚"
+   }
+  },
+  {
+   "name": "Rothirsch",
+   "continents": [
+    "africa",
+    "asia",
+    "europe"
+   ],
+   "biomes": [
+    "temperate"
+   ],
+   "id": "rothirsch",
+   "sci": "Cervus elaphus",
+   "dlc": "base",
+   "status": "lc",
+   "taxonomy": {
+    "class": "Mammalia",
+    "order": "Artiodactyla",
+    "family": "Cervidae",
+    "genus": "Cervus"
+   },
+   "body": {
+    "sizeM": 1.22,
+    "sizeF": 1.14,
+    "measure": "Shoulder"
+   },
+   "fence": {
+    "climbProof": false,
+    "strength": 2,
+    "height": 1.25
+   },
+   "names": {
+    "en": "Red Deer",
+    "fr": "Cerf élaphe",
+    "it": "Cervo rosso",
+    "es": "Ciervo común",
+    "cs": "jelen evropský",
+    "da": "kronhjort",
+    "nl": "edelhert",
+    "ja": "アカシカ",
+    "ko": "붉은사슴",
+    "pl": "jeleń szlachetny",
+    "pt-BR": "Cervo-vermelho",
+    "ru": "Благородный олень",
+    "zh-CN": "红鹿",
+    "th": "กวางแดง",
+    "zh-TW": "紅鹿"
+   }
+  },
+  {
+   "name": "Schneehase",
+   "continents": [
+    "asia",
+    "europe",
+    "arctic"
+   ],
+   "biomes": [
+    "temperate",
+    "taiga",
+    "tundra"
+   ],
+   "id": "schneehase",
+   "sci": "Lepus timidus",
+   "dlc": "base",
+   "status": "lc",
+   "taxonomy": {
+    "class": "Mammalia",
+    "order": "Lagomorpha",
+    "family": "Leporidae",
+    "genus": "Lepus"
+   },
+   "body": {
+    "sizeM": 0.5,
+    "sizeF": 0.55,
+    "measure": "NoseToRump"
+   },
+   "fence": {
+    "climbProof": false,
+    "strength": 1,
+    "height": 1.25,
+    "moat": {
+     "width": 3,
+     "depth": 1
+    }
+   },
+   "names": {
+    "en": "Mountain Hare",
+    "fr": "Lièvre variable",
+    "it": "Lepre variabile",
+    "es": "Liebre de montaña",
+    "cs": "zajíc bělák",
+    "da": "snehare",
+    "nl": "sneeuwhaas",
+    "ja": "ユキウサギ",
+    "ko": "눈토끼",
+    "pl": "zając bielak",
+    "pt-BR": "Lebre-da-montanha",
+    "ru": "Заяц-беляк",
+    "zh-CN": "雪兔",
+    "th": "กระต่ายภูเขา",
+    "zh-TW": "雪兔"
+   }
+  },
+  {
+   "name": "Schneeleopard",
+   "continents": [
+    "asia"
+   ],
+   "biomes": [
+    "taiga",
+    "tundra"
+   ],
+   "id": "schneeleopard",
+   "sci": "Panthera uncia",
+   "dlc": "base",
+   "status": "vu",
+   "taxonomy": {
+    "class": "Mammalia",
+    "order": "Carnivora",
+    "family": "Felidae",
+    "genus": "Panthera"
+   },
+   "body": {
+    "sizeM": 0.55,
+    "sizeF": 0.5,
+    "measure": "Shoulder",
+    "weightM": 40,
+    "weightF": 40
+   },
+   "fence": {
+    "climbProof": true,
+    "strength": 2,
+    "height": 3
+   },
+   "names": {
+    "en": "Snow Leopard",
+    "fr": "Panthère des neiges",
+    "it": "Leopardo delle nevi",
+    "es": "Leopardo de las nieves",
+    "cs": "irbis horský",
+    "da": "sneleopard",
+    "nl": "sneeuwluipaard",
+    "ja": "ユキヒョウ",
+    "ko": "눈표범",
+    "pl": "irbis śnieżny",
+    "pt-BR": "Leopardo-das-neves",
+    "ru": "Снежный барс",
+    "zh-CN": "雪豹",
+    "th": "เสือดาวหิมะ",
+    "zh-TW": "雪豹"
+   }
+  },
+  {
+   "name": "Schwarzbüffel",
+   "continents": [
+    "africa"
+   ],
+   "biomes": [
+    "savannah",
+    "wetlands"
+   ],
+   "id": "schwarzbueffel",
+   "sci": "Syncerus caffer caffer",
+   "dlc": "base",
+   "status": "nt",
+   "taxonomy": {
+    "class": "Mammalia",
+    "order": "Artiodactyla",
+    "family": "Bovidae",
+    "genus": "Syncerus"
+   },
+   "body": {
+    "sizeM": 1.5,
+    "sizeF": 1.5,
+    "measure": "Shoulder",
+    "weightM": 680,
+    "weightF": 580
+   },
+   "fence": {
+    "climbProof": false,
+    "strength": 3,
+    "height": 1.25
+   },
+   "names": {
+    "en": "Cape Buffalo",
+    "fr": "Buffle du Cap",
+    "it": "Bufalo cafro",
+    "es": "Búfalo africano",
+    "cs": "buvol kaferský",
+    "da": "kafferbøffel",
+    "nl": "Kaapse buffel",
+    "ja": "アフリカスイギュウ",
+    "ko": "아프리카물소",
+    "pl": "bawół afrykański",
+    "pt-BR": "Búfalo-africano",
+    "ru": "Капский буйвол",
+    "zh-CN": "非洲水牛",
+    "th": "ควายป่าแอฟริกา",
+    "zh-TW": "非洲水牛"
+   }
+  },
+  {
+   "name": "Siamang",
+   "continents": [
+    "asia"
+   ],
+   "biomes": [
+    "tropical"
+   ],
+   "id": "siamang",
+   "sci": "Symphalangus syndactylus",
+   "dlc": "base",
+   "status": "en",
+   "taxonomy": {
+    "class": "Mammalia",
+    "order": "Primates",
+    "family": "Hylobatidae",
+    "genus": "Symphalangus"
+   },
+   "body": {
+    "sizeM": 0.88,
+    "sizeF": 0.88,
+    "measure": "Standing"
+   },
+   "fence": {
+    "climbProof": true,
+    "strength": 2,
+    "height": 3,
+    "moat": {
+     "width": 6,
+     "depth": 2
+    }
+   },
+   "names": {
+    "en": "Siamang",
+    "fr": "Siamang",
+    "it": "Siamango",
+    "es": "Siamang",
+    "cs": "siamang",
+    "da": "siamang",
+    "nl": "siamang",
+    "ja": "フクロテナガザル",
+    "ko": "시아망",
+    "pl": "siamang wielki",
+    "pt-BR": "Siamang",
+    "ru": "Сиаманг",
+    "zh-CN": "合趾猿",
+    "th": "ชะนีดำใหญ่",
+    "zh-TW": "合趾猿"
+   }
+  },
+  {
+   "name": "Sonnenbär",
+   "continents": [
+    "asia"
+   ],
+   "biomes": [
+    "tropical",
+    "wetlands"
+   ],
+   "id": "sonnenbaer",
+   "sci": "Helarctos malayanus",
+   "dlc": "base",
+   "status": "vu",
+   "taxonomy": {
+    "class": "Mammalia",
+    "order": "Carnivora",
+    "family": "Ursidae",
+    "genus": "Helarctos"
+   },
+   "body": {
+    "sizeM": 1.4,
+    "sizeF": 1.25,
+    "measure": "NoseToRump"
+   },
+   "fence": {
+    "climbProof": true,
+    "strength": 3,
+    "height": 3
+   },
+   "names": {
+    "en": "Sun Bear",
+    "fr": "Ours malais",
+    "it": "Orso del sole",
+    "es": "Oso malayo",
+    "cs": "medvěd malajský",
+    "da": "malajbjørn",
+    "nl": "Maleise beer",
+    "ja": "マレーグマ",
+    "ko": "말레이곰",
+    "pl": "biruang malajski",
+    "pt-BR": "Urso-malaio",
+    "ru": "Малайский медведь",
+    "zh-CN": "马来熊",
+    "th": "หมีหมา",
+    "zh-TW": "馬來熊"
+   }
+  },
+  {
+   "name": "Spießbock",
+   "continents": [
+    "africa"
+   ],
+   "biomes": [
+    "desert",
+    "savannah"
+   ],
+   "id": "spiessbock",
+   "sci": "Oryx gazella",
+   "dlc": "base",
+   "status": "lc",
+   "taxonomy": {
+    "class": "Mammalia",
+    "order": "Artiodactyla",
+    "family": "Bovidae",
+    "genus": "Oryx"
+   },
+   "body": {
+    "sizeM": 1.15,
+    "sizeF": 1.15,
+    "measure": "Shoulder",
+    "weightM": 260,
+    "weightF": 155
+   },
+   "fence": {
+    "climbProof": false,
+    "strength": 2,
+    "height": 1.25
+   },
+   "names": {
+    "en": "Gemsbok",
+    "fr": "Oryx gazelle",
+    "it": "Orice gazzella",
+    "es": "Gacela órice",
+    "cs": "přímorožec jihoafrický",
+    "da": "gemsbuk",
+    "nl": "gemsbok",
+    "ja": "オリックス",
+    "ko": "겜스복",
+    "pl": "oryks południowy",
+    "pt-BR": "Órix-do-Cabo",
+    "ru": "Сернобык",
+    "zh-CN": "南非剑羚",
+    "th": "ออริกซ์เจมส์บ็อก",
+    "zh-TW": "南非劍羚"
+   }
+  },
+  {
+   "name": "Springbock",
+   "continents": [
+    "africa"
+   ],
+   "biomes": [
+    "desert",
+    "savannah"
+   ],
+   "id": "springbock",
+   "sci": "Antidorcas marsupialis",
+   "dlc": "base",
+   "status": "lc",
+   "taxonomy": {
+    "class": "Mammalia",
+    "order": "Artiodactyla",
+    "family": "Bovidae",
+    "genus": "Antidorcas"
+   },
+   "body": {
+    "sizeM": 0.8,
+    "sizeF": 0.8,
+    "measure": "Shoulder",
+    "weightM": 35,
+    "weightF": 35
+   },
+   "fence": {
+    "climbProof": false,
+    "strength": 2,
+    "height": 1.25
+   },
+   "names": {
+    "en": "Springbok",
+    "fr": "Springbok",
+    "it": "Springbok",
+    "es": "Gacela saltarina de El Cabo",
+    "cs": "antilopa skákavá",
+    "da": "springbuk",
+    "nl": "springbok",
+    "ja": "スプリングボック",
+    "ko": "스프링복",
+    "pl": "skocznik antylopi",
+    "pt-BR": "Cabra-de-leque",
+    "ru": "Спрингбок",
+    "zh-CN": "跳羚",
+    "th": "สปริงบอก",
+    "zh-TW": "跳羚"
+   }
+  },
+  {
+   "name": "Steppenzebra",
+   "continents": [
+    "africa"
+   ],
+   "biomes": [
+    "savannah"
+   ],
+   "id": "steppenzebra",
+   "sci": "Equus quagga",
+   "dlc": "base",
+   "status": "nt",
+   "taxonomy": {
+    "class": "Mammalia",
+    "order": "Perissodactyla",
+    "family": "Equidae",
+    "genus": "Equus"
+   },
+   "body": {
+    "sizeM": 1.2,
+    "sizeF": 1.2,
+    "measure": "Shoulder"
+   },
+   "fence": {
+    "climbProof": false,
+    "strength": 2,
+    "height": 1.25
+   },
+   "names": {
+    "en": "Plains Zebra",
+    "fr": "Zèbre des plaines",
+    "it": "Zebra di pianura",
+    "es": "Cebra común",
+    "cs": "zebra stepní",
+    "da": "steppezebra",
+    "nl": "steppezebra",
+    "ja": "サバンナシマウマ",
+    "ko": "사바나얼룩말",
+    "pl": "zebra stepowa",
+    "pt-BR": "Zebra-da-planície",
+    "ru": "Саванная зебра",
+    "zh-CN": "平原斑马",
+    "th": "ม้าลายที่ราบ",
+    "zh-TW": "平原斑馬"
+   }
+  },
+  {
+   "name": "Streifengnu",
+   "continents": [
+    "africa"
+   ],
+   "biomes": [
+    "savannah"
+   ],
+   "id": "streifengnu",
+   "sci": "Connochaetes taurinus",
+   "dlc": "base",
+   "status": "lc",
+   "taxonomy": {
+    "class": "Mammalia",
+    "order": "Artiodactyla",
+    "family": "Bovidae",
+    "genus": "Connochaetes"
+   },
+   "body": {
+    "sizeM": 1.4,
+    "sizeF": 1.2,
+    "measure": "Shoulder",
+    "weightM": 227.5,
+    "weightF": 200
+   },
+   "fence": {
+    "climbProof": false,
+    "strength": 2,
+    "height": 1.25
+   },
+   "names": {
+    "en": "Blue Wildebeest",
+    "fr": "Gnou bleu",
+    "it": "Gnu comune",
+    "es": "Ñu común",
+    "cs": "pakůň žíhaný",
+    "da": "stribet gnu",
+    "nl": "blauwe gnoe",
+    "ja": "オグロヌー",
+    "ko": "푸른누",
+    "pl": "gnu pręgowane",
+    "pt-BR": "Gnu-de-cauda-preta",
+    "ru": "Голубой гну",
+    "zh-CN": "黑尾牛羚",
+    "th": "วิลเดอบีสต์สีน้ำเงิน",
+    "zh-TW": "黑尾牛羚"
+   }
+  },
+  {
+   "name": "Sumatra-Orang-Utan",
+   "continents": [
+    "asia"
+   ],
+   "biomes": [
+    "tropical"
+   ],
+   "id": "sumatra-orang-utan",
+   "sci": "Pongo abelii",
+   "dlc": "base",
+   "status": "cr",
+   "taxonomy": {
+    "class": "Mammalia",
+    "order": "Primates",
+    "family": "Hominidae",
+    "genus": "Pongo"
+   },
+   "body": {
+    "sizeM": 0.97,
+    "sizeF": 0.78,
+    "measure": "NoseToRump"
+   },
+   "fence": {
+    "climbProof": true,
+    "strength": 3,
+    "height": 3,
+    "moat": {
+     "width": 6,
+     "depth": 2
+    }
+   },
+   "names": {
+    "en": "Sumatran Orangutan",
+    "fr": "Orang-outan de Sumatra",
+    "it": "Orango di Sumatra",
+    "es": "Orangután de Sumatra",
+    "cs": "orangutan sumaterský",
+    "da": "sumatra-orangutang",
+    "nl": "Sumatraanse orang-oetan",
+    "ja": "スマトラオランウータン",
+    "ko": "수마트라오랑우탄",
+    "pl": "orangutan sumatrzański",
+    "pt-BR": "Orangotango de sumatra",
+    "ru": "Суматранский орангутан",
+    "zh-CN": "苏门答腊猩猩",
+    "th": "อุรังอุตังสุมาตรา",
+    "zh-TW": "蘇門答臘猩猩"
+   }
+  },
+  {
+   "name": "Sumatra-Tiger",
+   "continents": [
+    "asia"
+   ],
+   "biomes": [
+    "tropical",
+    "wetlands"
+   ],
+   "id": "sumatra-tiger",
+   "sci": "Panthera tigris sumatrae",
+   "dlc": "base",
+   "status": "en",
+   "taxonomy": {
+    "class": "Mammalia",
+    "order": "Carnivora",
+    "family": "Felidae",
+    "genus": "Panthera"
+   },
+   "body": {
+    "sizeM": 2.4,
+    "sizeF": 2.25,
+    "measure": "NoseToRump"
+   },
+   "fence": {
+    "climbProof": true,
+    "strength": 3,
+    "height": 3
+   },
+   "names": {
+    "en": "Sumatran Tiger",
+    "fr": "Tigre de Sumatra",
+    "it": "Tigre di Sumatra",
+    "es": "Tigre de Sumatra",
+    "cs": "tygr sumaterský",
+    "da": "sumatratiger",
+    "nl": "Sumatraanse tijger",
+    "ja": "スマトラトラ",
+    "ko": "수마트라호랑이",
+    "pl": "tygrys sumatrzański",
+    "pt-BR": "Tigre-de-sumatra",
+    "ru": "Суматранский тигр",
+    "zh-CN": "苏门答腊虎",
+    "th": "เสือโคร่งสุมาตรา",
+    "zh-TW": "蘇門答臘虎"
+   }
+  },
+  {
+   "name": "Sunda-Schuppentier",
+   "continents": [
+    "asia"
+   ],
+   "biomes": [
+    "tropical"
+   ],
+   "id": "sunda-schuppentier",
+   "sci": "Manis javanica",
+   "dlc": "base",
+   "status": "cr",
+   "taxonomy": {
+    "class": "Mammalia",
+    "order": "Pholidota",
+    "family": "Manidae",
+    "genus": "Manis"
+   },
+   "body": {
+    "sizeM": 0.48,
+    "sizeF": 0.48,
+    "measure": "NoseToRump"
+   },
+   "fence": {
+    "climbProof": true,
+    "strength": 2,
+    "height": 3
+   },
+   "names": {
+    "en": "Sunda Pangolin",
+    "fr": "Pangolin javanais",
+    "it": "Pangolino del Borneo",
+    "es": "Pangolín malayo",
+    "cs": "luskoun ostrovní",
+    "da": "javansk skældyr",
+    "nl": "Javaans schubdier",
+    "ja": "マレーセンザンコウ",
+    "ko": "순다천산갑",
+    "pl": "łuskowiec jawajski",
+    "pt-BR": "Pangolim-da-sonda",
+    "ru": "Яванский ящер",
+    "zh-CN": "马来亚穿山甲",
+    "th": "ลิ่นชวา",
+    "zh-TW": "馬來亞穿山甲"
+   }
+  },
+  {
+   "name": "Thomson-Gazelle",
+   "continents": [
+    "africa"
+   ],
+   "biomes": [
+    "savannah"
+   ],
+   "id": "thomson-gazelle",
+   "sci": "Eudorcas thomsonii",
+   "dlc": "base",
+   "status": "lc",
+   "taxonomy": {
+    "class": "Mammalia",
+    "order": "Artiodactyla",
+    "family": "Bovidae",
+    "genus": "Eudorcas"
+   },
+   "body": {
+    "sizeM": 0.75,
+    "sizeF": 0.75,
+    "measure": "Shoulder",
+    "weightM": 27,
+    "weightF": 27
+   },
+   "fence": {
+    "climbProof": false,
+    "strength": 2,
+    "height": 1.25
+   },
+   "names": {
+    "en": "Thomson's Gazelle",
+    "fr": "Gazelle de Thomson",
+    "it": "Gazzella di Thomson",
+    "es": "Gacela de Thomson",
+    "cs": "gazela Thomsonova",
+    "da": "Thomsons gazelle",
+    "nl": "Thomsongazelle",
+    "ja": "トムソンガゼル",
+    "ko": "톰슨가젤",
+    "pl": "gazela Thomsona",
+    "pt-BR": "Gazela-de-thomson",
+    "ru": "Газель Томсона",
+    "zh-CN": "汤氏瞪羚",
+    "th": "กาเซลล์ทอมสัน",
+    "zh-TW": "湯氏瞪羚"
+   }
+  },
+  {
+   "name": "Trampeltier",
+   "continents": [
+    "asia"
+   ],
+   "biomes": [
+    "desert",
+    "savannah",
+    "temperate"
+   ],
+   "id": "trampeltier",
+   "sci": "Camelus bactrianus",
+   "dlc": "base",
+   "status": "dom",
+   "taxonomy": {
+    "class": "Mammalia",
+    "order": "Artiodactyla",
+    "family": "Camelidae",
+    "genus": "Camelus"
+   },
+   "body": {
+    "sizeM": 2,
+    "sizeF": 1.7,
+    "measure": "Shoulder",
+    "weightM": 725,
+    "weightF": 725
+   },
+   "fence": {
+    "climbProof": false,
+    "strength": 2,
+    "height": 1.25
+   },
+   "names": {
+    "en": "Bactrian Camel",
+    "fr": "Chameau de Bactriane",
+    "it": "Cammello",
+    "es": "Camello bactriano",
+    "cs": "velbloud dvouhrbý",
+    "da": "baktrisk kamel",
+    "nl": "kameel",
+    "ja": "フタコブラクダ",
+    "ko": "쌍봉낙타",
+    "pl": "wielbłąd dwugarbny",
+    "pt-BR": "Camelo",
+    "ru": "Двугорбый верблюд",
+    "zh-CN": "双峰驼",
+    "th": "อูฐสองหนอก",
+    "zh-TW": "雙峰駝"
+   }
+  },
+  {
+   "name": "Tüpfelhyäne",
+   "continents": [
+    "africa"
+   ],
+   "biomes": [
+    "desert",
+    "savannah"
+   ],
+   "id": "tuepfelhyaene",
+   "sci": "Crocuta crocuta",
+   "dlc": "base",
+   "status": "lc",
+   "taxonomy": {
+    "class": "Mammalia",
+    "order": "Carnivora",
+    "family": "Hyaenidae",
+    "genus": "Crocuta"
+   },
+   "body": {
+    "sizeM": 0.81,
+    "sizeF": 0.86,
+    "measure": "Shoulder"
+   },
+   "fence": {
+    "climbProof": false,
+    "strength": 3,
+    "height": 3
+   },
+   "names": {
+    "en": "Spotted Hyena",
+    "fr": "Hyène tachetée",
+    "it": "Iena macchiata",
+    "es": "Hiena moteada",
+    "cs": "hyena skvrnitá",
+    "da": "plettet hyæne",
+    "nl": "gevlekte hyena",
+    "ja": "ブチハイエナ",
+    "ko": "점박이하이에나",
+    "pl": "hiena cętkowana",
+    "pt-BR": "Hiena-malhada",
+    "ru": "Пятнистая гиена",
+    "zh-CN": "斑鬣狗",
+    "th": "ไฮยีนาลายจุด",
+    "zh-TW": "斑鬣狗"
+   }
+  },
+  {
+   "name": "Warzenschwein",
+   "continents": [
+    "africa"
+   ],
+   "biomes": [
+    "savannah"
+   ],
+   "id": "warzenschwein",
+   "sci": "Phacochoerus africanus",
+   "dlc": "base",
+   "status": "lc",
+   "taxonomy": {
+    "class": "Mammalia",
+    "order": "Artiodactyla",
+    "family": "Suidae",
+    "genus": "Phacochoerus"
+   },
+   "body": {
+    "sizeM": 0.8,
+    "sizeF": 0.7,
+    "measure": "Shoulder",
+    "weightM": 105,
+    "weightF": 60
+   },
+   "fence": {
+    "climbProof": false,
+    "strength": 2,
+    "height": 1.25
+   },
+   "names": {
+    "en": "Common Warthog",
+    "fr": "Phacochère commun",
+    "it": "Facocero",
+    "es": "Facóquero común",
+    "cs": "prase bradavičnaté",
+    "da": "vortesvin",
+    "nl": "knobbelzwijn",
+    "ja": "イボイノシシ",
+    "ko": "혹멧돼지",
+    "pl": "guziec",
+    "pt-BR": "Javali-africano",
+    "ru": "Бородавочник",
+    "zh-CN": "疣猪",
+    "th": "หมูหูด",
+    "zh-TW": "疣豬"
+   }
+  },
+  {
+   "name": "Weißschwanzgnu",
+   "continents": [
+    "africa"
+   ],
+   "biomes": [
+    "savannah"
+   ],
+   "id": "weissschwanzgnu",
+   "sci": "Connochaetes gnou",
+   "dlc": "base",
+   "status": "lc",
+   "taxonomy": {
+    "class": "Mammalia",
+    "order": "Artiodactyla",
+    "family": "Bovidae",
+    "genus": "Connochaetes"
+   },
+   "body": {
+    "sizeM": 1.1,
+    "sizeF": 1.05,
+    "measure": "Shoulder",
+    "weightM": 170,
+    "weightF": 140
+   },
+   "fence": {
+    "climbProof": false,
+    "strength": 2,
+    "height": 1.25
+   },
+   "names": {
+    "en": "Black Wildebeest",
+    "fr": "Gnou noir",
+    "it": "Gnu dalla coda bianca",
+    "es": "Ñu negro",
+    "cs": "pakůň běloocasý",
+    "da": "hvidhalet gnu",
+    "nl": "witstaartgnoe",
+    "ja": "オジロヌー",
+    "ko": "흰꼬리누",
+    "pl": "gnu białoogonowe",
+    "pt-BR": "Gnu-de-cauda-branca",
+    "ru": "Белохвостый гну",
+    "zh-CN": "白尾角马",
+    "th": "วิลเดอบีสต์ดำ",
+    "zh-TW": "白尾角馬"
+   }
+  },
+  {
+   "name": "Westlicher Flachlandgorilla",
+   "continents": [
+    "africa"
+   ],
+   "biomes": [
+    "tropical",
+    "wetlands"
+   ],
+   "id": "westlicher-flachlandgorilla",
+   "sci": "Gorilla gorilla gorilla",
+   "dlc": "base",
+   "status": "cr",
+   "taxonomy": {
+    "class": "Mammalia",
+    "order": "Primates",
+    "family": "Hominidae",
+    "genus": "Gorilla"
+   },
+   "body": {
+    "sizeM": 1.67,
+    "sizeF": 1.5,
+    "measure": "Standing"
+   },
+   "fence": {
+    "climbProof": true,
+    "strength": 3,
+    "height": 3,
+    "moat": {
+     "width": 6,
+     "depth": 2
+    }
+   },
+   "names": {
+    "en": "Western Lowland Gorilla",
+    "fr": "Gorille des plaines de l’Ouest",
+    "it": "Gorilla di pianura occidentale",
+    "es": "Gorila occidental de llanura",
+    "cs": "gorila nížinná",
+    "da": "vestlig lavlandsgorilla",
+    "nl": "westelijke laaglandgorilla",
+    "ja": "ニシローランドゴリラ",
+    "ko": "서부로랜드고릴라",
+    "pl": "goryl nizinny",
+    "pt-BR": "Gorila-ocidental-das-terras-baixas",
+    "ru": "Западная равнинная горилла",
+    "zh-CN": "西部低地大猩猩",
+    "th": "กอริลลาที่ราบต่ำตะวันตก",
+    "zh-TW": "西部低地大猩猩"
+   }
+  },
+  {
+   "name": "Westlicher Schimpanse",
+   "continents": [
+    "africa"
+   ],
+   "biomes": [
+    "tropical"
+   ],
+   "id": "westlicher-schimpanse",
+   "sci": "Pan troglodytes verus",
+   "dlc": "base",
+   "status": "cr",
+   "taxonomy": {
+    "class": "Mammalia",
+    "order": "Primates",
+    "family": "Hominidae",
+    "genus": "Pan"
+   },
+   "body": {
+    "sizeM": 1.45,
+    "sizeF": 1.1,
+    "measure": "Standing",
+    "weightM": 50,
+    "weightF": 40
+   },
+   "fence": {
+    "climbProof": true,
+    "strength": 3,
+    "height": 3,
+    "moat": {
+     "width": 6,
+     "depth": 2
+    }
+   },
+   "names": {
+    "en": "Western Chimpanzee",
+    "fr": "Chimpanzé verus",
+    "it": "Scimpanzé occidentale",
+    "es": "Chimpancé occidental",
+    "cs": "šimpanz západoafrický",
+    "da": "vestafrikansk chimpanse",
+    "nl": "West-Afrikaanse chimpansee",
+    "ja": "ニシチンパンジー",
+    "ko": "서부침팬지",
+    "pl": "szympans zachodni",
+    "pt-BR": "Chimpanzé-ocidental",
+    "ru": "Западный шимпанзе",
+    "zh-CN": "西非黑猩猩",
+    "th": "ชิมแปนซีตะวันตก",
+    "zh-TW": "西非黑猩猩"
+   }
+  },
+  {
+   "name": "Wildschwein",
+   "continents": [
+    "africa",
+    "asia",
+    "europe"
+   ],
+   "biomes": [
+    "savannah",
+    "temperate",
+    "tropical",
+    "wetlands"
+   ],
+   "id": "wildschwein",
+   "sci": "Sus scrofa",
+   "dlc": "base",
+   "status": "lc",
+   "taxonomy": {
+    "class": "Mammalia",
+    "order": "Artiodactyla",
+    "family": "Suidae",
+    "genus": "Sus"
+   },
+   "body": {
+    "sizeM": 0.9,
+    "sizeF": 0.8,
+    "measure": "Shoulder"
+   },
+   "fence": {
+    "climbProof": false,
+    "strength": 2,
+    "height": 1.25
+   },
+   "names": {
+    "en": "Wild Boar",
+    "fr": "Sanglier",
+    "it": "Cinghiale",
+    "es": "Jabalí",
+    "cs": "prase divoké",
+    "da": "vildsvin",
+    "nl": "wild zwijn",
+    "ja": "イノシシ",
+    "ko": "멧돼지",
+    "pl": "dzik",
+    "pt-BR": "Javali",
+    "ru": "Кабан",
+    "zh-CN": "野猪",
+    "th": "หมูป่า",
+    "zh-TW": "野豬"
+   }
+  },
+  {
+   "name": "Wolf",
+   "continents": [
+    "asia",
+    "europe",
+    "northAmerica"
+   ],
+   "biomes": [
+    "desert",
+    "savannah",
+    "temperate",
+    "taiga",
+    "tundra",
+    "tropical"
+   ],
+   "id": "wolf",
+   "sci": "Canis lupus",
+   "dlc": "base",
+   "status": "lc",
+   "taxonomy": {
+    "class": "Mammalia",
+    "order": "Carnivora",
+    "family": "Canidae",
+    "genus": "Canis"
+   },
+   "body": {
+    "sizeM": 0.8,
+    "sizeF": 0.8,
+    "measure": "Shoulder",
+    "weightM": 44,
+    "weightF": 37
+   },
+   "fence": {
+    "climbProof": false,
+    "strength": 3,
+    "height": 3
+   },
+   "names": {
+    "en": "Grey Wolf",
+    "fr": "Loup gris",
+    "it": "Lupo grigio",
+    "es": "Lobo gris",
+    "cs": "vlk obecný",
+    "da": "ulv",
+    "nl": "wolf",
+    "ja": "シンリンオオカミ",
+    "ko": "회색늑대",
+    "pl": "wilk szary",
+    "pt-BR": "Lobo-ocidental",
+    "ru": "Волк",
+    "zh-CN": "狼",
+    "th": "หมาป่าสีเทา",
+    "zh-TW": "狼"
+   }
+  }
+ ]
+}

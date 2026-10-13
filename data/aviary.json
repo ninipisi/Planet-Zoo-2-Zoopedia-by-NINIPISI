@@ -1,0 +1,587 @@
+{
+ "category": "aviary",
+ "pending": true,
+ "animals": [
+  {
+   "name": "Doppelhornvogel",
+   "continents": [
+    "asia"
+   ],
+   "biomes": [
+    "tropical"
+   ],
+   "id": "doppelhornvogel",
+   "sci": "Buceros bicornis",
+   "dlc": "base",
+   "status": "vu",
+   "taxonomy": {
+    "class": "Aves",
+    "order": "Bucerotiformes",
+    "family": "Bucerotidae",
+    "genus": "Buceros"
+   },
+   "body": {
+    "sizeM": 1,
+    "sizeF": 1,
+    "measure": "LegSpan"
+   },
+   "fence": {
+    "climbProof": false,
+    "strength": 2,
+    "height": 1
+   },
+   "names": {
+    "en": "Great Hornbill",
+    "fr": "Calao bicorne",
+    "it": "Bucero maggiore",
+    "es": "Cálao bicorne",
+    "cs": "zoborožec indický",
+    "da": "stor næsehornsfugl",
+    "nl": "dubbelhoornige neushoornvogel",
+    "ja": "オオサイチョウ",
+    "ko": "큰코뿔새",
+    "pl": "dzioborożec wielki",
+    "pt-BR": "Calau-malhado-grande",
+    "ru": "Двурогий калао",
+    "zh-CN": "双角犀鸟",
+    "th": "นกกก",
+    "zh-TW": "雙角犀鳥"
+   }
+  },
+  {
+   "name": "Javanische Buschelster",
+   "continents": [
+    "asia"
+   ],
+   "biomes": [
+    "tropical"
+   ],
+   "id": "javanische-buschelster",
+   "sci": "Cissa thalassina",
+   "dlc": "base",
+   "status": "cr",
+   "taxonomy": {
+    "class": "Aves",
+    "order": "Passeriformes",
+    "family": "Corvidae",
+    "genus": "Cissa"
+   },
+   "body": {
+    "sizeM": 0.27,
+    "sizeF": 0.27,
+    "measure": "Length"
+   },
+   "fence": {
+    "climbProof": false,
+    "strength": 1,
+    "height": 1
+   },
+   "names": {
+    "en": "Javan Green Magpie",
+    "fr": "Pirolle à queue courte",
+    "it": "Gazza verde di Giava",
+    "es": "Urraca colicorta",
+    "cs": "straka jávská",
+    "da": "javansk grøn skade",
+    "nl": "Javaanse groene ekster",
+    "ja": "タンビヘキサン",
+    "ko": "자바초록까치",
+    "pl": "kitta krótkoogonowa",
+    "pt-BR": "Pega-verde-de-java",
+    "ru": "Яванская зелёная сорока",
+    "zh-CN": "短尾绿鹊",
+    "th": "นกสาลิกาเขียวชวา",
+    "zh-TW": "短尾綠鵲"
+   }
+  },
+  {
+   "name": "Langschwanzedelsittich",
+   "continents": [
+    "asia"
+   ],
+   "biomes": [
+    "tropical"
+   ],
+   "id": "langschwanzedelsittich",
+   "sci": "Belocercus longicaudus",
+   "dlc": "base",
+   "status": "vu",
+   "taxonomy": {
+    "class": "Aves",
+    "order": "Psittaciformes",
+    "family": "Psittaculidae",
+    "genus": "Belocercus"
+   },
+   "body": {
+    "sizeM": 0.35,
+    "sizeF": 0.35,
+    "measure": "LegSpan"
+   },
+   "fence": {
+    "climbProof": false,
+    "strength": 2,
+    "height": 1
+   },
+   "names": {
+    "en": "Long-Tailed Parakeet",
+    "fr": "Perruche à longs brins",
+    "it": "Parrocchetto codalunga",
+    "es": "Cotorra colilarga",
+    "cs": "alexandr dlouhoocasý",
+    "da": "langhalet parakit",
+    "nl": "langstaartparkiet",
+    "ja": "オナガダルマインコ",
+    "ko": "긴꼬리앵무",
+    "pl": "aleksandretta długosterna",
+    "pt-BR": "Periquito-de-cauda-longa",
+    "ru": "Длиннохвостый кольчатый попугай",
+    "zh-CN": "长尾鹦鹉",
+    "th": "นกแขกเต้าหางยาว",
+    "zh-TW": "長尾鸚鵡"
+   }
+  },
+  {
+   "name": "Riesentukan",
+   "continents": [
+    "southAmerica"
+   ],
+   "biomes": [
+    "savannah",
+    "tropical",
+    "wetlands"
+   ],
+   "id": "riesentukan",
+   "sci": "Ramphastos toco",
+   "dlc": "base",
+   "status": "lc",
+   "taxonomy": {
+    "class": "Aves",
+    "order": "Piciformes",
+    "family": "Ramphastidae",
+    "genus": "Ramphastos"
+   },
+   "body": {
+    "sizeM": 0.56,
+    "sizeF": 0.56,
+    "measure": "Length"
+   },
+   "fence": {
+    "climbProof": false,
+    "strength": 2,
+    "height": 1
+   },
+   "names": {
+    "en": "Toco Toucan",
+    "fr": "Toucan toco",
+    "it": "Tucano toco",
+    "es": "Tucán toco",
+    "cs": "tukan obrovský",
+    "da": "kæmpetukan",
+    "nl": "reuzentoekan",
+    "ja": "オニオオハシ",
+    "ko": "토코투칸",
+    "pl": "tukan wielki",
+    "pt-BR": "Tucanuçu",
+    "ru": "Большой тукан",
+    "zh-CN": "巨嘴鸟",
+    "th": "นกทูแคนโทโค",
+    "zh-TW": "巨嘴鳥"
+   }
+  },
+  {
+   "name": "Rohrdommel",
+   "continents": [
+    "africa",
+    "asia",
+    "europe"
+   ],
+   "biomes": [
+    "temperate",
+    "wetlands"
+   ],
+   "id": "rohrdommel",
+   "sci": "Botaurus stellaris",
+   "dlc": "base",
+   "status": "lc",
+   "taxonomy": {
+    "class": "Aves",
+    "order": "Pelecaniformes",
+    "family": "Ardeidae",
+    "genus": "Botaurus"
+   },
+   "body": {
+    "sizeM": 1.3,
+    "sizeF": 1.2,
+    "measure": "LegSpan"
+   },
+   "fence": {
+    "climbProof": false,
+    "strength": 2,
+    "height": 1
+   },
+   "names": {
+    "en": "Eurasian Bittern",
+    "fr": "Butor étoilé",
+    "it": "Tarabuso",
+    "es": "Avetoro común",
+    "cs": "bukač velký",
+    "da": "rørdrum",
+    "nl": "roerdomp",
+    "ja": "サンカノゴイ",
+    "ko": "알락해오라기",
+    "pl": "bąk",
+    "pt-BR": "Abetouro-eurasiático",
+    "ru": "Большая выпь",
+    "zh-CN": "大麻鳽",
+    "th": "นกยางลายเสือยูเรเชีย",
+    "zh-TW": "大麻鳽"
+   }
+  },
+  {
+   "name": "Rosaflamingo",
+   "continents": [
+    "africa",
+    "asia",
+    "europe"
+   ],
+   "biomes": [
+    "temperate",
+    "wetlands",
+    "estuarine"
+   ],
+   "id": "rosaflamingo",
+   "sci": "Phoenicopterus roseus",
+   "dlc": "base",
+   "status": "lc",
+   "taxonomy": {
+    "class": "Aves",
+    "order": "Phoenicopteriformes",
+    "family": "Phoenicopteridae",
+    "genus": "Phoenicopterus"
+   },
+   "body": {
+    "sizeM": 1.6,
+    "sizeF": 1.35,
+    "measure": "Height",
+    "weightM": 3,
+    "weightF": 3
+   },
+   "fence": {
+    "climbProof": false,
+    "strength": 1,
+    "height": 1
+   },
+   "names": {
+    "en": "Greater Flamingo",
+    "fr": "Flamant rose",
+    "it": "Fenicottero rosa",
+    "es": "Flamenco común",
+    "cs": "plameňák růžový",
+    "da": "flamingo",
+    "nl": "Europese flamingo",
+    "ja": "オオフラミンゴ",
+    "ko": "큰홍학",
+    "pl": "flaming różowy",
+    "pt-BR": "Flamingo-comum",
+    "ru": "Обыкновенный фламинго",
+    "zh-CN": "大红鹳",
+    "th": "นกฟลามิงโกใหญ่",
+    "zh-TW": "大紅鸛"
+   }
+  },
+  {
+   "name": "Schuhschnabel",
+   "continents": [
+    "africa"
+   ],
+   "biomes": [
+    "wetlands"
+   ],
+   "id": "schuhschnabel",
+   "sci": "Balaeniceps rex",
+   "dlc": "base",
+   "status": "vu",
+   "taxonomy": {
+    "class": "Aves",
+    "order": "Pelecaniformes",
+    "family": "Balaenicipitidae",
+    "genus": "Balaeniceps"
+   },
+   "body": {
+    "sizeM": 2.5,
+    "sizeF": 2.4,
+    "measure": "LegSpan"
+   },
+   "fence": {
+    "climbProof": false,
+    "strength": 2,
+    "height": 1
+   },
+   "names": {
+    "en": "Shoebill",
+    "fr": "Bec-en-sabot du Nil",
+    "it": "Becco a scarpa",
+    "es": "Picozapato",
+    "cs": "člunozobec africký",
+    "da": "skonæb",
+    "nl": "schoenbekooievaar",
+    "ja": "ハシビロコウ",
+    "ko": "넓적부리황새",
+    "pl": "trzewikodziób",
+    "pt-BR": "Bico-de-tamanco",
+    "ru": "Китоглав",
+    "zh-CN": "鲸头鹳",
+    "th": "นกกระสาปากพลั่ว",
+    "zh-TW": "鯨頭鸛"
+   }
+  },
+  {
+   "name": "Seeadler",
+   "continents": [
+    "asia",
+    "europe"
+   ],
+   "biomes": [
+    "temperate",
+    "taiga",
+    "tundra",
+    "wetlands"
+   ],
+   "id": "seeadler",
+   "sci": "Haliaeetus albicilla",
+   "dlc": "base",
+   "status": "lc",
+   "taxonomy": {
+    "class": "Aves",
+    "order": "Accipitriformes",
+    "family": "Accipitridae",
+    "genus": "Haliaeetus"
+   },
+   "body": {
+    "sizeM": 2.02,
+    "sizeF": 2.4,
+    "measure": "LegSpan"
+   },
+   "fence": {
+    "climbProof": false,
+    "strength": 2,
+    "height": 1
+   },
+   "names": {
+    "en": "White-Tailed Sea-Eagle",
+    "fr": "Pygargue à queue blanche",
+    "it": "Aquila di mare",
+    "es": "Pigargo europeo",
+    "cs": "orel mořský",
+    "da": "havørn",
+    "nl": "zeearend",
+    "ja": "オジロワシ",
+    "ko": "흰꼬리수리",
+    "pl": "bielik",
+    "pt-BR": "Águia-rabalva",
+    "ru": "Орлан-белохвост",
+    "zh-CN": "白尾海雕",
+    "th": "นกอินทรีทะเลหางขาว",
+    "zh-TW": "白尾海鵰"
+   }
+  },
+  {
+   "name": "Sekretär",
+   "continents": [
+    "africa"
+   ],
+   "biomes": [
+    "savannah"
+   ],
+   "id": "sekretaer",
+   "sci": "Sagittarius serpentarius",
+   "dlc": "base",
+   "status": "en",
+   "taxonomy": {
+    "class": "Aves",
+    "order": "Accipitriformes",
+    "family": "Sagittariidae",
+    "genus": "Sagittarius"
+   },
+   "body": {
+    "sizeM": 2.2,
+    "sizeF": 2.2,
+    "measure": "LegSpan"
+   },
+   "fence": {
+    "climbProof": false,
+    "strength": 2,
+    "height": 1
+   },
+   "names": {
+    "en": "Secretarybird",
+    "fr": "Messager sagittaire",
+    "it": "Serpentario",
+    "es": "Secretario",
+    "cs": "hadilov písař",
+    "da": "sekretærfugl",
+    "nl": "secretarisvogel",
+    "ja": "ヘビクイワシ",
+    "ko": "뱀잡이수리",
+    "pl": "sekretarz",
+    "pt-BR": "Secretário",
+    "ru": "Птица-секретарь",
+    "zh-CN": "蛇鹫",
+    "th": "นกเลขานุการ",
+    "zh-TW": "蛇鷲"
+   }
+  },
+  {
+   "name": "Steinadler",
+   "continents": [
+    "africa",
+    "asia",
+    "europe",
+    "northAmerica"
+   ],
+   "biomes": [
+    "desert",
+    "savannah",
+    "temperate",
+    "taiga",
+    "tundra"
+   ],
+   "id": "steinadler",
+   "sci": "Aquila chrysaetos",
+   "dlc": "deluxe",
+   "status": "lc",
+   "taxonomy": {
+    "class": "Aves",
+    "order": "Accipitriformes",
+    "family": "Accipitridae",
+    "genus": "Aquila"
+   },
+   "body": {
+    "sizeM": 1.97,
+    "sizeF": 2.14,
+    "measure": "LegSpan"
+   },
+   "fence": {
+    "climbProof": false,
+    "strength": 2,
+    "height": 1
+   },
+   "names": {
+    "en": "Golden Eagle",
+    "fr": "Aigle royal",
+    "it": "Aquila reale",
+    "es": "Águila real",
+    "cs": "orel skalní",
+    "da": "kongeørn",
+    "nl": "steenarend",
+    "ja": "イヌワシ",
+    "ko": "검독수리",
+    "pl": "orzeł przedni",
+    "pt-BR": "Águia-real",
+    "ru": "Беркут",
+    "zh-CN": "金雕",
+    "th": "นกอินทรีทอง",
+    "zh-TW": "金鵰"
+   }
+  },
+  {
+   "name": "Waldohreule",
+   "continents": [
+    "africa",
+    "asia",
+    "europe",
+    "northAmerica"
+   ],
+   "biomes": [
+    "savannah",
+    "temperate",
+    "taiga",
+    "wetlands"
+   ],
+   "id": "waldohreule",
+   "sci": "Asio otus",
+   "dlc": "base",
+   "status": "lc",
+   "taxonomy": {
+    "class": "Aves",
+    "order": "Strigiformes",
+    "family": "Strigidae",
+    "genus": "Asio"
+   },
+   "body": {
+    "sizeM": 0.89,
+    "sizeF": 0.95,
+    "measure": "LegSpan"
+   },
+   "fence": {
+    "climbProof": false,
+    "strength": 2,
+    "height": 1
+   },
+   "names": {
+    "en": "Long-Eared Owl",
+    "fr": "Hibou moyen-duc",
+    "it": "Gufo comune",
+    "es": "Búho chico",
+    "cs": "kalous ušatý",
+    "da": "skovhornugle",
+    "nl": "ransuil",
+    "ja": "トラフズク",
+    "ko": "칡부엉이",
+    "pl": "uszatka",
+    "pt-BR": "Coruja-orelhuda",
+    "ru": "Ушастая сова",
+    "zh-CN": "长耳鸮",
+    "th": "นกเค้าหูยาว",
+    "zh-TW": "長耳鴞"
+   }
+  },
+  {
+   "name": "Weißrückengeier",
+   "continents": [
+    "africa"
+   ],
+   "biomes": [
+    "desert",
+    "savannah"
+   ],
+   "id": "weissrueckengeier",
+   "sci": "Gyps africanus",
+   "dlc": "base",
+   "status": "cr",
+   "taxonomy": {
+    "class": "Aves",
+    "order": "Accipitriformes",
+    "family": "Accipitridae",
+    "genus": "Gyps"
+   },
+   "body": {
+    "sizeM": 2.02,
+    "sizeF": 2.4,
+    "measure": "LegSpan"
+   },
+   "fence": {
+    "climbProof": false,
+    "strength": 2,
+    "height": 1
+   },
+   "names": {
+    "en": "White-Backed Vulture",
+    "fr": "Vautour africain",
+    "it": "Grifone africano",
+    "es": "Buitre dorsiblanco africano",
+    "cs": "sup africký",
+    "da": "hvidrygget grib",
+    "nl": "witruggier",
+    "ja": "コシジロハゲワシ",
+    "ko": "아프리카흰등독수리",
+    "pl": "sęp plamisty",
+    "pt-BR": "Grifo-africano",
+    "ru": "Африканский белоспинный сип",
+    "zh-CN": "非洲白背兀鹫",
+    "th": "อีแร้งหลังขาวแอฟริกา",
+    "zh-TW": "非洲白背兀鷲"
+   }
+  }
+ ]
+}

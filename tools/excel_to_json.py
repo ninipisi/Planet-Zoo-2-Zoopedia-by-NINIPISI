@@ -300,6 +300,16 @@ def read_names(wb):
     return out
 
 
+def read_version(wb):
+    """Blatt „Info“: Zeile „Version“ -> wird oben links auf der Seite angezeigt."""
+    if "Info" not in wb.sheetnames:
+        return None
+    for row in wb["Info"].iter_rows(min_row=1, max_col=2, values_only=True):
+        if row and str(clean(row[0]) or "").lower() == "version" and clean(row[1]) is not None:
+            return str(clean(row[1]))
+    return None
+
+
 # ---------- Tiere ----------
 AREA_HEAD = dict(Z.AREAS)
 
@@ -474,6 +484,9 @@ def main():
         "_comment": "Wird aus der Excel (Spalten „Zusammenleben“) erzeugt. benefit: a profitiert von b; neutral: verträglich ohne Bonus. Nicht aufgeführte Paare können nicht zusammenleben.",
         "pairs": pairs})
     meta["dlcs"] = dlcs
+    version = read_version(wb)
+    if version:
+        meta["version"] = version
     Z.save_json("data/meta.json", meta)
     print("Daten geschrieben: data/tiere.json, data/compat.json, data/meta.json")
 

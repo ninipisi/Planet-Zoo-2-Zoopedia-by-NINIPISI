@@ -142,7 +142,7 @@
 
   function emptyFilter() {
     return { search: "", status: [], continents: [], biomes: [], roles: [], tempFrom: null, tempTo: null, tempExact: false,
-             sizeMax: null, climbProof: "any", walk: "any", gift: false, owned: "any" };
+             sizeMax: null, sizeOp: "le", climbProof: "any", walk: "any", gift: false, owned: "any" };
   }
 
   function isFilterActive(f) {
@@ -170,7 +170,11 @@
     if (!tempMatch(a.tempMin, a.tempMax, f.tempFrom, f.tempTo, f.tempExact)) return false;
     if (isNum(f.sizeMax) && opts.sizeKey) {
       const s = get(a, "area1." + opts.sizeKey);
-      if (!isNum(s) || s > f.sizeMax) return false;
+      if (!isNum(s) || s === 0) return false;
+      const op = f.sizeOp || "le";
+      if (op === "le" && s > f.sizeMax) return false;
+      if (op === "ge" && s < f.sizeMax) return false;
+      if (op === "eq" && s !== f.sizeMax) return false;
     }
     if (f.climbProof === "yes" && get(a, "fence.climbProof") !== true) return false;
     if (f.climbProof === "no" && get(a, "fence.climbProof") !== false) return false;

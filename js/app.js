@@ -14,6 +14,9 @@
   ];
   const FALLBACK = { "es-419": "es" };
   const PLANNER = "planner";
+  const HOME = "home";
+  const COLS_V = 2; // erhöhen, wenn sich die Standard-Spalten ändern
+  const SIZE_OPS = { le: "≤", ge: "≥", eq: "=" };
   const LITERAL_UNITS = ["m²", "m", "%", "kg"];
   const GROUP_HINTS = { "grp.req": "grp.req.hint", "grp.inc": "grp.inc.hint", "grp.atMin": "grp.atMin.hint", "grp.atMax": "grp.atMax.hint" };
 
@@ -29,6 +32,8 @@
     '<path d="M13.5 21.2c-2.6-1.7-4.1-3.1-4.1-4.8 0-1.2.9-2 2-2 .9 0 1.6.5 2.1 1.2.5-.7 1.2-1.2 2.1-1.2 1.1 0 2 .8 2 2 0 1.7-1.5 3.1-4.1 4.8z" fill="var(--kofi-heart, #ff6b6b)"/>' +
     '<path d="M10 3.5c-1 1.3 1 2.2 0 3.6M14.5 3.5c-1 1.3 1 2.2 0 3.6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" opacity=".55"/></svg>';
   const STEAM_SVG = '<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 2h12l1 5H5z"/><path d="M5 7h14v13a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2z"/><path d="M9 11a3 3 0 0 0 6 0"/></svg>';
+  const PKG_SVG = '<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 8l-9-5-9 5 9 5 9-5z"/><path d="M3 8v8l9 5 9-5V8"/><path d="M12 13v8"/></svg>';
+  const GEAR_SVG = '<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3h.1a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8v.1a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg>';
   const COLS_SVG = '<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M9 4v16M15 4v16"/></svg>';
 
   const S = { meta: null, i18n: {}, all: [], byId: {}, byCat: {}, compat: { pairs: [] }, state: null };
@@ -106,8 +111,8 @@
         for (const l of LANGS) if (l[0].split("-")[0] === n.split("-")[0].toLowerCase()) { lang = l[0]; break outer; }
       }
     } catch (e) { /* egal */ }
-    return { v: 1, lang, tab: S.meta.categories[0].id, dlcs: dl, calcMode: "sum", theme: "system", tempUnit: "c", cats: {}, planner: [],
-      zooMode: false, zoos: [{ id: "z1", name: "", owned: [] }], zoo: "z1" };
+    return { v: 1, lang, tab: HOME, dlcs: dl, calcMode: "sum", theme: "system", tempUnit: "c", cats: {}, planner: [],
+      zooMode: false, zoos: [{ id: "z1", name: "", owned: [] }], zoo: "z1", colsV: COLS_V };
   }
   function loadState() {
     const def = defaultState();
@@ -120,6 +125,8 @@
     if (["system", "light", "dark"].indexOf(st.theme) < 0) st.theme = "system";
     if (st.tempUnit !== "f") st.tempUnit = "c";
     if (!Array.isArray(st.planner)) st.planner = [];
+    /* Neue Standard-Spalten: eigene Spaltenauswahl aus älteren Versionen einmalig zurücksetzen */
+    if (st.colsV !== COLS_V) { Object.keys(st.cats || {}).forEach(k => { if (st.cats[k]) st.cats[k].cols = {}; }); st.colsV = COLS_V; }
     if (!Array.isArray(st.zoos) || !st.zoos.length) st.zoos = def.zoos;
     st.zoos.forEach(z => { if (!Array.isArray(z.owned)) z.owned = []; });
     if (!st.zoos.some(z => z.id === st.zoo)) st.zoo = st.zoos[0].id;
@@ -221,16 +228,17 @@
       return;
     }
     S.state = loadState();
+    save();
     const fromHash = location.hash.replace("#", "");
-    if (fromHash && (fromHash === PLANNER || catById(fromHash))) S.state.tab = fromHash;
-    if (S.state.tab !== PLANNER && !catById(S.state.tab)) S.state.tab = S.meta.categories[0].id;
+    /* Beim Öffnen immer die Startseite – außer der Link zeigt direkt auf einen Tab (z. B. …/#aquarium) */
+    S.state.tab = fromHash && (fromHash === PLANNER || fromHash === HOME || catById(fromHash)) ? fromHash : HOME;
 
     applyTheme();
     bindStatic();
     renderAll();
     window.addEventListener("hashchange", () => {
       const id = location.hash.replace("#", "");
-      if ((id === PLANNER || catById(id)) && id !== S.state.tab) { S.state.tab = id; save(); renderTabs(); renderView(); }
+      if ((id === PLANNER || id === HOME || catById(id)) && id !== S.state.tab) { S.state.tab = id; save(); renderTabs(); renderView(); }
     });
     if (window.matchMedia) {
       const mq = matchMedia("(prefers-color-scheme: dark)");
@@ -256,6 +264,8 @@
     $("langSel").value = S.state.lang;
     $("langSel").setAttribute("aria-label", t("nav.language"));
     $("langSel").title = t("nav.language");
+    const ver = $("brandVer");
+    if (ver && S.meta.version) { ver.textContent = "v" + S.meta.version; ver.title = "Version " + S.meta.version; ver.hidden = false; }
     const tag = $("brandTag"); tag.innerHTML = ""; tAuthor("app.tagline").forEach(n => tag.append(n));
     $("btnSettingsLabel").textContent = t("nav.settings");
     $("btnSettings").setAttribute("aria-label", t("nav.settings"));
@@ -287,6 +297,7 @@
     const nav = $("tabs");
     nav.innerHTML = "";
     const dl = enabledDlcs();
+    nav.appendChild(tabButton(HOME, t("tab.home"), null, "home-tab"));
     S.meta.categories.forEach(c => {
       const count = animalsOf(c.id).filter(a => dl.indexOf(a.dlc) >= 0).length;
       nav.appendChild(tabButton(c.id, t(c.tab), count, count ? "" : "empty-tab"));
@@ -312,6 +323,7 @@
     const v = $("view");
     v.innerHTML = "";
     if (S.state.tab === PLANNER) renderPlanner(v);
+    else if (S.state.tab === HOME) renderHome(v);
     else renderCategory(v, catById(S.state.tab));
   }
 
@@ -324,7 +336,7 @@
     }
     if (!enabledDlcs().length) v.appendChild(h("div", { class: "warn-box", style: "margin-bottom:12px" }, [t("dlc.noneWarn") + " ", h("button", { type: "button", class: "btn", style: "height:32px;margin-left:6px", text: t("dlc.button"), onclick: openDlcDialog })]));
     v.appendChild(renderToolbar(cat, cs));
-    v.appendChild(h("div", { class: "table-meta" }, [h("span", { id: "countText" }), h("span", { style: "font-weight:600", text: t("table.hint") })]));
+    v.appendChild(h("div", { class: "table-meta" }, [h("span", { id: "countText" }), h("span", { class: "tm-hint", text: t("table.hint") }), renderColumnMenu(cat, cs)]));
     v.appendChild(h("div", { class: "table-wrap", id: "tableWrap" }));
     renderTable(cat);
   }
@@ -488,7 +500,6 @@
     if (has("owned")) bar.appendChild(h("button", { type: "button", class: "btn zoo-toggle", "aria-pressed": S.state.zooMode ? "true" : "false",
       title: t("zoo.hint"), onclick: () => { S.state.zooMode = !S.state.zooMode; if (!S.state.zooMode) f.owned = "any"; save(); renderView(); } },
       [h("span", { class: "zoo-box", "aria-hidden": "true", text: "✓" }), t("zoo.mode")]));
-    bar.appendChild(renderColumnMenu(cat, cs));
     card.appendChild(bar);
     if (S.state.zooMode && has("owned")) card.appendChild(renderZooBar(cat, cs));
     card.appendChild(renderPresets(cat, cs));
@@ -529,7 +540,21 @@
       h("label", { class: "check", title: t("filter.exactHint") }, [
         h("input", { type: "checkbox", checked: !!f.tempExact, onchange: e => { f.tempExact = e.target.checked; onFilterChange(cat); } }),
         t("filter.exact")])]), t("filter.exact") + " = " + lcFirst(t("filter.exactHint")), "tempHint"));
-    if (has("size") && cat.sizeKey) panel.appendChild(block(t("col." + cat.sizeKey) + " (m², 1 ×)", h("div", { class: "range-row" }, [reqIcon(cat.sizeKey), numIn("sizeMax", "≤", "10")])));
+    if (has("size") && cat.sizeKey) {
+      /* Vergleich per Klick auf das Zeichen wechseln: ≤ → ≥ → = */
+      const order = ["le", "ge", "eq"];
+      const op = order.indexOf(f.sizeOp) >= 0 ? f.sizeOp : "le";
+      const opBtn = h("button", { type: "button", class: "op-btn", title: t("filter.op." + op), "aria-label": t("filter.op." + op), text: SIZE_OPS[op],
+        onclick: () => {
+          const cur = order.indexOf(f.sizeOp) >= 0 ? f.sizeOp : "le";
+          f.sizeOp = order[(order.indexOf(cur) + 1) % order.length];
+          opBtn.textContent = SIZE_OPS[f.sizeOp]; opBtn.title = t("filter.op." + f.sizeOp); opBtn.setAttribute("aria-label", t("filter.op." + f.sizeOp));
+          onFilterChange(cat);
+        } });
+      const inp = numIn("sizeMax", "", "10");
+      inp.insertBefore(opBtn, inp.firstChild);
+      panel.appendChild(block(t("col." + cat.sizeKey) + " (m², 1 ×)", h("div", { class: "range-row" }, [reqIcon(cat.sizeKey), inp]), t("filter.sizeOp")));
+    }
     if (has("climbProof")) panel.appendChild(block(t("col.climbProof"),
       select("climbProof", [["any", t("filter.any")], ["yes", t("val.yes")], ["no", t("val.no")]], t("col.climbProof"))));
     if (has("walk")) panel.appendChild(block(t("filter.walk"),
@@ -568,21 +593,53 @@
     if (LITERAL_UNITS.indexOf(col.unit) >= 0) return col.unit;
     return "";
   }
+  /* Sichtbare Spalten mit persönlichen Ansichten (je Übersicht, nur lokal im Browser) */
+  function visibleIds(cat, cs) { return cat.columns.filter(c => !c.fixed && !emptyCols(cat).has(c.id) && isColVisible(c, cs, cat)).map(c => c.id); }
   function renderColumnMenu(cat, cs) {
-    const pop = h("div", { class: "menu-pop" });
+    const pop = h("div", { class: "menu-pop cols-pop" });
     const empty = emptyCols(cat);
+    if (!Array.isArray(cs.colViews)) cs.colViews = [];
+    const changed = () => { save(); build(); renderTable(cat); };
     const build = () => {
       pop.innerHTML = "";
+      /* Ansichten: Standard + eigene */
+      const cur = visibleIds(cat, cs).join(",");
+      const std = (() => { const tmp = { cols: {} }; return visibleIds(cat, tmp).join(","); })();
+      const views = h("div", { class: "chips" });
+      views.appendChild(h("button", { type: "button", class: "chip preset", "aria-pressed": cur === std ? "true" : "false", title: t("cols.defaults"),
+        text: "★ " + t("cols.standard"), onclick: () => { cs.cols = {}; changed(); } }));
+      cs.colViews.forEach((v, i) => {
+        const ids = (v.visible || []).filter(id => !empty.has(id));
+        views.appendChild(h("span", { class: "preset-wrap" }, [
+          h("button", { type: "button", class: "chip preset", "aria-pressed": ids.join(",") === cur ? "true" : "false", text: v.name,
+            title: t("preset.apply", { name: v.name }),
+            onclick: () => { const c = {}; cat.columns.forEach(col => { if (!col.fixed) c[col.id] = v.visible.indexOf(col.id) >= 0; }); cs.cols = c; changed(); } }),
+          h("button", { type: "button", class: "preset-x", title: t("cols.deleteView"), "aria-label": t("cols.deleteView") + ": " + v.name, text: "×",
+            onclick: () => { cs.colViews.splice(i, 1); changed(); } })]));
+      });
+      const input = h("input", { type: "text", class: "num-in", maxlength: "40", placeholder: t("cols.viewNamePh"), "aria-label": t("cols.viewNamePh") });
+      const doSave = () => {
+        const name = input.value.trim();
+        if (!name) { input.focus(); return; }
+        const visible = visibleIds(cat, cs);
+        const ex = cs.colViews.find(v => v.name.toLowerCase() === name.toLowerCase());
+        if (ex) ex.visible = visible; else cs.colViews.push({ name, visible });
+        changed();
+      };
+      input.addEventListener("keydown", e => { if (e.key === "Enter") { e.preventDefault(); doSave(); } });
+      pop.appendChild(h("div", { class: "cols-views" }, [
+        h("h5", { text: t("cols.views") }), views,
+        h("div", { class: "cols-save" }, [input, h("button", { type: "button", class: "btn btn-primary", text: t("preset.saveBtn"), onclick: doSave })]),
+        h("p", { class: "f-hint", style: "margin:0", text: t("cols.viewsHint") })]));
+      /* einzelne Spalten */
       let lastGroup = null;
       cat.columns.forEach(col => {
         if (col.fixed || empty.has(col.id)) return;
         if (col.group !== lastGroup) { lastGroup = col.group; pop.appendChild(h("h5", { text: t(col.group) })); }
         pop.appendChild(h("label", { class: "check" }, [
-          h("input", { type: "checkbox", checked: isColVisible(col, cs, cat), onchange: e => { cs.cols[col.id] = e.target.checked; save(); renderTable(cat); } }),
+          h("input", { type: "checkbox", checked: isColVisible(col, cs, cat), onchange: e => { cs.cols[col.id] = e.target.checked; changed(); } }),
           col.icon ? reqIcon(col.icon) : null, colLabel(col)]));
       });
-      pop.appendChild(h("button", { type: "button", class: "btn", style: "margin-top:10px", text: "↺ " + t("cols.defaults"),
-        onclick: () => { cs.cols = {}; save(); build(); renderTable(cat); } }));
     };
     build();
     return h("details", { class: "menu" }, [h("summary", { class: "btn" }, [svg(COLS_SVG), t("cols.title")]), pop]);
@@ -971,6 +1028,50 @@
       onClose: S.state.zooMode && S.state.tab !== PLANNER ? () => renderView() : null });
   }
 
+  /* ---------- Startseite ---------- */
+  const HOME_PICS = { land: "massai-giraffe", flying: "rosaflamingo", aquarium: "clown-anemonenfisch", vivarium: "blauer-morphofalter" };
+  function renderHome(v) {
+    const dl = enabledDlcs();
+    const count = c => animalsOf(c.id).filter(a => dl.indexOf(a.dlc) >= 0).length;
+    const first = S.meta.categories[0];
+    /* Kopfbereich mit Logo und zwei Einstiegen */
+    const hero = h("section", { class: "home-hero" }, [
+      h("img", { class: "home-logo", src: asset("assets/logo.svg"), alt: "", width: "120", height: "120" }),
+      h("div", { class: "home-hero-txt" }, [
+        h("h2", { text: t("home.title") }),
+        h("p", { text: t("home.intro") }),
+        h("div", { class: "home-cta" }, [
+          h("button", { type: "button", class: "btn btn-light", onclick: () => goTab(first.id) }, [t(first.tab), " →"]),
+          h("button", { type: "button", class: "btn btn-ghost", onclick: () => goTab(PLANNER) }, [t("tab.planner"), " →"])])])]);
+    /* Bildkacheln je Gehegeart */
+    const tiles = h("div", { class: "home-tiles" }, S.meta.categories.map(c => {
+      const pic = HOME_PICS[c.type];
+      return h("button", { type: "button", class: "home-tile", onclick: () => goTab(c.id) }, [
+        pic ? h("img", { src: asset("assets/tiere/" + pic + ".webp"), alt: "", loading: "lazy" }) : null,
+        h("span", { class: "home-tile-txt" }, [h("b", { text: t(c.tab) }), h("span", { class: "home-tile-n", text: String(count(c)) })])]);
+    }));
+    /* Funktionen als lockere Liste mit runden Symbolen */
+    const bubble = node => h("span", { class: "home-bubble" }, node);
+    const zooBox = h("span", { class: "zoo-box on", "aria-hidden": "true", text: "✓" });
+    const feat = (icon, title, text, action) => h("div", { class: "home-feat" }, [bubble(icon),
+      h("div", {}, [h("h3", { text: title }), h("p", { text }), action || null])]);
+    const link = (label, fn) => h("button", { type: "button", class: "home-link", onclick: fn, text: label + " →" });
+    const feats = h("div", { class: "home-feats" }, [
+      feat(svg(FILTER_SVG), t("home.filter.title"), t("home.filter.text")),
+      feat(zooBox, t("home.zoo.title"), t("home.zoo.text")),
+      feat(svg(PAW_SVG), t("home.planner.title"), t("home.planner.text"), link(t("home.go"), () => goTab(PLANNER))),
+      feat(svg(PKG_SVG), t("home.dlc.title"), t("home.dlc.text"), link(t("dlc.button"), openDlcDialog)),
+      feat(svg(GEAR_SVG), t("home.settings.title"), t("home.settings.text"), link(t("nav.settings"), openSettings))
+    ]);
+    v.appendChild(h("div", { class: "home" }, [
+      hero,
+      h("section", { class: "home-sec" }, [h("h2", { class: "home-h", text: t("home.cat.title") }), h("p", { class: "home-lead", text: t("home.cat.text") }), tiles]),
+      h("section", { class: "home-sec home-panel" }, [feats]),
+      h("div", { class: "home-note" }, [h("span", { class: "home-note-ic", text: "°F" }), h("span", { text: t("home.tempNote") })]),
+      h("p", { class: "home-foot", text: t("home.data") })
+    ]));
+  }
+
   /* ---------- Gehege-Planer ---------- */
   let planUid = 0;
   function startGroup(a) {
@@ -1114,7 +1215,7 @@
 
   // offene Spaltenmenüs bei Klick daneben schließen
   document.addEventListener("click", e => {
-    document.querySelectorAll("details.menu[open]").forEach(d => { if (!d.contains(e.target)) d.open = false; });
+    document.querySelectorAll("details.menu[open]").forEach(d => { if (!d.contains(e.target) && document.contains(e.target)) d.open = false; }); // neu gezeichnete Menüinhalte nicht als "daneben" werten
   });
   document.addEventListener("DOMContentLoaded", init);
 })();

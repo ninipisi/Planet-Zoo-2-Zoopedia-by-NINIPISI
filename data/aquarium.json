@@ -1,0 +1,1466 @@
+{
+ "category": "aquarium",
+ "pending": true,
+ "animals": [
+  {
+   "name": "Brabantbuntbarsch",
+   "continents": [
+    "africa"
+   ],
+   "biomes": [
+    "lakesRivers"
+   ],
+   "id": "brabantbuntbarsch",
+   "sci": "Tropheus moorii",
+   "dlc": "base",
+   "status": "lc",
+   "taxonomy": {
+    "class": "Actinopterygii",
+    "order": "Cichliformes",
+    "family": "Cichlidae",
+    "genus": "Tropheus"
+   },
+   "shoal": true,
+   "names": {
+    "en": "Blunthead Cichlid",
+    "fr": "Tropheus moorii",
+    "it": "Ciclide del Tanganica",
+    "es": "Tropheus moorii",
+    "cs": "Tropheus moorii",
+    "da": "Tropheus moorii",
+    "nl": "Tropheus moorii",
+    "ja": "ブラントヘッドシクリッド",
+    "ko": "트로페우스 무리",
+    "pl": "Tropheus moorii",
+    "pt-BR": "Tropheus moorii",
+    "ru": "Трофеус мурии",
+    "zh-CN": "红身蓝首鱼",
+    "th": "ปลาหมอโทรเฟียส มัวรี",
+    "zh-TW": "紅身藍首魚"
+   }
+  },
+  {
+   "name": "Clown-Anemonenfisch",
+   "continents": [
+    "indianOcean",
+    "pacificOcean"
+   ],
+   "biomes": [
+    "reef"
+   ],
+   "id": "clown-anemonenfisch",
+   "sci": "Amphiprion ocellaris",
+   "dlc": "base",
+   "status": "lc",
+   "taxonomy": {
+    "class": "Actinopterygii",
+    "order": "Blenniiformes",
+    "family": "Pomacentridae",
+    "genus": "Amphiprion"
+   },
+   "shoal": true,
+   "names": {
+    "en": "Clown Anemonefish",
+    "fr": "Poisson-clown",
+    "it": "Pesce pagliaccio",
+    "es": "Pez payaso común",
+    "cs": "klaun očkatý",
+    "da": "klovnfisk",
+    "nl": "driebandanemoonvis",
+    "ja": "カクレクマノミ",
+    "ko": "흰동가리",
+    "pl": "błazenek plamisty",
+    "pt-BR": "Peixe-palhaço-comum",
+    "ru": "Рыба-клоун",
+    "zh-CN": "眼斑双锯鱼",
+    "th": "ปลาการ์ตูนส้มขาว",
+    "zh-TW": "眼斑雙鋸魚"
+   }
+  },
+  {
+   "name": "Dreifleck-Preußenfisch",
+   "continents": [
+    "indianOcean",
+    "pacificOcean"
+   ],
+   "biomes": [
+    "mangrove",
+    "reef"
+   ],
+   "id": "dreifleck-preussenfisch",
+   "sci": "Dascyllus trimaculatus",
+   "dlc": "base",
+   "status": "lc",
+   "taxonomy": {
+    "class": "Actinopterygii",
+    "order": "Blenniiformes",
+    "family": "Pomacentridae",
+    "genus": "Dascyllus"
+   },
+   "shoal": true,
+   "names": {
+    "en": "Threespot Damselfish",
+    "fr": "Demoiselle à trois points",
+    "it": "Pesce damigella a tre punti",
+    "es": "Damisela de tres manchas",
+    "cs": "komatka třískvrnná",
+    "da": "Dascyllus trimaculatus",
+    "nl": "drievlekjuffer",
+    "ja": "ミツボシクロスズメダイ",
+    "ko": "세점자리돔",
+    "pl": "Dascyllus trimaculatus",
+    "pt-BR": "Donzela-dominó",
+    "ru": "Трёхпятнистый дасцил",
+    "zh-CN": "三斑宅泥鱼",
+    "th": "ปลาสลิดหินสามจุด",
+    "zh-TW": "三斑宅泥魚"
+   }
+  },
+  {
+   "name": "Dunkler Riesenzackenbarsch",
+   "continents": [
+    "indianOcean",
+    "pacificOcean"
+   ],
+   "biomes": [
+    "estuarine",
+    "mangrove",
+    "reef"
+   ],
+   "id": "dunkler-riesenzackenbarsch",
+   "sci": "Epinephelus lanceolatus",
+   "dlc": "base",
+   "status": "dd",
+   "taxonomy": {
+    "class": "Actinopterygii",
+    "order": "Perciformes",
+    "family": "Epinephelidae",
+    "genus": "Epinephelus"
+   },
+   "body": {
+    "sizeM": 1,
+    "sizeF": 1,
+    "measure": "Length"
+   },
+   "shoal": false,
+   "fence": {
+    "climbProof": false,
+    "strength": 2,
+    "height": 1
+   },
+   "names": {
+    "en": "Giant Grouper",
+    "fr": "Mérou géant",
+    "it": "Cernia gigante",
+    "es": "Mero gigante",
+    "cs": "kanic obrovský",
+    "da": "Epinephelus lanceolatus",
+    "nl": "reuzenzaagbaars",
+    "ja": "タマカイ",
+    "ko": "대왕바리",
+    "pl": "Epinephelus lanceolatus",
+    "pt-BR": "Garoupa-gigante",
+    "ru": "Гигантский групер",
+    "zh-CN": "鞍带石斑鱼",
+    "th": "ปลาหมอทะเล",
+    "zh-TW": "鞍帶石斑魚"
+   }
+  },
+  {
+   "name": "Echte Karettschildkröte",
+   "continents": [
+    "africa",
+    "asia",
+    "europe",
+    "northAmerica",
+    "southAmerica",
+    "oceania",
+    "atlanticOcean",
+    "indianOcean",
+    "pacificOcean"
+   ],
+   "biomes": [
+    "estuarine",
+    "mangrove",
+    "reef",
+    "openSea"
+   ],
+   "id": "echte-karettschildkroete",
+   "sci": "Eretmochelys imbricata",
+   "dlc": "base",
+   "status": "cr",
+   "taxonomy": {
+    "class": "Reptilia",
+    "order": "Testudines",
+    "family": "Cheloniidae",
+    "genus": "Eretmochelys"
+   },
+   "body": {
+    "sizeM": 0.8,
+    "sizeF": 0.8,
+    "measure": "NoseToRump"
+   },
+   "shoal": false,
+   "fence": {
+    "climbProof": false,
+    "strength": 2,
+    "height": 1
+   },
+   "names": {
+    "en": "Hawksbill Turtle",
+    "fr": "Tortue imbriquée",
+    "it": "Tartaruga embricata",
+    "es": "Tortuga carey",
+    "cs": "kareta pravá",
+    "da": "karetteskildpadde",
+    "nl": "karetschildpad",
+    "ja": "タイマイ",
+    "ko": "매부리바다거북",
+    "pl": "żółw szylkretowy",
+    "pt-BR": "Tartaruga-de-pente",
+    "ru": "Бисса",
+    "zh-CN": "玳瑁",
+    "th": "เต่ากระ",
+    "zh-TW": "玳瑁"
+   }
+  },
+  {
+   "name": "Gefleckter Adlerrochen",
+   "continents": [
+    "indianOcean",
+    "pacificOcean"
+   ],
+   "biomes": [
+    "estuarine",
+    "reef",
+    "openSea"
+   ],
+   "id": "gefleckter-adlerrochen",
+   "sci": "Aetobatus ocellatus",
+   "dlc": "base",
+   "status": "en",
+   "taxonomy": {
+    "class": "Chondrichthyes",
+    "order": "Myliobatiformes",
+    "family": "Aetobatidae",
+    "genus": "Aetobatus"
+   },
+   "body": {
+    "sizeM": 2.5,
+    "sizeF": 2.5,
+    "measure": "LegSpan"
+   },
+   "shoal": false,
+   "fence": {
+    "climbProof": false,
+    "strength": 2,
+    "height": 1
+   },
+   "names": {
+    "en": "Ocellated Eagle Ray",
+    "fr": "Raie aigle tachetée",
+    "it": "Aquila di mare ocellata",
+    "es": "Raya águila ocelada",
+    "cs": "Aetobatus ocellatus",
+    "da": "plettet ørnerokke",
+    "nl": "gevlekte adelaarsrog",
+    "ja": "マダラトビエイ",
+    "ko": "점박이매가오리",
+    "pl": "Aetobatus ocellatus",
+    "pt-BR": "Raia-Águia-Ocelada",
+    "ru": "Пятнистый орляк",
+    "zh-CN": "眼斑鹞鲼",
+    "th": "ปลากระเบนนกจุดขาว",
+    "zh-TW": "眼斑鷂鱝"
+   }
+  },
+  {
+   "name": "Gelber Doktorfisch",
+   "continents": [
+    "pacificOcean"
+   ],
+   "biomes": [
+    "reef"
+   ],
+   "id": "gelber-doktorfisch",
+   "sci": "Zebrasoma flavescens",
+   "dlc": "base",
+   "status": "lc",
+   "taxonomy": {
+    "class": "Actinopterygii",
+    "order": "Acanthuriformes",
+    "family": "Acanthuridae",
+    "genus": "Zebrasoma"
+   },
+   "shoal": true,
+   "names": {
+    "en": "Yellow Tang",
+    "fr": "Chirurgien jaune",
+    "it": "Pesce chirurgo giallo",
+    "es": "Pez cirujano amarillo",
+    "cs": "bodlok žlutý",
+    "da": "gul kirurgfisk",
+    "nl": "gele zeilvindoktersvis",
+    "ja": "キイロハギ",
+    "ko": "옐로탱",
+    "pl": "pokolec żółty",
+    "pt-BR": "Cirurgião-amarelo",
+    "ru": "Жёлтая зебрасома",
+    "zh-CN": "黄高鳍刺尾鱼",
+    "th": "ปลาขี้ตังเบ็ดเหลือง",
+    "zh-TW": "黃高鰭刺尾魚"
+   }
+  },
+  {
+   "name": "Goldband-Füsilier",
+   "continents": [
+    "indianOcean",
+    "pacificOcean"
+   ],
+   "biomes": [
+    "reef"
+   ],
+   "id": "goldband-fuesilier",
+   "sci": "Caesio teres",
+   "dlc": "deluxe",
+   "status": "lc",
+   "taxonomy": {
+    "class": "Actinopterygii",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae",
+    "genus": "Caesio"
+   },
+   "shoal": true,
+   "names": {
+    "en": "Blue and Gold Fusilier",
+    "fr": "Fusilier bleu et or",
+    "it": "Pesce fuciliere blu e oro",
+    "es": "Fusilero azul de bandas doradas",
+    "cs": "Caesio teres",
+    "da": "Caesio teres",
+    "nl": "Caesio teres",
+    "ja": "ササムロ",
+    "ko": "청황퓨질리어",
+    "pl": "Caesio teres",
+    "pt-BR": "Fuzileiro-azul",
+    "ru": "Сине-жёлтый фузилёр",
+    "zh-CN": "褐梅鲷",
+    "th": "ปลาหางเหลืองฟ้า",
+    "zh-TW": "褐梅鯛"
+   }
+  },
+  {
+   "name": "Große Goldmakrele",
+   "continents": [
+    "atlanticOcean",
+    "indianOcean",
+    "pacificOcean"
+   ],
+   "biomes": [
+    "openSea"
+   ],
+   "id": "grosse-goldmakrele",
+   "sci": "Coryphaena hippurus",
+   "dlc": "base",
+   "status": "lc",
+   "taxonomy": {
+    "class": "Actinopterygii",
+    "order": "Carangiformes",
+    "family": "Coryphaenidae",
+    "genus": "Coryphaena"
+   },
+   "body": {
+    "sizeM": 1,
+    "sizeF": 1,
+    "measure": "Length"
+   },
+   "shoal": false,
+   "fence": {
+    "climbProof": false,
+    "strength": 2,
+    "height": 1
+   },
+   "names": {
+    "en": "Dolphinfish",
+    "fr": "Dorade coryphène",
+    "it": "Corifena cavallina",
+    "es": "Lampuga",
+    "cs": "koryféna velká",
+    "da": "guldmakrel",
+    "nl": "goudmakreel",
+    "ja": "シイラ",
+    "ko": "만새기",
+    "pl": "koryfena",
+    "pt-BR": "Dourado-do-mar",
+    "ru": "Золотая макрель",
+    "zh-CN": "鲯鳅",
+    "th": "ปลาอีโต้มอญ",
+    "zh-TW": "鯕鰍"
+   }
+  },
+  {
+   "name": "Großer Hammerhai",
+   "continents": [
+    "atlanticOcean",
+    "indianOcean",
+    "pacificOcean"
+   ],
+   "biomes": [
+    "reef",
+    "openSea"
+   ],
+   "id": "grosser-hammerhai",
+   "sci": "Sphyrna mokarran",
+   "dlc": "deluxe",
+   "status": "cr",
+   "taxonomy": {
+    "class": "Chondrichthyes",
+    "order": "Carcharhiniformes",
+    "family": "Sphyrnidae",
+    "genus": "Sphyrna"
+   },
+   "body": {
+    "sizeM": 3.5,
+    "sizeF": 5,
+    "measure": "Length"
+   },
+   "shoal": false,
+   "fence": {
+    "climbProof": false,
+    "strength": 3,
+    "height": 1
+   },
+   "names": {
+    "en": "Great Hammerhead",
+    "fr": "Grand requin-marteau",
+    "it": "Squalo martello maggiore",
+    "es": "Tiburón martillo gigante",
+    "cs": "kladivoun velký",
+    "da": "stor hammerhaj",
+    "nl": "grote hamerhaai",
+    "ja": "ヒラシュモクザメ",
+    "ko": "큰귀상어",
+    "pl": "głowomłot wielki",
+    "pt-BR": "Tubarão-martelo-panã",
+    "ru": "Гигантская акула-молот",
+    "zh-CN": "无沟双髻鲨",
+    "th": "ฉลามหัวค้อนใหญ่",
+    "zh-TW": "無溝雙髻鯊"
+   }
+  },
+  {
+   "name": "Harlekin-Regenbogenfisch",
+   "continents": [
+    "oceania"
+   ],
+   "biomes": [
+    "lakesRivers"
+   ],
+   "id": "harlekin-regenbogenfisch",
+   "sci": "Melanotaenia boesemani",
+   "dlc": "base",
+   "status": "en",
+   "taxonomy": {
+    "class": "Actinopterygii",
+    "order": "Atheriniformes",
+    "family": "Melanotaeniidae",
+    "genus": "Melanotaenia"
+   },
+   "shoal": true,
+   "names": {
+    "en": "Boeseman's Rainbowfish",
+    "fr": "Arc-en-ciel de Boeseman",
+    "it": "Pesce arcobaleno di Boeseman",
+    "es": "Pez arcoíris",
+    "cs": "duhovka Boesemanova",
+    "da": "Boesemans regnbuefisk",
+    "nl": "Boesemans regenboogvis",
+    "ja": "ハーフオレンジ・レインボー",
+    "ko": "보스마니레인보우피시",
+    "pl": "tęczanka Boesemana",
+    "pt-BR": "Peixe arco-íris boesemani",
+    "ru": "Меланотения Бусемана",
+    "zh-CN": "贝氏虹银汉鱼",
+    "th": "ปลาสายรุ้งบอสแมน",
+    "zh-TW": "貝氏虹銀漢魚"
+   }
+  },
+  {
+   "name": "Indo-pazifischer Feldwebelfisch",
+   "continents": [
+    "indianOcean",
+    "pacificOcean"
+   ],
+   "biomes": [
+    "reef",
+    "openSea"
+   ],
+   "id": "indo-pazifischer-feldwebelfisch",
+   "sci": "Abudefduf vaigiensis",
+   "dlc": "base",
+   "status": "lc",
+   "taxonomy": {
+    "class": "Actinopterygii",
+    "order": "Blenniiformes",
+    "family": "Pomacentridae",
+    "genus": "Abudefduf"
+   },
+   "shoal": true,
+   "names": {
+    "en": "Indo-Pacific Sergeant",
+    "fr": "Poisson-bagnard",
+    "it": "Pesce sergente maggiore",
+    "es": "Sargento mayor del Pacífico",
+    "cs": "Abudefduf vaigiensis",
+    "da": "Abudefduf vaigiensis",
+    "nl": "Indopacifische sergeant-majoor",
+    "ja": "オヤビッチャ",
+    "ko": "줄자돔",
+    "pl": "Abudefduf vaigiensis",
+    "pt-BR": "Sargento do Indo-Pacífico",
+    "ru": "Вайгиенский абудефдуф",
+    "zh-CN": "条纹豆娘鱼",
+    "th": "ปลาสลิดหินบั้ง",
+    "zh-TW": "條紋豆娘魚"
+   }
+  },
+  {
+   "name": "Indo-pazifischer Leopardenhai",
+   "continents": [
+    "indianOcean",
+    "pacificOcean"
+   ],
+   "biomes": [
+    "estuarine",
+    "mangrove",
+    "reef",
+    "openSea"
+   ],
+   "id": "indo-pazifischer-leopardenhai",
+   "sci": "Stegostoma tigrinum",
+   "dlc": "base",
+   "status": "en",
+   "taxonomy": {
+    "class": "Chondrichthyes",
+    "order": "Orectolobiformes",
+    "family": "Stegostomatidae",
+    "genus": "Stegostoma"
+   },
+   "body": {
+    "sizeM": 1.2,
+    "sizeF": 1.6,
+    "measure": "Length"
+   },
+   "shoal": false,
+   "fence": {
+    "climbProof": false,
+    "strength": 2,
+    "height": 1
+   },
+   "names": {
+    "en": "Indo-Pacific Leopard Shark",
+    "fr": "Requin-léopard",
+    "it": "Squalo zebra",
+    "es": "Tiburón leopardo del Indopacífico",
+    "cs": "žralok zebrovitý",
+    "da": "zebrahaj",
+    "nl": "zebrahaai",
+    "ja": "トラフザメ",
+    "ko": "얼룩말상어",
+    "pl": "rekin zebra",
+    "pt-BR": "Tubarão-zebra",
+    "ru": "Зебровая акула",
+    "zh-CN": "豹纹鲨",
+    "th": "ฉลามเสือดาว",
+    "zh-TW": "豹紋鯊"
+   }
+  },
+  {
+   "name": "Karibik-Manati",
+   "continents": [
+    "northAmerica",
+    "southAmerica"
+   ],
+   "biomes": [
+    "wetlands",
+    "lakesRivers",
+    "estuarine",
+    "mangrove",
+    "openSea"
+   ],
+   "id": "karibik-manati",
+   "sci": "Trichechus manatus",
+   "dlc": "base",
+   "status": "vu",
+   "taxonomy": {
+    "class": "Mammalia",
+    "order": "Sirenia",
+    "family": "Trichechidae",
+    "genus": "Trichechus"
+   },
+   "body": {
+    "sizeM": 3,
+    "sizeF": 3.2,
+    "measure": "Length"
+   },
+   "shoal": false,
+   "fence": {
+    "climbProof": false,
+    "strength": 2,
+    "height": 1
+   },
+   "names": {
+    "en": "West Indian Manatee",
+    "fr": "Lamantin des Caraïbes",
+    "it": "Lamantino dei Caraibi",
+    "es": "Manatí antillano",
+    "cs": "kapustňák karibský",
+    "da": "caribisk manat",
+    "nl": "Caribische lamantijn",
+    "ja": "アメリカマナティー",
+    "ko": "서인도매너티",
+    "pl": "manat karaibski",
+    "pt-BR": "Peixe-boi-marinho",
+    "ru": "Американский ламантин",
+    "zh-CN": "美洲海牛",
+    "th": "แมนนาทีอินเดียตะวันตก",
+    "zh-TW": "美洲海牛"
+   }
+  },
+  {
+   "name": "Kurznasen-Doktorfisch",
+   "continents": [
+    "indianOcean",
+    "pacificOcean"
+   ],
+   "biomes": [
+    "reef"
+   ],
+   "id": "kurznasen-doktorfisch",
+   "sci": "Naso unicornis",
+   "dlc": "base",
+   "status": "lc",
+   "taxonomy": {
+    "class": "Actinopterygii",
+    "order": "Acanthuriformes",
+    "family": "Acanthuridae",
+    "genus": "Naso"
+   },
+   "shoal": true,
+   "names": {
+    "en": "Bluespine Unicornfish",
+    "fr": "Nason à éperons bleus",
+    "it": "Pesce unicorno blu",
+    "es": "Pez unicornio de nariz corta",
+    "cs": "bodlok jednorohý",
+    "da": "Naso unicornis",
+    "nl": "blauwdoorn-eenhoornvis",
+    "ja": "テングハギ",
+    "ko": "일각쥐돔",
+    "pl": "Naso unicornis",
+    "pt-BR": "Unicórnio-de-espigão-azul",
+    "ru": "Рыба-единорог",
+    "zh-CN": "单角鼻鱼",
+    "th": "ปลาขี้ตังเบ็ดเขาเดียว",
+    "zh-TW": "單角鼻魚"
+   }
+  },
+  {
+   "name": "Königsmakrele",
+   "continents": [
+    "indianOcean",
+    "pacificOcean"
+   ],
+   "biomes": [
+    "estuarine",
+    "reef"
+   ],
+   "id": "koenigsmakrele",
+   "sci": "Gnathanodon speciosus",
+   "dlc": "base",
+   "status": "lc",
+   "taxonomy": {
+    "class": "Actinopterygii",
+    "order": "Carangiformes",
+    "family": "Carangidae",
+    "genus": "Gnathanodon"
+   },
+   "shoal": true,
+   "names": {
+    "en": "Golden Trevally",
+    "fr": "Carangue royale",
+    "it": "Carango indopacifico",
+    "es": "Jurel dorado",
+    "cs": "Gnathanodon speciosus",
+    "da": "Gnathanodon speciosus",
+    "nl": "Gnathanodon speciosus",
+    "ja": "コガネシマアジ",
+    "ko": "황금전갱이",
+    "pl": "Gnathanodon speciosus",
+    "pt-BR": "Xaréu-dourado",
+    "ru": "Золотой каранкс",
+    "zh-CN": "黄鹂无齿鲹",
+    "th": "ปลาสีกุนทอง",
+    "zh-TW": "黃鸝無齒鰺"
+   }
+  },
+  {
+   "name": "Langflossen-Fledermausfisch",
+   "continents": [
+    "indianOcean",
+    "pacificOcean"
+   ],
+   "biomes": [
+    "reef"
+   ],
+   "id": "langflossen-fledermausfisch",
+   "sci": "Platax pinnatus",
+   "dlc": "deluxe",
+   "status": "lc",
+   "taxonomy": {
+    "class": "Actinopterygii",
+    "order": "Acanthuriformes",
+    "family": "Ephippidae",
+    "genus": "Platax"
+   },
+   "shoal": true,
+   "names": {
+    "en": "Longfin Batfish",
+    "fr": "Platax à longues nageoires",
+    "it": "Pesce pipistrello pinna lunga",
+    "es": "Pez murciélago de aleta larga",
+    "cs": "plataks černý",
+    "da": "Platax pinnatus",
+    "nl": "rode vleermuisvis",
+    "ja": "アカククリ",
+    "ko": "긴지느러미제비활치",
+    "pl": "Platax pinnatus",
+    "pt-BR": "Peixe-bandeira-comum",
+    "ru": "Перистый платакс",
+    "zh-CN": "尖翅燕鱼",
+    "th": "ปลาค้างคาวครีบยาว",
+    "zh-TW": "尖翅燕魚"
+   }
+  },
+  {
+   "name": "Leopard-Drückerfisch",
+   "continents": [
+    "indianOcean",
+    "pacificOcean"
+   ],
+   "biomes": [
+    "reef"
+   ],
+   "id": "leopard-drueckerfisch",
+   "sci": "Balistoides conspicillum",
+   "dlc": "base",
+   "status": "lc",
+   "taxonomy": {
+    "class": "Actinopterygii",
+    "order": "Tetraodontiformes",
+    "family": "Balistidae",
+    "genus": "Balistoides"
+   },
+   "body": {
+    "sizeM": 0.4,
+    "sizeF": 0.4,
+    "measure": "Length",
+    "weightM": 2,
+    "weightF": 2
+   },
+   "shoal": false,
+   "fence": {
+    "climbProof": false,
+    "strength": 1,
+    "height": 1
+   },
+   "names": {
+    "en": "Clown Triggerfish",
+    "fr": "Baliste clown",
+    "it": "Pesce balestra pagliaccio",
+    "es": "Pez ballesta payaso",
+    "cs": "ostenec skvrnitý",
+    "da": "Balistoides conspicillum",
+    "nl": "clownstrekkervis",
+    "ja": "モンガラカワハギ",
+    "ko": "클라운트리거피시",
+    "pl": "Balistoides conspicillum",
+    "pt-BR": "Peixe-porco-palhaço",
+    "ru": "Пятнистый балистоид",
+    "zh-CN": "花斑拟鳞鲀",
+    "th": "ปลาวัวจุดขาว",
+    "zh-TW": "花斑擬鱗魨"
+   }
+  },
+  {
+   "name": "Meerforelle",
+   "continents": [
+    "europe"
+   ],
+   "biomes": [
+    "lakesRivers"
+   ],
+   "id": "meerforelle",
+   "sci": "Salmo trutta",
+   "dlc": "base",
+   "status": "lc",
+   "taxonomy": {
+    "class": "Actinopterygii",
+    "order": "Salmoniformes",
+    "family": "Salmonidae",
+    "genus": "Salmo"
+   },
+   "shoal": true,
+   "names": {
+    "en": "Brown Trout",
+    "fr": "Truite commune",
+    "it": "Trota atlantica",
+    "es": "Trucha común",
+    "cs": "pstruh obecný",
+    "da": "ørred",
+    "nl": "forel",
+    "ja": "ブラウントラウト",
+    "ko": "브라운송어",
+    "pl": "troć wędrowna",
+    "pt-BR": "Truta-marrom",
+    "ru": "Кумжа",
+    "zh-CN": "褐鳟",
+    "th": "ปลาเทราต์สีน้ำตาล",
+    "zh-TW": "褐鱒"
+   }
+  },
+  {
+   "name": "Mondfisch",
+   "continents": [
+    "indianOcean",
+    "pacificOcean"
+   ],
+   "biomes": [
+    "openSea"
+   ],
+   "id": "mondfisch",
+   "sci": "Mola mola",
+   "dlc": "base",
+   "status": "vu",
+   "taxonomy": {
+    "class": "Actinopterygii",
+    "order": "Tetraodontiformes",
+    "family": "Molidae",
+    "genus": "Mola"
+   },
+   "body": {
+    "sizeM": 2.5,
+    "sizeF": 2.5,
+    "measure": "Height"
+   },
+   "shoal": false,
+   "fence": {
+    "climbProof": false,
+    "strength": 2,
+    "height": 1
+   },
+   "names": {
+    "en": "Ocean Sunfish",
+    "fr": "Poisson-lune",
+    "it": "Pesce luna",
+    "es": "Pez luna",
+    "cs": "měsíčník svítivý",
+    "da": "klumpfisk",
+    "nl": "maanvis",
+    "ja": "マンボウ",
+    "ko": "개복치",
+    "pl": "samogłów",
+    "pt-BR": "Peixe-lua",
+    "ru": "Луна-рыба",
+    "zh-CN": "翻车鲀",
+    "th": "ปลาแสงอาทิตย์",
+    "zh-TW": "翻車魨"
+   }
+  },
+  {
+   "name": "Napoleon-Lippfisch",
+   "continents": [
+    "indianOcean",
+    "pacificOcean"
+   ],
+   "biomes": [
+    "reef",
+    "openSea"
+   ],
+   "id": "napoleon-lippfisch",
+   "sci": "Cheilinus undulatus",
+   "dlc": "base",
+   "status": "en",
+   "taxonomy": {
+    "class": "Actinopterygii",
+    "order": "Labriformes",
+    "family": "Labridae",
+    "genus": "Cheilinus"
+   },
+   "body": {
+    "sizeM": 2,
+    "sizeF": 1.45,
+    "measure": "NoseToRump"
+   },
+   "shoal": false,
+   "fence": {
+    "climbProof": false,
+    "strength": 2,
+    "height": 1
+   },
+   "names": {
+    "en": "Humphead Wrasse",
+    "fr": "Napoléon",
+    "it": "Pesce Napoleone",
+    "es": "Pez Napoleón",
+    "cs": "pyskoun obrovský",
+    "da": "napoleonfisk",
+    "nl": "napoleonvis",
+    "ja": "メガネモチノウオ",
+    "ko": "나폴레옹피시",
+    "pl": "wargacz garbogłowy",
+    "pt-BR": "Peixe-napoleão",
+    "ru": "Губан-наполеон",
+    "zh-CN": "波纹唇鱼",
+    "th": "ปลานโปเลียน",
+    "zh-TW": "波紋唇魚"
+   }
+  },
+  {
+   "name": "Nordpazifischer Blauflossen-Thunfisch",
+   "continents": [
+    "pacificOcean"
+   ],
+   "biomes": [
+    "openSea"
+   ],
+   "id": "nordpazifischer-blauflossen-thunfisch",
+   "sci": "Thunnus orientalis",
+   "dlc": "base",
+   "status": "nt",
+   "taxonomy": {
+    "class": "Actinopterygii",
+    "order": "Scombriformes",
+    "family": "Scombridae",
+    "genus": "Thunnus"
+   },
+   "shoal": true,
+   "names": {
+    "en": "Pacific Bluefin Tuna",
+    "fr": "Thon rouge du Pacifique",
+    "it": "Tonno del Pacifico",
+    "es": "Atún rojo del Pacífico",
+    "cs": "tuňák pacifický",
+    "da": "stillehavs-blåfinnet tun",
+    "nl": "Pacifische blauwvintonijn",
+    "ja": "クロマグロ",
+    "ko": "태평양참다랑어",
+    "pl": "tuńczyk pacyficzny",
+    "pt-BR": "Atum-do-pacífico",
+    "ru": "Тихоокеанский голубой тунец",
+    "zh-CN": "太平洋蓝鳍金枪鱼",
+    "th": "ปลาทูน่าครีบน้ำเงินแปซิฟิก",
+    "zh-TW": "太平洋黑鮪"
+   }
+  },
+  {
+   "name": "Orient-Süsslippe",
+   "continents": [
+    "indianOcean",
+    "pacificOcean"
+   ],
+   "biomes": [
+    "estuarine",
+    "reef"
+   ],
+   "id": "orient-suesslippe",
+   "sci": "Plectorhinchus vittatus",
+   "dlc": "base",
+   "status": "lc",
+   "taxonomy": {
+    "class": "Actinopterygii",
+    "order": "Acanthuriformes",
+    "family": "Haemulidae",
+    "genus": "Plectorhinchus"
+   },
+   "shoal": true,
+   "names": {
+    "en": "Indian Ocean Oriental Sweetlips",
+    "fr": "Diagramme oriental",
+    "it": "Pesce dolcilabbra orientale del Pacifico",
+    "es": "Labios dulces oriental",
+    "cs": "Plectorhinchus vittatus",
+    "da": "Plectorhinchus vittatus",
+    "nl": "Plectorhinchus vittatus",
+    "ja": "ムスジコショウダイ",
+    "ko": "오리엔탈스위트립스",
+    "pl": "Plectorhinchus vittatus",
+    "pt-BR": "Pargo oriental",
+    "ru": "Восточный сладкогуб",
+    "zh-CN": "条斑胡椒鲷",
+    "th": "ปลาสร้อยนกเขาลายแถบ",
+    "zh-TW": "條斑胡椒鯛"
+   }
+  },
+  {
+   "name": "Paletten-Doktorfisch",
+   "continents": [
+    "indianOcean",
+    "pacificOcean"
+   ],
+   "biomes": [
+    "reef"
+   ],
+   "id": "paletten-doktorfisch",
+   "sci": "Paracanthurus hepatus",
+   "dlc": "base",
+   "status": "lc",
+   "taxonomy": {
+    "class": "Actinopterygii",
+    "order": "Acanthuriformes",
+    "family": "Acanthuridae",
+    "genus": "Paracanthurus"
+   },
+   "shoal": true,
+   "names": {
+    "en": "Palette Surgeonfish",
+    "fr": "Chirurgien-palette",
+    "it": "Pesce chirurgo blu",
+    "es": "Pez cirujano azul",
+    "cs": "bodlok královský",
+    "da": "palettekirurgfisk",
+    "nl": "paletdoktersvis",
+    "ja": "ナンヨウハギ",
+    "ko": "블루탱",
+    "pl": "pokolec królewski",
+    "pt-BR": "Peixe cirurgião-patela",
+    "ru": "Голубой хирург",
+    "zh-CN": "拟刺尾鲷",
+    "th": "ปลาขี้ตังเบ็ดน้ำเงิน",
+    "zh-TW": "擬刺尾鯛"
+   }
+  },
+  {
+   "name": "Pazifische Sardine",
+   "continents": [
+    "indianOcean",
+    "pacificOcean"
+   ],
+   "biomes": [
+    "openSea"
+   ],
+   "id": "pazifische-sardine",
+   "sci": "Sardinops sagax",
+   "dlc": "base",
+   "status": "lc",
+   "taxonomy": {
+    "class": "Actinopterygii",
+    "order": "Clupeiformes",
+    "family": "Alosidae",
+    "genus": "Sardinops"
+   },
+   "shoal": true,
+   "names": {
+    "en": "Pacific Sardine",
+    "fr": "Pilchard de Californie",
+    "it": "Sardina oceanica",
+    "es": "Sardina del Pacífico",
+    "cs": "sardinka tichomořská",
+    "da": "stillehavssardin",
+    "nl": "Pacifische sardine",
+    "ja": "カリフォルニアマイワシ",
+    "ko": "정어리",
+    "pl": "sardynka pacyficzna",
+    "pt-BR": "Sardinha",
+    "ru": "Тихоокеанская сардина",
+    "zh-CN": "远东拟沙丁鱼",
+    "th": "ปลาซาร์ดีนแปซิฟิก",
+    "zh-TW": "遠東擬沙丁魚"
+   }
+  },
+  {
+   "name": "Prachtschmerle",
+   "continents": [
+    "asia"
+   ],
+   "biomes": [
+    "lakesRivers"
+   ],
+   "id": "prachtschmerle",
+   "sci": "Chromobotia macracanthus",
+   "dlc": "base",
+   "status": "lc",
+   "taxonomy": {
+    "class": "Actinopterygii",
+    "order": "Cypriniformes",
+    "family": "Botiidae",
+    "genus": "Chromobotia"
+   },
+   "shoal": true,
+   "names": {
+    "en": "Clown Loach",
+    "fr": "Loche clown",
+    "it": "Botia pagliaccio",
+    "es": "Locha payaso",
+    "cs": "sekavec klaun",
+    "da": "clownsmerling",
+    "nl": "prachtmodderkruiper",
+    "ja": "クラウンローチ",
+    "ko": "클라운로치",
+    "pl": "bocja wspaniała",
+    "pt-BR": "Bótia-palhaço",
+    "ru": "Боция-клоун",
+    "zh-CN": "大刺色鳅",
+    "th": "ปลาหมูอินโด",
+    "zh-TW": "大刺色鰍"
+   }
+  },
+  {
+   "name": "Riesengurami",
+   "continents": [
+    "asia"
+   ],
+   "biomes": [
+    "lakesRivers"
+   ],
+   "id": "riesengurami",
+   "sci": "Osphronemus goramy",
+   "dlc": "base",
+   "status": "lc",
+   "taxonomy": {
+    "class": "Actinopterygii",
+    "order": "Anabantiformes",
+    "family": "Osphronemidae",
+    "genus": "Osphronemus"
+   },
+   "shoal": true,
+   "names": {
+    "en": "Giant Gourami",
+    "fr": "Gourami géant",
+    "it": "Gurami gigante",
+    "es": "Gurami gigante",
+    "cs": "guramovec veliký",
+    "da": "kæmpegurami",
+    "nl": "reuzengoerami",
+    "ja": "ジャイアントグラミー",
+    "ko": "자이언트구라미",
+    "pl": "gurami olbrzymi",
+    "pt-BR": "Gourami-gigante",
+    "ru": "Настоящий гурами",
+    "zh-CN": "大丝足鲈",
+    "th": "ปลาแรด",
+    "zh-TW": "大絲足鱸"
+   }
+  },
+  {
+   "name": "Rotfeder",
+   "continents": [
+    "asia",
+    "europe"
+   ],
+   "biomes": [
+    "lakesRivers"
+   ],
+   "id": "rotfeder",
+   "sci": "Scardinius erythrophthalmus",
+   "dlc": "base",
+   "status": "lc",
+   "taxonomy": {
+    "class": "Actinopterygii",
+    "order": "Cypriniformes",
+    "family": "Leuciscidae",
+    "genus": "Scardinius"
+   },
+   "shoal": true,
+   "names": {
+    "en": "Common Rudd",
+    "fr": "Rotengle",
+    "it": "Scardola europea",
+    "es": "Gardí",
+    "cs": "perlín ostrobřichý",
+    "da": "rudskalle",
+    "nl": "ruisvoorn",
+    "ja": "コモンラッド",
+    "ko": "러드",
+    "pl": "wzdręga",
+    "pt-BR": "Rudd-comum",
+    "ru": "Краснопёрка",
+    "zh-CN": "红眼鱼",
+    "th": "ปลารัดด์",
+    "zh-TW": "紅眼魚"
+   }
+  },
+  {
+   "name": "Rotfeuerfisch",
+   "continents": [
+    "indianOcean",
+    "pacificOcean"
+   ],
+   "biomes": [
+    "estuarine",
+    "reef"
+   ],
+   "id": "rotfeuerfisch",
+   "sci": "Pterois volitans",
+   "dlc": "base",
+   "status": "lc",
+   "taxonomy": {
+    "class": "Actinopterygii",
+    "order": "Perciformes",
+    "family": "Scorpaenidae",
+    "genus": "Pterois"
+   },
+   "body": {
+    "sizeM": 0.34,
+    "sizeF": 0.34,
+    "measure": "Length"
+   },
+   "shoal": false,
+   "fence": {
+    "climbProof": false,
+    "strength": 2,
+    "height": 1
+   },
+   "names": {
+    "en": "Red Lionfish",
+    "fr": "Rascasse volante",
+    "it": "Pesce scorpione",
+    "es": "Pez escorpión",
+    "cs": "perutýn ohnivý",
+    "da": "rød dragefisk",
+    "nl": "rode koraalduivel",
+    "ja": "ハナミノカサゴ",
+    "ko": "쏠배감펭",
+    "pl": "skrzydlica pstra",
+    "pt-BR": "Peixe-leão",
+    "ru": "Полосатая крылатка",
+    "zh-CN": "魔鬼蓑鲉",
+    "th": "ปลาสิงโตแดง",
+    "zh-TW": "魔鬼蓑鮋"
+   }
+  },
+  {
+   "name": "Schwarm-Wimpelfisch",
+   "continents": [
+    "indianOcean",
+    "pacificOcean"
+   ],
+   "biomes": [
+    "reef"
+   ],
+   "id": "schwarm-wimpelfisch",
+   "sci": "Heniochus diphreutes",
+   "dlc": "base",
+   "status": "lc",
+   "taxonomy": {
+    "class": "Actinopterygii",
+    "order": "Acanthuriformes",
+    "family": "Chaetodontidae",
+    "genus": "Heniochus"
+   },
+   "shoal": true,
+   "names": {
+    "en": "Schooling Bannerfish",
+    "fr": "Poisson-cocher grégaire",
+    "it": "Pesce farfalla dal vessillo",
+    "es": "Pez estandarte de cardumen",
+    "cs": "kornoutík hejnový",
+    "da": "Heniochus diphreutes",
+    "nl": "scholende wimpelvis",
+    "ja": "ムレハタタテダイ",
+    "ko": "무리두동가리돔",
+    "pl": "Heniochus diphreutes",
+    "pt-BR": "Peixe-bandeira-de-cardume",
+    "ru": "Стайный хениох",
+    "zh-CN": "多棘马夫鱼",
+    "th": "ปลาโนรีฝูง",
+    "zh-TW": "多棘馬夫魚"
+   }
+  },
+  {
+   "name": "Schwarzflecken-Kugelfisch",
+   "continents": [
+    "indianOcean",
+    "pacificOcean"
+   ],
+   "biomes": [
+    "reef"
+   ],
+   "id": "schwarzflecken-kugelfisch",
+   "sci": "Arothron nigropunctatus",
+   "dlc": "base",
+   "status": "lc",
+   "taxonomy": {
+    "class": "Actinopterygii",
+    "order": "Tetraodontiformes",
+    "family": "Tetraodontidae",
+    "genus": "Arothron"
+   },
+   "body": {
+    "sizeM": 0.33,
+    "sizeF": 0.33,
+    "measure": "NoseToRump"
+   },
+   "shoal": false,
+   "fence": {
+    "climbProof": false,
+    "strength": 1,
+    "height": 1
+   },
+   "names": {
+    "en": "Blackspotted Puffer",
+    "fr": "Poisson-ballon à taches noires",
+    "it": "Pesce palla a macchie nere",
+    "es": "Pez globo punteado negro",
+    "cs": "čtverzubec černotečkovaný",
+    "da": "Arothron nigropunctatus",
+    "nl": "zwartgevlekte kogelvis",
+    "ja": "コクテンフグ",
+    "ko": "흑점꺼끌복",
+    "pl": "Arothron nigropunctatus",
+    "pt-BR": "Baiacu-de-pintas-pretas",
+    "ru": "Чернопятнистый аротрон",
+    "zh-CN": "黑斑叉鼻鲀",
+    "th": "ปลาปักเป้าจุดดำ",
+    "zh-TW": "黑斑叉鼻魨"
+   }
+  },
+  {
+   "name": "Schwarzspitzenriffhai",
+   "continents": [
+    "indianOcean",
+    "pacificOcean"
+   ],
+   "biomes": [
+    "estuarine",
+    "mangrove",
+    "reef"
+   ],
+   "id": "schwarzspitzenriffhai",
+   "sci": "Carcharhinus melanopterus",
+   "dlc": "base",
+   "status": "vu",
+   "taxonomy": {
+    "class": "Chondrichthyes",
+    "order": "Carcharhiniformes",
+    "family": "Carcharhinidae",
+    "genus": "Carcharhinus"
+   },
+   "body": {
+    "sizeM": 1.2,
+    "sizeF": 1.6,
+    "measure": "Length"
+   },
+   "shoal": false,
+   "fence": {
+    "climbProof": false,
+    "strength": 2,
+    "height": 1
+   },
+   "names": {
+    "en": "Blacktip Reef Shark",
+    "fr": "Requin pointes noires",
+    "it": "Squalo pinna nera del reef",
+    "es": "Tiburón de arrecife de puntas negras",
+    "cs": "žralok černoploutvý",
+    "da": "sortspidset revhaj",
+    "nl": "zwartpuntrifhaai",
+    "ja": "ツマグロ",
+    "ko": "흑기흉상어",
+    "pl": "żarłacz czarnopłetwy",
+    "pt-BR": "Tubarão-de-pontas-negras-do-recife",
+    "ru": "Чернопёрая рифовая акула",
+    "zh-CN": "乌翅真鲨",
+    "th": "ฉลามครีบดำ",
+    "zh-TW": "烏翅真鯊"
+   }
+  },
+  {
+   "name": "Segelflossen-Schnapper",
+   "continents": [
+    "asia",
+    "oceania"
+   ],
+   "biomes": [
+    "reef"
+   ],
+   "id": "segelflossen-schnapper",
+   "sci": "Symphorichthys spilurus",
+   "dlc": "base",
+   "status": "lc",
+   "taxonomy": {
+    "class": "Actinopterygii",
+    "order": "Acanthuriformes",
+    "family": "Lutjanidae",
+    "genus": "Symphorichthys"
+   },
+   "body": {
+    "sizeM": 0.5,
+    "sizeF": 0.5,
+    "measure": "Length",
+    "weightM": 1.3,
+    "weightF": 1.3
+   },
+   "shoal": false,
+   "fence": {
+    "climbProof": false,
+    "strength": 1,
+    "height": 1
+   },
+   "names": {
+    "en": "Sailfin Snapper",
+    "fr": "Vivaneau voilier",
+    "it": "Lutiano blu e oro",
+    "es": "Pez pirata",
+    "cs": "Symphorichthys spilurus",
+    "da": "Symphorichthys spilurus",
+    "nl": "Symphorichthys spilurus",
+    "ja": "イレズミフエダイ",
+    "ko": "세일핀스내퍼",
+    "pl": "Symphorichthys spilurus",
+    "pt-BR": "Pargo-vela",
+    "ru": "Парусный люциан",
+    "zh-CN": "帆鳍笛鲷",
+    "th": "ปลากะพงครีบใบ",
+    "zh-TW": "帆鰭笛鯛"
+   }
+  },
+  {
+   "name": "Tigersalmler",
+   "continents": [
+    "africa"
+   ],
+   "biomes": [
+    "lakesRivers"
+   ],
+   "id": "tigersalmler",
+   "sci": "Hydrocynus vittatus",
+   "dlc": "base",
+   "status": "lc",
+   "taxonomy": {
+    "class": "Actinopterygii",
+    "order": "Characiformes",
+    "family": "Alestidae",
+    "genus": "Hydrocynus"
+   },
+   "shoal": true,
+   "names": {
+    "en": "African Tigerfish",
+    "fr": "Poisson-tigre africain",
+    "it": "Pesce tigre africano",
+    "es": "Pez tigre goliat",
+    "cs": "Hydrocynus vittatus",
+    "da": "afrikansk tigerfisk",
+    "nl": "Afrikaanse tijgervis",
+    "ja": "アフリカンタイガーフィッシュ",
+    "ko": "아프리카타이거피시",
+    "pl": "Hydrocynus vittatus",
+    "pt-BR": "Peixe-tigre-africano",
+    "ru": "Полосатый гидроцин",
+    "zh-CN": "黄金猛鱼",
+    "th": "ปลาเสือแอฟริกา",
+    "zh-TW": "黃金猛魚"
+   }
+  }
+ ]
+}

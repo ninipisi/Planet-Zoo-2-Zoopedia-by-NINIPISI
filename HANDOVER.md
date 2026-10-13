@@ -84,6 +84,16 @@ Veröffentlichen: GitHub-Repo, Settings → Pages → Deploy from branch (main, 
 Lebenszyklus als Text („3 Jahre“, „20 Monate“, „4 Wochen“, „10 Tage“) → `[Zahl, Einheit]`, auf der Seite übersetzt. Wurfgröße/Nur ♂/Nur ♀ als „1-6“.
 Zusammenleben: „Erfolgreiche Beziehungen“ = diese Art profitiert von den genannten; „Neutrale Beziehungen“ = verträglich ohne Bonus; Namen mit Komma getrennt, „keine“ = leer.
 
+## Stand (13.10.2026, 11. Runde)
+- Neuer erster Tab „Startseite“ (`#home`; die Seite öffnet immer damit, außer ein Link zeigt auf einen Tab). Aufbau: grüner Kopfbereich mit Logo und zwei Einstiegen, Bildkacheln je Gehegeart (Bilder in `HOME_PICS`), Funktionsliste mit runden Symbolen, °F-Hinweis mit Erklärung aller Werkzeuge und Hinweis, dass °F umgerechnet und daher nicht 100 % genau ist.
+- Standardmäßig sichtbar: Gefährdung, Inhalt, Kontinente/Ozeane, Biome, Temperatur, Mindestfläche 1 Tier (Rückzugsort, Wasseroberfläche, Tiefwasserbereich, Klettergebiet, Landfläche, bei Volieren zusätzlich Flugbereich), Zaun, Sozialverhalten, Lebenszyklus. Ausgeblendet: „Je weiterem Tier“, Min-/Max-Gruppe, Rollen, Luftfeuchtigkeit, Salzgehalt (im Spaltenmenü einblendbar; Spalten ohne Werte im Tab erscheinen ohnehin nicht).
+- Flächenfilter: Vergleichszeichen ≤ / ≥ / = per Klick wechseln (`filter.sizeOp`).
+- „Zooplaner“-Knopf steht jetzt in der Filterleiste rechts; „Sichtbare Spalten“ sitzt rechtsbündig direkt über der Tabelle.
+- „Sichtbare Spalten“: oben „Meine Ansichten“ – ★ Standard plus eigene, benannte Spalten-Ansichten je Übersicht (localStorage `cats.<id>.colViews`), aktive Ansicht hervorgehoben.
+- Version (z. B. 1.0.3.1011968) dezent oben links unter „Zoopedia“: Excel-Blatt „Info“, Zeile „Version“ → `meta.json` `version`.
+- Steam-Guide: Logo 195×195 als PNG (aus `assets/logo.svg` gerendert).
+- Deluxe-Steam-Link: https://store.steampowered.com/app/4515760/Planet_Zoo_2_Deluxe_Upgrade_Pack/ (Blatt „Inhalte“).
+
 ## Stand (13.10.2026, 10. Runde) – Release-Daten, Hilfsdatenbank, Zooplaner, Spielgrafiken
 - Hilfsdatenbank aus der vorbereiteten Mappe der Nutzerin gebaut und aus der offiziellen Zoopedia (Release-Daten, Nuxt-Payload) befüllt: 136 Arten (106 aus ihrer Mappe + 30 Vivarium-Arten + 6 neue). Ihre Werte haben Vorrang; 3 Abweichungen zur offiziellen Seite im Blatt „Abweichungen“ (Leopard Zeit zwischen Geburten 21 vs. 20 Monate, Leopardenhai G vs. SG, Koi „Cyprinus sp.“ vs. „Cyprinus rubrofuscus“).
 - Ergänzte Spalten (gelbe Überschrift): Gehegeart (4 X-Spalten), Rollen Süß-/Salzwasserfische, Luftfeuchtigkeit, Salzgehalt, Flugbereich.
@@ -162,4 +172,4 @@ Einstellungen/Inhalte, Sprachwechsel, Speicherung nach Neuladen, Planer, Handy-B
 2. Design mit Screenshots/Farbwerten der offiziellen PZ2-Seite angleichen.
 3. ✅ Punkte 1–3 geklärt.
 4. ✅ Release-Daten übernommen (10. Runde). Neue Werte/Rollen im Spiel: Liste in `tools/zoopedia_schema.py` + Spalten in `data/meta.json` ergänzen.
-5. Optional: Übersetzungen prüfen lassen; Deluxe-Steam-Link nachtragen (Blatt „Inhalte“); Abweichungen im Blatt „Abweichungen“ mit dem Spiel abgleichen.
+5. Optional: Übersetzungen prüfen lassen; Abweichungen im Blatt „Abweichungen“ mit dem Spiel abgleichen.
