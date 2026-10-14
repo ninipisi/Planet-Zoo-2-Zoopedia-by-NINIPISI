@@ -1139,18 +1139,20 @@
       visitorBadge()
     ]));
   }
-  /* Besucherzähler (GoatCounter: kostenlos, ohne Cookies). Code in der Excel, Blatt „Info“ → meta.counter */
+  /* Besucherzähler (GoatCounter: kostenlos, ohne Cookies). Code in der Excel, Blatt „Info“ → meta.counter.
+     Mehrere Seiten teilen sich denselben GoatCounter-Code → jede Seite zählt unter ihrem eigenen Pfad (PZ2: "/"). */
+  const COUNTER_PATH = "/";
   const counterOn = () => !!(S.meta.counter && /^https?:$/.test(location.protocol) && !/^(localhost|127\.|\[::1\])/.test(location.hostname));
   function countVisit() {
     if (!counterOn() || countVisit.done) return;
     countVisit.done = true;
-    const u = "https://" + S.meta.counter + ".goatcounter.com/count?p=" + encodeURIComponent("/") + "&t=" + encodeURIComponent("Zoopedia") + "&rnd=" + Math.random().toString(36).slice(2);
+    const u = "https://" + S.meta.counter + ".goatcounter.com/count?p=" + encodeURIComponent(COUNTER_PATH) + "&t=" + encodeURIComponent("Zoopedia PZ2") + "&rnd=" + Math.random().toString(36).slice(2);
     try { const img = new Image(); img.referrerPolicy = "no-referrer-when-downgrade"; img.src = u; } catch (e) { /* egal */ }
   }
   function visitorBadge() {
     const el = h("p", { class: "home-visits", hidden: true });
     if (!counterOn()) return el;
-    fetch("https://" + S.meta.counter + ".goatcounter.com/counter/TOTAL.json", { cache: "no-store" }).then(r => r.ok ? r.json() : null).then(d => {
+    fetch("https://" + S.meta.counter + ".goatcounter.com/counter/" + encodeURIComponent(COUNTER_PATH) + ".json", { cache: "no-store" }).then(r => r.ok ? r.json() : null).then(d => {
       const n = d && parseInt(String(d.count_unique || d.count || "").replace(/\D/g, ""), 10);
       if (!n) return;
       el.textContent = "🐾 " + t("home.visitors", { n: fmt(n, 0) });
