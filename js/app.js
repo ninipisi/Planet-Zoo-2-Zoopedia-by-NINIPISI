@@ -15,7 +15,7 @@
   const FALLBACK = { "es-419": "es" };
   const PLANNER = "planner";
   const HOME = "home";
-  const COLS_V = 2; // erhöhen, wenn sich die Standard-Spalten ändern
+  const STATE_V = 1; // Version des Speicherformats im Browser (siehe migrateState)
   const SIZE_OPS = { le: "≤", ge: "≥", eq: "=" };
   const LITERAL_UNITS = ["m²", "m", "%", "kg"];
   const GROUP_HINTS = { "grp.req": "grp.req.hint", "grp.inc": "grp.inc.hint", "grp.atMin": "grp.atMin.hint", "grp.atMax": "grp.atMax.hint" };
@@ -111,26 +111,56 @@
         for (const l of LANGS) if (l[0].split("-")[0] === n.split("-")[0].toLowerCase()) { lang = l[0]; break outer; }
       }
     } catch (e) { /* egal */ }
-    return { v: 1, lang, tab: HOME, dlcs: dl, calcMode: "sum", theme: "system", tempUnit: "c", cats: {}, planner: [],
-      zooMode: false, zoos: [{ id: "z1", name: "", owned: [] }], zoo: "z1", colsV: COLS_V };
+    return { v: STATE_V, lang, tab: HOME, dlcs: dl, calcMode: "sum", theme: "system", tempUnit: "c", cats: {}, planner: [],
+      zooMode: false, zoos: [{ id: "z1", name: "", owned: [] }], zoo: "z1" };
   }
   function loadState() {
     const def = defaultState();
     let saved = null;
-    try { saved = JSON.parse(localStorage.getItem(STORE_KEY) || "null"); } catch (e) { saved = null; }
-    if (!saved || saved.v !== 1) return def;
+    let raw = null;
+    try { raw = localStorage.getItem(STORE_KEY); saved = JSON.parse(raw || "null"); } catch (e) { saved = null; }
+    /* Nie still verwerfen: Unlesbares wird vorher als Sicherung abgelegt, damit nichts verloren geht */
+    if (raw && (!saved || typeof saved !== "object")) { try { localStorage.setItem(STORE_KEY + ".backup", raw); } catch (e) { /* egal */ } return def; }
+    if (!saved) return def;
+    saved = migrateState(saved);
     const st = Object.assign(def, saved);
     S.meta.dlcs.forEach(d => { if (!(d.id in st.dlcs)) st.dlcs[d.id] = !!d.default; }); // neue DLCs bekommen ihren Standard
     if (!LANGS.some(l => l[0] === st.lang)) st.lang = "de";
     if (["system", "light", "dark"].indexOf(st.theme) < 0) st.theme = "system";
     if (st.tempUnit !== "f") st.tempUnit = "c";
     if (!Array.isArray(st.planner)) st.planner = [];
-    /* Neue Standard-Spalten: eigene Spaltenauswahl aus älteren Versionen einmalig zurücksetzen */
-    if (st.colsV !== COLS_V) { Object.keys(st.cats || {}).forEach(k => { if (st.cats[k]) st.cats[k].cols = {}; }); st.colsV = COLS_V; }
+    if (!st.cats || typeof st.cats !== "object") st.cats = {};
     if (!Array.isArray(st.zoos) || !st.zoos.length) st.zoos = def.zoos;
     st.zoos.forEach(z => { if (!Array.isArray(z.owned)) z.owned = []; });
     if (!st.zoos.some(z => z.id === st.zoo)) st.zoo = st.zoos[0].id;
     return st;
+  }
+  /* Gespeicherte Daten älterer Versionen übernehmen statt verwerfen (Filter, Ansichten, Zoos, Planer bleiben erhalten).
+     Bei künftigen Änderungen am Speicherformat hier einen weiteren Schritt ergänzen und STATE_V erhöhen. */
+  function migrateState(st) {
+    if (!ZL.isNum(st.v)) st.v = 1;
+    if (st.v > STATE_V) { try { localStorage.setItem(STORE_KEY + ".backup", JSON.stringify(st)); } catch (e) { /* egal */ } }
+    st.v = STATE_V;
+    return st;
+  }
+  /* Eigene Daten sichern / wiederherstellen (z. B. für einen anderen Browser) */
+  function exportState() {
+    const blob = new Blob([JSON.stringify(Object.assign({ app: "zoopedia-pz2", exported: new Date().toISOString() }, S.state), null, 1)], { type: "application/json" });
+    const a = h("a", { href: URL.createObjectURL(blob), download: "zoopedia-meine-daten.json" });
+    document.body.appendChild(a); a.click(); setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 500);
+  }
+  function importState(file, done) {
+    const r = new FileReader();
+    r.onload = () => {
+      try {
+        const d = JSON.parse(r.result);
+        if (!d || d.app !== "zoopedia-pz2") throw new Error("format");
+        delete d.app; delete d.exported;
+        localStorage.setItem(STORE_KEY, JSON.stringify(d));
+        S.state = loadState(); save(); applyTheme(); done(true);
+      } catch (e) { done(false); }
+    };
+    r.readAsText(file);
   }
   function save() { try { localStorage.setItem(STORE_KEY, JSON.stringify(S.state)); } catch (e) { /* privat/gesperrt: einfach ohne Speichern */ } }
 
@@ -234,6 +264,7 @@
     S.state.tab = fromHash && (fromHash === PLANNER || fromHash === HOME || catById(fromHash)) ? fromHash : HOME;
 
     applyTheme();
+    countVisit();
     bindStatic();
     renderAll();
     window.addEventListener("hashchange", () => {
@@ -265,7 +296,13 @@
     $("langSel").setAttribute("aria-label", t("nav.language"));
     $("langSel").title = t("nav.language");
     const ver = $("brandVer");
-    if (ver && S.meta.version) { ver.textContent = "v" + S.meta.version; ver.title = "Version " + S.meta.version; ver.hidden = false; }
+    if (ver && (S.meta.version || S.meta.updated)) {
+      /* Version und Datum des letzten Updates, z. B. "v1.0.3.1011968 – 14.10.2026" */
+      let date = "";
+      if (S.meta.updated) { try { date = new Intl.DateTimeFormat(S.state.lang, { day: "2-digit", month: "2-digit", year: "numeric" }).format(new Date(S.meta.updated + "T12:00:00")); } catch (e) { date = S.meta.updated; } }
+      ver.textContent = [S.meta.version ? "v" + S.meta.version : "", date].filter(Boolean).join(" – ");
+      ver.title = [S.meta.version ? "Version " + S.meta.version : "", date ? t("ver.updated") + ": " + date : ""].filter(Boolean).join(" · "); ver.hidden = false;
+    }
     const tag = $("brandTag"); tag.innerHTML = ""; tAuthor("app.tagline").forEach(n => tag.append(n));
     $("btnSettingsLabel").textContent = t("nav.settings");
     $("btnSettings").setAttribute("aria-label", t("nav.settings"));
@@ -878,6 +915,15 @@
     });
     return wrap;
   }
+  function dataBox() {
+    const msg = h("p", { class: "f-hint", style: "margin:6px 0 0", text: t("data.hint") });
+    const file = h("input", { type: "file", accept: ".json,application/json", hidden: true,
+      onchange: e => { const f = e.target.files[0]; if (!f) return;
+        importState(f, ok => { msg.textContent = t(ok ? "data.importOk" : "data.importBad"); msg.classList.toggle("note-warn", !ok); if (ok) setTimeout(() => $("dlg").close(), 900); }); } });
+    return h("div", {}, [h("div", { class: "row-actions", style: "margin:0" }, [
+      h("button", { type: "button", class: "btn", text: "⭳ " + t("data.export"), onclick: exportState }),
+      h("button", { type: "button", class: "btn", text: "⭱ " + t("data.import"), onclick: () => file.click() }), file]), msg]);
+  }
   function openSettings() {
     const sec = (title, content) => h("section", {}, [h("h3", { text: title }), content]);
     let armed = false;
@@ -897,6 +943,7 @@
           v => { S.state.theme = v; save(); applyTheme(); })),
         sec(t("settings.temp"), seg([["c", t("temp.c")], ["f", t("temp.f")]], S.state.tempUnit, v => { S.state.tempUnit = v; save(); })),
         sec(t("settings.calc"), seg([["sum", t("settings.calcSum")], ["max", t("settings.calcMax")]], S.state.calcMode, v => { S.state.calcMode = v; save(); })),
+        sec(t("data.title"), dataBox()),
         h("p", { class: "hint", style: "margin:0", text: t("settings.local") })
       ],
       foot: [reset, closeBtn()],
@@ -988,7 +1035,27 @@
       [null, t("col.litter"), rangeText(lc.litter)], [null, t("col.gestation"), fmtTime(lc.gestation)],
       [null, t("col.interval"), fmtTime(lc.interval)]
     ])));
+    if (a.enclosures && a.enclosures.length) grid.appendChild(sec(t("detail.enclosures"),
+      h("div", { class: "chips" }, a.enclosures.map(e => h("span", { class: "tag nodot", text: t("encl." + e) })))));
     body.push(grid);
+
+    /* Farbmorphen mit Beispielbildern der offiziellen Zoopedia */
+    if (a.morphs && a.morphs.length) {
+      const card = m => {
+        const i = m.text.indexOf(":");
+        const name = i > 0 ? m.text.slice(0, i) : "", desc = i > 0 ? m.text.slice(i + 1).trim() : m.text;
+        const pic = h("span", { class: "morph-pic" });
+        if (m.img) {
+          const img = h("img", { src: asset(m.img), alt: m.text, loading: "lazy", referrerpolicy: "no-referrer" });
+          img.addEventListener("error", () => { pic.innerHTML = ""; pic.appendChild(svg(PAW_SVG)); });
+          pic.appendChild(img);
+        } else pic.appendChild(svg(PAW_SVG));
+        return h("figure", { class: "morph", title: m.text }, [pic, h("figcaption", {}, [name ? h("b", { text: name }) : null, h("span", { text: desc })])]);
+      };
+      body.push(h("section", { class: "d-sec" }, [h("h3", { text: t("detail.morphs") }),
+        h("div", { class: "morphs" }, a.morphs.map(card)),
+        S.state.lang !== "de" ? h("p", { class: "f-hint", style: "margin:8px 0 0", text: t("detail.morphsDe") }) : null]));
+    }
 
     /* Zusammenleben: Namen anklickbar, öffnen das Profil der anderen Art */
     const rel = ZL.relationsOf(a.id, S.compat);
@@ -1068,8 +1135,28 @@
       h("section", { class: "home-sec" }, [h("h2", { class: "home-h", text: t("home.cat.title") }), h("p", { class: "home-lead", text: t("home.cat.text") }), tiles]),
       h("section", { class: "home-sec home-panel" }, [feats]),
       h("div", { class: "home-note" }, [h("span", { class: "home-note-ic", text: "°F" }), h("span", { text: t("home.tempNote") })]),
-      h("p", { class: "home-foot", text: t("home.data") })
+      h("p", { class: "home-foot", text: t("home.data") }),
+      visitorBadge()
     ]));
+  }
+  /* Besucherzähler (GoatCounter: kostenlos, ohne Cookies). Code in der Excel, Blatt „Info“ → meta.counter */
+  const counterOn = () => !!(S.meta.counter && /^https?:$/.test(location.protocol) && !/^(localhost|127\.|\[::1\])/.test(location.hostname));
+  function countVisit() {
+    if (!counterOn() || countVisit.done) return;
+    countVisit.done = true;
+    const u = "https://" + S.meta.counter + ".goatcounter.com/count?p=" + encodeURIComponent("/") + "&t=" + encodeURIComponent("Zoopedia") + "&rnd=" + Math.random().toString(36).slice(2);
+    try { const img = new Image(); img.referrerPolicy = "no-referrer-when-downgrade"; img.src = u; } catch (e) { /* egal */ }
+  }
+  function visitorBadge() {
+    const el = h("p", { class: "home-visits", hidden: true });
+    if (!counterOn()) return el;
+    fetch("https://" + S.meta.counter + ".goatcounter.com/counter/TOTAL.json").then(r => r.ok ? r.json() : null).then(d => {
+      const n = d && parseInt(String(d.count_unique || d.count || "").replace(/\D/g, ""), 10);
+      if (!n) return;
+      el.textContent = "👣 " + t("home.visitors", { n: fmt(n, 0) });
+      el.hidden = false;
+    }).catch(() => {});
+    return el;
   }
 
   /* ---------- Gehege-Planer ---------- */

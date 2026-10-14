@@ -10,6 +10,7 @@ Bei Fehlern wird nichts geschrieben – das Skript nennt Tierart und Spalte.
 """
 import argparse
 import collections
+import datetime
 import os
 import re
 import sys
@@ -229,6 +230,13 @@ def find_cols(cols):
                 key = "walk"
         elif g.startswith("lebenszyklus") and r3 in life:
             key = ("life", life[r3])
+        elif g == "vivarium" and r3 == "bauformen":
+            key = "enclosures"
+        elif g.startswith("farbmorphen"):
+            if r3.startswith("farbmorph"):
+                key = "morphText"
+            elif r3.startswith("beispielbild"):
+                key = "morphImg"
         elif g.startswith("zusammenleben"):
             if r3.startswith("erfolgreich"):
                 key = "thriving"
@@ -300,17 +308,40 @@ def read_names(wb):
     return out
 
 
-def read_version(wb):
-    """Blatt „Info“: Zeile „Version“ -> wird oben links auf der Seite angezeigt."""
+def read_info(wb, key):
+    """Blatt „Info“: Wert der Zeile mit der Angabe „key“ (z. B. Version, GoatCounter-Code)."""
     if "Info" not in wb.sheetnames:
         return None
     for row in wb["Info"].iter_rows(min_row=1, max_col=2, values_only=True):
-        if row and str(clean(row[0]) or "").lower() == "version" and clean(row[1]) is not None:
+        if row and str(clean(row[0]) or "").lower() == key.lower() and clean(row[1]) is not None:
             return str(clean(row[1]))
     return None
 
 
+def read_updated(wb):
+    """Blatt „Info“, Zeile „Letztes Update“ -> Datum oben links neben der Version (leer = kein Datum)."""
+    v = None
+    if "Info" in wb.sheetnames:
+        for row in wb["Info"].iter_rows(min_row=1, max_col=2, values_only=True):
+            if row and str(clean(row[0]) or "").lower() == "letztes update":
+                v = row[1]
+    if isinstance(v, (datetime.date, datetime.datetime)):
+        return v.strftime("%Y-%m-%d")
+    if isinstance(v, str):
+        m = re.match(r"^\s*(\d{1,2})\.(\d{1,2})\.(\d{4})\s*$", v)
+        if m:
+            return f"{m.group(3)}-{int(m.group(2)):02d}-{int(m.group(1)):02d}"
+        warn("Info", f"„Letztes Update“: „{v}“ ist kein Datum (TT.MM.JJJJ) – kein Datum angezeigt")
+    return None
+
+
+def read_version(wb):
+    return read_info(wb, "Version")
+
+
 # ---------- Tiere ----------
+ENCLOSURE_LABELS = ["Box", "Zylinder", "Box (groß)", "Zylinder (groß)", "Box (groß, abgeschrägt)", "Begehbar"]
+ENCLOSURES = dict(zip([x.lower() for x in ENCLOSURE_LABELS], ["box", "cylinder", "boxLarge", "cylinderLarge", "boxLargeAngled", "walkthrough"]))
 AREA_HEAD = dict(Z.AREAS)
 
 
@@ -404,6 +435,27 @@ def read_animals(wb, dlc_by_name, image_dir):
             lc[lid] = to_range(v, where, head) if lid == "litter" else to_time(v, where, head)
         a["lifecycle"] = lc
 
+        enc = [x.strip() for x in str(clean(val("enclosures")) or "").split(";") if x.strip()]
+        a["enclosures"] = []
+        for e in enc:
+            eid = ENCLOSURES.get(e.lower())
+            if eid:
+                a["enclosures"].append(eid)
+            else:
+                err(where, f"Bauform „{e}“ unbekannt (erlaubt: {', '.join(ENCLOSURE_LABELS)})")
+        texts = [x.strip() for x in str(clean(val("morphText")) or "").split(";") if x.strip()]
+        imgs = [x.strip() for x in str(clean(val("morphImg")) or "").split(";") if x.strip()]
+        if imgs and len(imgs) != len(texts):
+            warn(where, f"Farbmorphen: {len(texts)} Beschreibung(en), aber {len(imgs)} Bild(er) – bitte gleiche Anzahl und Reihenfolge")
+        a["morphs"] = []
+        for i, tx in enumerate(texts):
+            m = {"text": tx}
+            if i < len(imgs):
+                url = imgs[i]
+                local = os.path.join("assets", "farbmorphen", os.path.basename(url.split("?")[0]))
+                m["img"] = local.replace(os.sep, "/") if os.path.exists(os.path.join(Z.ROOT, local)) else url
+            a["morphs"].append(m)
+
         a["_thriving"] = name_list(val("thriving"))
         a["_neutral"] = name_list(val("neutral"))
         animals.append(a)
@@ -487,6 +539,23 @@ def main():
     version = read_version(wb)
     if version:
         meta["version"] = version
+    updated = read_updated(wb)
+    if updated:
+        meta["updated"] = updated
+    else:
+        meta.pop("updated", None)
+    counter = read_info(wb, "GoatCounter-Code")
+    if counter:  # auch ganzer Einbau-Code oder Link erlaubt, z. B. https://ninipisi.goatcounter.com/count -> ninipisi
+        m = re.search(r"([a-z0-9-]+)\.goatcounter\.com", counter.lower())
+        if m:
+            counter = m.group(1)
+    if counter and not re.fullmatch(r"[a-z0-9-]+", counter.strip().lower()):
+        print(f"Hinweis  Info: GoatCounter-Code „{counter}“ ungültig (nur Kleinbuchstaben, Ziffern, Bindestrich) – Zähler bleibt aus")
+        counter = None
+    if counter:
+        meta["counter"] = counter.strip().lower()
+    else:
+        meta.pop("counter", None)
     Z.save_json("data/meta.json", meta)
     print("Daten geschrieben: data/tiere.json, data/compat.json, data/meta.json")
 

@@ -84,6 +84,20 @@ Veröffentlichen: GitHub-Repo, Settings → Pages → Deploy from branch (main, 
 Lebenszyklus als Text („3 Jahre“, „20 Monate“, „4 Wochen“, „10 Tage“) → `[Zahl, Einheit]`, auf der Seite übersetzt. Wurfgröße/Nur ♂/Nur ♀ als „1-6“.
 Zusammenleben: „Erfolgreiche Beziehungen“ = diese Art profitiert von den genannten; „Neutrale Beziehungen“ = verträglich ohne Bonus; Namen mit Komma getrennt, „keine“ = leer.
 
+## Stand (14.10.2026, 13. Runde) – Bauformen, Farbmorphen, Update-Datum
+- Excel ist die einzige Datenquelle. Zusätzlich (gelbe Spalten ganz rechts, „Alle Tiere“ DA–DC): Vivarium „Bauformen“ (mit „; “ getrennt: Box, Zylinder, Box (groß), Zylinder (groß), Box (groß, abgeschrägt), Begehbar) und „Farbmorphen“: Beschreibung (offizieller deutscher Text „Name: Beschreibung“) + Beispielbild-Link (hosting.zaonce.net …_headshot_<Typ>.png, 128 px, transparent), beide mit „; “ getrennt in gleicher Reihenfolge. 70 Arten / 121 Morphen, ausgelesen von https://www.planetzoogame.com/de-DE/2/zoopedia/<de-slug> (Liste `.c-pz2-zoopedia-lifecycle__colourmorphs li[title]`).
+- Weitere zwischendurch ergänzte Spalten (Lebensphasen, Fortpflanzung, Gelände, Akkreditierung, Auswilderung) auf Wunsch wieder entfernt.
+- Seite: Tierprofil zeigt „Vivarium-Bauformen“ und „Farbmorphen“ (rundes Bild + Name + Beschreibung; Beschreibungen nur deutsch, in anderen Sprachen Hinweis). Bilder: lokal aus `assets/farbmorphen/`, sonst Link. `tools/farbmorph_bilder_laden.py` lädt sie in der GitHub-Aktion herunter (danach zweiter Konverter-Lauf).
+- Gefährdungs-Auswahlliste (H5:H440, Quelle Listen!A1:A9) ist eine Excel-Erweiterung und geht beim Speichern mit openpyxl verloren – bei jeder Bearbeitung neu anlegen.
+- Oben links „v<Version> – <Datum>“; Datum NUR aus Blatt „Info“, Zeile „Letztes Update“ (leer = kein Datum) → `meta.updated`. Tooltip „Letztes Update: …“.
+
+## Stand (14.10.2026, 12. Runde) – Architektur-Entscheidung, Datenerhalt, Besucherzähler
+- Entschieden: **kein Backend / keine Datenbank** (Nutzerin: „hinfällig“). Seite bleibt statisch auf GitHub Pages, kostenlos & wartungsarm. React-Umbau nicht begonnen (kein Nutzen ohne Backend; nur auf ausdrücklichen Wunsch).
+- Datenerhalt bei Updates: Speicherschlüssel `zoopedia-pz2.v1` bleibt; `migrateState()` übernimmt ältere Stände statt sie zu verwerfen (`STATE_V`). Unlesbare Stände werden vorher unter `zoopedia-pz2.v1.backup` gesichert. Das frühere einmalige Zurücksetzen der Spalten (COLS_V) ist entfernt – eigene Spaltenwahl bleibt immer erhalten.
+  Regel für künftige Änderungen: Speicherformat nie brechen; neue Felder mit Standardwert ergänzen; bei Umbauten einen Schritt in `migrateState()` ergänzen und `STATE_V` erhöhen.
+- Einstellungen → „Meine Daten“: Sicherung herunterladen (JSON) / Sicherung laden – z. B. für Browserwechsel.
+- Besucherzähler: GoatCounter (kostenlos, ohne Cookies). Excel-Blatt „Info“, Zeile „GoatCounter-Code“ → `meta.counter` (Code „ninipisi“; Konverter akzeptiert auch den ganzen Einbau-Code oder Link und zieht den Code heraus). Seite zählt jeden Aufruf per Bild-Ping (nicht in Vorschau/localhost) und zeigt auf der Startseite „👣 n Besucher“ (eindeutige Besucher aus `/counter/TOTAL.json`). In GoatCounter muss unter Settings „Allow adding visitor counts on your website“ aktiviert sein. Ohne Code: kein Zähler.
+
 ## Stand (13.10.2026, 11. Runde)
 - Neuer erster Tab „Startseite“ (`#home`; die Seite öffnet immer damit, außer ein Link zeigt auf einen Tab). Aufbau: grüner Kopfbereich mit Logo und zwei Einstiegen, Bildkacheln je Gehegeart (Bilder in `HOME_PICS`), Funktionsliste mit runden Symbolen, °F-Hinweis mit Erklärung aller Werkzeuge und Hinweis, dass °F umgerechnet und daher nicht 100 % genau ist.
 - Standardmäßig sichtbar: Gefährdung, Inhalt, Kontinente/Ozeane, Biome, Temperatur, Mindestfläche 1 Tier (Rückzugsort, Wasseroberfläche, Tiefwasserbereich, Klettergebiet, Landfläche, bei Volieren zusätzlich Flugbereich), Zaun, Sozialverhalten, Lebenszyklus. Ausgeblendet: „Je weiterem Tier“, Min-/Max-Gruppe, Rollen, Luftfeuchtigkeit, Salzgehalt (im Spaltenmenü einblendbar; Spalten ohne Werte im Tab erscheinen ohnehin nicht).
