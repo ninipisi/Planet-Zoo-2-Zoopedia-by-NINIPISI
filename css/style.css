@@ -397,7 +397,12 @@ footer small { opacity: .8; }
   color: #fff; text-decoration: none; background: rgba(255,255,255,.12); border: 1px solid rgba(255,255,255,.22); transition: background .15s, border-color .15s; }
 .kofi-top:hover { background: rgba(255,255,255,.24); border-color: rgba(255,255,255,.45); color: #fff; }
 .kofi-top .cup { width: 18px; height: 18px; color: #ffd36b; --kofi-heart: #ff7a6b; }
-@media (max-width: 720px) { .top-right { width: 100%; align-items: stretch; } .kofi-top { align-self: flex-end; } }
+/* Zweite Zeile rechts oben: Link zur PZ1-Zoopedia (beginnt bündig unter „Meine Spielinhalte“) und Ko-fi */
+.top-links { align-self: stretch; display: flex; justify-content: space-between; align-items: center; gap: 8px; flex-wrap: wrap; }
+.sister-link .sister-logo { width: 18px; height: 18px; }
+.sister-link .sister-arrow { opacity: .8; font-size: 11px; }
+.top-links #kofiTop { margin-left: auto; }
+@media (max-width: 720px) { .top-right { width: 100%; align-items: stretch; } }
 
 /* Steam-Link in „Meine Spielinhalte“ */
 .opt-row { display: flex; align-items: stretch; gap: 8px; }

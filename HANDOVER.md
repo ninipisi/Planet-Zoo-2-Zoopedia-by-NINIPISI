@@ -84,6 +84,9 @@ Veröffentlichen: GitHub-Repo, Settings → Pages → Deploy from branch (main, 
 Lebenszyklus als Text („3 Jahre“, „20 Monate“, „4 Wochen“, „10 Tage“) → `[Zahl, Einheit]`, auf der Seite übersetzt. Wurfgröße/Nur ♂/Nur ♀ als „1-6“.
 Zusammenleben: „Erfolgreiche Beziehungen“ = diese Art profitiert von den genannten; „Neutrale Beziehungen“ = verträglich ohne Bonus; Namen mit Komma getrennt, „keine“ = leer.
 
+## Stand (14.10.2026, 14. Runde) – Link zur Schwesterseite
+- Kopfzeile rechts, Zeile mit Ko-fi: Button „Zum Zoopedia für Planet Zoo“ (`#sisterLink`, `SISTER_URL` in app.js, Schlüssel `nav.sister`), beginnt bündig unter „Meine Spielinhalte“, öffnet https://ninipisi.github.io/Planet-Zoo-Zoopedia-by-NINIPISI/#home in neuem Tab. Umsetzung exakt nach Ninas Anleitung `ANLEITUNG_Button_PZ2.md` (index.html `.top-links`, CSS, Übersetzung).
+
 ## Stand (14.10.2026, 13. Runde) – Bauformen, Farbmorphen, Update-Datum
 - Excel ist die einzige Datenquelle. Zusätzlich (gelbe Spalten ganz rechts, „Alle Tiere“ DA–DC): Vivarium „Bauformen“ (mit „; “ getrennt: Box, Zylinder, Box (groß), Zylinder (groß), Box (groß, abgeschrägt), Begehbar) und „Farbmorphen“: Beschreibung (offizieller deutscher Text „Name: Beschreibung“) + Beispielbild-Link (hosting.zaonce.net …_headshot_<Typ>.png, 128 px, transparent), beide mit „; “ getrennt in gleicher Reihenfolge. 70 Arten / 121 Morphen, ausgelesen von https://www.planetzoogame.com/de-DE/2/zoopedia/<de-slug> (Liste `.c-pz2-zoopedia-lifecycle__colourmorphs li[title]`).
 - Weitere zwischendurch ergänzte Spalten (Lebensphasen, Fortpflanzung, Gelände, Akkreditierung, Auswilderung) auf Wunsch wieder entfernt.

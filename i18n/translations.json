@@ -313,7 +313,8 @@
   "encl.cylinderLarge": "Zylinder (groß)",
   "encl.boxLargeAngled": "Box (groß, abgeschrägt)",
   "encl.walkthrough": "Begehbar",
-  "ver.updated": "Letztes Update"
+  "ver.updated": "Letztes Update",
+  "nav.sister": "Zum Zoopedia für Planet Zoo"
  },
  "en": {
   "app.tagline": "Unofficial fan Zoopedia by {author} for Planet Zoo 2",
@@ -629,7 +630,8 @@
   "encl.cylinderLarge": "Cylinder (large)",
   "encl.boxLargeAngled": "Box (large, angled)",
   "encl.walkthrough": "Walk-through",
-  "ver.updated": "Last update"
+  "ver.updated": "Last update",
+  "nav.sister": "To the Zoopedia for Planet Zoo"
  },
  "fr": {
   "app.tagline": "Zoopédia non officielle de {author} pour Planet Zoo 2",
@@ -945,7 +947,8 @@
   "encl.cylinderLarge": "Cylindre (grand)",
   "encl.boxLargeAngled": "Boîte (grande, inclinée)",
   "encl.walkthrough": "Traversable",
-  "ver.updated": "Dernière mise à jour"
+  "ver.updated": "Dernière mise à jour",
+  "nav.sister": "Vers la Zoopedia de Planet Zoo"
  },
  "it": {
   "app.tagline": "Zoopedia non ufficiale di {author} per Planet Zoo 2",
@@ -1261,7 +1264,8 @@
   "encl.cylinderLarge": "Cilindro (grande)",
   "encl.boxLargeAngled": "Teca (grande, inclinata)",
   "encl.walkthrough": "Attraversabile",
-  "ver.updated": "Ultimo aggiornamento"
+  "ver.updated": "Ultimo aggiornamento",
+  "nav.sister": "Alla Zoopedia di Planet Zoo"
  },
  "es": {
   "app.tagline": "Zoopedia no oficial de {author} para Planet Zoo 2",
@@ -1577,7 +1581,8 @@
   "encl.cylinderLarge": "Cilindro (grande)",
   "encl.boxLargeAngled": "Caja (grande, inclinada)",
   "encl.walkthrough": "Transitable",
-  "ver.updated": "Última actualización"
+  "ver.updated": "Última actualización",
+  "nav.sister": "A la Zoopedia de Planet Zoo"
  },
  "cs": {
   "app.tagline": "Neoficiální fanouškovská Zoopedie od {author} pro Planet Zoo 2",
@@ -1893,7 +1898,8 @@
   "encl.cylinderLarge": "Válec (velký)",
   "encl.boxLargeAngled": "Box (velký, zkosený)",
   "encl.walkthrough": "Průchozí",
-  "ver.updated": "Poslední aktualizace"
+  "ver.updated": "Poslední aktualizace",
+  "nav.sister": "Do Zoopedie pro Planet Zoo"
  },
  "da": {
   "app.tagline": "Uofficiel fan-Zoopedia af {author} til Planet Zoo 2",
@@ -2209,7 +2215,8 @@
   "encl.cylinderLarge": "Cylinder (stor)",
   "encl.boxLargeAngled": "Boks (stor, skrå)",
   "encl.walkthrough": "Gennemgang",
-  "ver.updated": "Seneste opdatering"
+  "ver.updated": "Seneste opdatering",
+  "nav.sister": "Til Zoopedia for Planet Zoo"
  },
  "nl": {
   "app.tagline": "Onofficiële fan-Zoopedia van {author} voor Planet Zoo 2",
@@ -2525,7 +2532,8 @@
   "encl.cylinderLarge": "Cilinder (groot)",
   "encl.boxLargeAngled": "Box (groot, schuin)",
   "encl.walkthrough": "Doorloopbaar",
-  "ver.updated": "Laatste update"
+  "ver.updated": "Laatste update",
+  "nav.sister": "Naar de Zoopedia voor Planet Zoo"
  },
  "ja": {
   "app.tagline": "{author} による Planet Zoo 2 非公式ファン向けズーペディア",
@@ -2841,7 +2849,8 @@
   "encl.cylinderLarge": "シリンダー（大）",
   "encl.boxLargeAngled": "ボックス（大・斜め）",
   "encl.walkthrough": "ウォークスルー",
-  "ver.updated": "最終更新"
+  "ver.updated": "最終更新",
+  "nav.sister": "Planet Zoo のZoopediaへ"
  },
  "ko": {
   "app.tagline": "{author}의 Planet Zoo 2 비공식 팬 주피디아",
@@ -3157,7 +3166,8 @@
   "encl.cylinderLarge": "원통(대)",
   "encl.boxLargeAngled": "박스(대, 경사)",
   "encl.walkthrough": "통과형",
-  "ver.updated": "마지막 업데이트"
+  "ver.updated": "마지막 업데이트",
+  "nav.sister": "Planet Zoo Zoopedia로 이동"
  },
  "pl": {
   "app.tagline": "Nieoficjalna fanowska Zoopedia od {author} do Planet Zoo 2",
@@ -3473,7 +3483,8 @@
   "encl.cylinderLarge": "Walec (duży)",
   "encl.boxLargeAngled": "Skrzynka (duża, skośna)",
   "encl.walkthrough": "Przechodnie",
-  "ver.updated": "Ostatnia aktualizacja"
+  "ver.updated": "Ostatnia aktualizacja",
+  "nav.sister": "Do Zoopedii do Planet Zoo"
  },
  "pt-BR": {
   "app.tagline": "Zoopédia não oficial de fãs por {author} para Planet Zoo 2",
@@ -3789,7 +3800,8 @@
   "encl.cylinderLarge": "Cilindro (grande)",
   "encl.boxLargeAngled": "Caixa (grande, inclinada)",
   "encl.walkthrough": "Atravessável",
-  "ver.updated": "Última atualização"
+  "ver.updated": "Última atualização",
+  "nav.sister": "Para a Zoopedia de Planet Zoo"
  },
  "ru": {
   "app.tagline": "Неофициальная фанатская Зоопедия от {author} для Planet Zoo 2",
@@ -4105,7 +4117,8 @@
   "encl.cylinderLarge": "Цилиндр (большой)",
   "encl.boxLargeAngled": "Короб (большой, скошенный)",
   "encl.walkthrough": "Проходной",
-  "ver.updated": "Последнее обновление"
+  "ver.updated": "Последнее обновление",
+  "nav.sister": "К Zoopedia по Planet Zoo"
  },
  "zh-CN": {
   "app.tagline": "{author} 制作的《Planet Zoo 2》非官方粉丝动物图鉴",
@@ -4421,7 +4434,8 @@
   "encl.cylinderLarge": "圆柱（大）",
   "encl.boxLargeAngled": "箱型（大，斜面）",
   "encl.walkthrough": "可步入",
-  "ver.updated": "最近更新"
+  "ver.updated": "最近更新",
+  "nav.sister": "前往 Planet Zoo 的 Zoopedia"
  },
  "es-419": {},
  "th": {
@@ -4738,7 +4752,8 @@
   "encl.cylinderLarge": "ทรงกระบอก (ใหญ่)",
   "encl.boxLargeAngled": "กล่อง (ใหญ่ เอียง)",
   "encl.walkthrough": "เดินผ่านได้",
-  "ver.updated": "อัปเดตล่าสุด"
+  "ver.updated": "อัปเดตล่าสุด",
+  "nav.sister": "ไปที่ Zoopedia ของ Planet Zoo"
  },
  "zh-TW": {
   "app.tagline": "{author} 製作的《Planet Zoo 2》非官方粉絲動物圖鑑",
@@ -5054,6 +5069,7 @@
   "encl.cylinderLarge": "圓柱（大）",
   "encl.boxLargeAngled": "箱型（大，斜面）",
   "encl.walkthrough": "可步入",
-  "ver.updated": "最近更新"
+  "ver.updated": "最近更新",
+  "nav.sister": "前往 Planet Zoo 的 Zoopedia"
  }
 }
