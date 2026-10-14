@@ -29,8 +29,6 @@ jobs:
         run: |
           if [ -f daten/Zoopedia_PZ2_Daten.xlsx ]; then
             python tools/excel_to_json.py daten/Zoopedia_PZ2_Daten.xlsx
-            python tools/farbmorph_bilder_laden.py
-            python tools/excel_to_json.py daten/Zoopedia_PZ2_Daten.xlsx
           fi
       - name: Übersetzungen -> translations.json
         run: python tools/build_i18n.py
@@ -40,6 +38,6 @@ jobs:
         run: |
           git config user.name "zoopedia-bot"
           git config user.email "zoopedia-bot@users.noreply.github.com"
-          git add data i18n/translations.json assets/tiere assets/farbmorphen
+          git add data i18n/translations.json assets/tiere
           git diff --cached --quiet || git commit -m "Daten aus Excel aktualisiert"
           git push
