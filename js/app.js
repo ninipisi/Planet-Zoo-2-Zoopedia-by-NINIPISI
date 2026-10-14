@@ -1150,10 +1150,10 @@
   function visitorBadge() {
     const el = h("p", { class: "home-visits", hidden: true });
     if (!counterOn()) return el;
-    fetch("https://" + S.meta.counter + ".goatcounter.com/counter/TOTAL.json").then(r => r.ok ? r.json() : null).then(d => {
+    fetch("https://" + S.meta.counter + ".goatcounter.com/counter/TOTAL.json", { cache: "no-store" }).then(r => r.ok ? r.json() : null).then(d => {
       const n = d && parseInt(String(d.count_unique || d.count || "").replace(/\D/g, ""), 10);
       if (!n) return;
-      el.textContent = "👣 " + t("home.visitors", { n: fmt(n, 0) });
+      el.textContent = "🐾 " + t("home.visitors", { n: fmt(n, 0) });
       el.hidden = false;
     }).catch(() => {});
     return el;
