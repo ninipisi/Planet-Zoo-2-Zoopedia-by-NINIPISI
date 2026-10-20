@@ -62,7 +62,7 @@
    "morphs": [
     {
      "text": "Albino: Gelber Körper mit weißem Netzmuster",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/611938e0/Constrictor_Boa_headshot_Albino.png",
+     "img": "assets/farbmorphen/Constrictor_Boa_headshot_Albino.png",
      "texts": {
       "en": "Albino: Yellow and white reticulated body",
       "fr": "Albinos : corps réticulé jaune et blanc",
@@ -189,7 +189,7 @@
    "morphs": [
     {
      "text": "Erythristisch: Blasses Fell mit rotbraunen Rosetten",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/56ab860b/Leopard_African_headshot_Erythristic.png",
+     "img": "assets/farbmorphen/Leopard_African_headshot_Erythristic.png",
      "texts": {
       "en": "Erythristic: Pale fur with red-brown rosettes",
       "fr": "Érythristique : fourrure pâle à rosettes brun-roux",
@@ -210,7 +210,7 @@
     },
     {
      "text": "Melanistisch: Schwarzbraunes Fell mit dunklen Rosetten",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/56ab860b/Leopard_African_headshot_Melanistic.png",
+     "img": "assets/farbmorphen/Leopard_African_headshot_Melanistic.png",
      "texts": {
       "en": "Melanistic: Black-brown fur with dark rosettes",
       "fr": "Mélanique : fourrure brun-noir à rosettes foncées",
@@ -340,7 +340,7 @@
    "morphs": [
     {
      "text": "Albino: rosafarbene Haut mit dunklen Flecken",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/c7efe7fa/Elephant_AfricanSavannah_headshot_Albino.png",
+     "img": "assets/farbmorphen/Elephant_AfricanSavannah_headshot_Albino.png",
      "texts": {
       "en": "Albino: Pink skin with dark patches",
       "fr": "Albinos : peau rose à taches noires",
@@ -465,7 +465,7 @@
    "morphs": [
     {
      "text": "Leuzistisch: weiße Federn, blasse Haut",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/25b70ffd/Ostrich_Common_headshot_Leucistic.png",
+     "img": "assets/farbmorphen/Ostrich_Common_headshot_Leucistic.png",
      "texts": {
       "en": "Leucistic: White feathers with pale skin",
       "fr": "Leucique : plumage blanc et peau pâle",
@@ -591,7 +591,7 @@
    "morphs": [
     {
      "text": "Sandfarbenes Fell",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/44ba64a2/Dog_AfricanWild_headshot_Albino.png",
+     "img": "assets/farbmorphen/Dog_AfricanWild_headshot_Albino.png",
      "texts": {
       "en": "Sandy fur",
       "fr": "Fourrure sable",
@@ -717,7 +717,7 @@
    "morphs": [
     {
      "text": "Albino: Rosa Haut",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/defaf570/Elephant_Indian_headshot_Albino.png",
+     "img": "assets/farbmorphen/Elephant_Indian_headshot_Albino.png",
      "texts": {
       "en": "Albino: Pink skin",
       "fr": "Albinos : peau rose",
@@ -738,7 +738,7 @@
     },
     {
      "text": "Graue Haut mit rosafarbener Sprenkelung im Gesicht",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/defaf570/Elephant_Indian_headshot_Piebald.png",
+     "img": "assets/farbmorphen/Elephant_Indian_headshot_Piebald.png",
      "texts": {
       "en": "Grey skin with pink mottling around face",
       "fr": "Peau grise avec marbrures roses sur la tête",
@@ -836,7 +836,7 @@
    "morphs": [
     {
      "text": "Melanistisch: Schwarzer Körper, schwarze Kiemen",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/d75f80a9/Salamander_Axolotl_headshot_Albino.png",
+     "img": "assets/farbmorphen/Salamander_Axolotl_headshot_Albino.png",
      "texts": {
       "en": "Melanistic: Black body and gills",
       "fr": "Mélanique : corps et branchies noirs",
@@ -857,7 +857,7 @@
     },
     {
      "text": "Leuzistisch: Rosafarbener Körper, rote Kiemen",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/d75f80a9/Salamander_Axolotl_headshot_Erythristic.png",
+     "img": "assets/farbmorphen/Salamander_Axolotl_headshot_Erythristic.png",
      "texts": {
       "en": "Leucistic: Pink body and red gills",
       "fr": "Leucique : corps rose et branchies rouges",
@@ -878,7 +878,7 @@
     },
     {
      "text": "Albino: Rosafarbener Körper, rote Kiemen und Augen",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/d75f80a9/Salamander_Axolotl_headshot_Leucistic.png",
+     "img": "assets/farbmorphen/Salamander_Axolotl_headshot_Leucistic.png",
      "texts": {
       "en": "Albino: Pink body, red gills and red eyes",
       "fr": "Albinos : corps rose, branchies rouges et yeux rouges",
@@ -899,7 +899,7 @@
     },
     {
      "text": "Xanthisch: Gelber Körper und rote Kiemen",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/d75f80a9/Salamander_Axolotl_headshot_Melanistic.png",
+     "img": "assets/farbmorphen/Salamander_Axolotl_headshot_Melanistic.png",
      "texts": {
       "en": "Xanthic: Yellow body and red gills",
       "fr": "Xanthique : corps jaune et branchies rouges",
@@ -920,7 +920,7 @@
     },
     {
      "text": "Gescheckt: Schwarz gefleckter Körper mit roten Kiemen",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/d75f80a9/Salamander_Axolotl_headshot_Axanthic.png",
+     "img": "assets/farbmorphen/Salamander_Axolotl_headshot_Axanthic.png",
      "texts": {
       "en": "Speckled: Black mottled body with red gills",
       "fr": "Moucheté : corps moucheté de noir et branchies rouges",
@@ -1201,7 +1201,7 @@
    "morphs": [
     {
      "text": "Nkonde-Farbvariante („Gelber Regenbogen“): Gelber Körper mit orangerotem Kopf",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/56a56818/Cichlid_Blunthead_headshot_Albino.png",
+     "img": "assets/farbmorphen/Cichlid_Blunthead_headshot_Albino.png",
      "texts": {
       "en": "Nkonde 'Yellow Rainbow' morph: Yellow body with orange-red head",
       "fr": "Variété Nkonde « Arc-en-ciel jaune » : corps jaune et tête rouge orangé",
@@ -1222,7 +1222,7 @@
     },
     {
      "text": "Chaitika-Farbvariante („Blauer Regenbogen“): Weißer Körper mit braunen Streifen und blauen Flossen",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/56a56818/Cichlid_Blunthead_headshot_Erythristic.png",
+     "img": "assets/farbmorphen/Cichlid_Blunthead_headshot_Erythristic.png",
      "texts": {
       "en": "Chaitika 'Blue Rainbow' morph: White body with brown banding and blue fins",
       "fr": "Variété Chaitika « Arc-en-ciel bleu » : corps blanc à bandes brunes et nageoires bleues",
@@ -1243,7 +1243,7 @@
     },
     {
      "text": "Kasanga-Farbvariante („Roter Regenbogen“): Gelber Körper mit rotblauem Kopf und rotblauen Flossen",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/56a56818/Cichlid_Blunthead_headshot_Leucistic.png",
+     "img": "assets/farbmorphen/Cichlid_Blunthead_headshot_Leucistic.png",
      "texts": {
       "en": "Kasanga 'Red Rainbow' morph: Yellow body with red-blue head and fins",
       "fr": "Variété Kasanga « Arc-en-ciel rouge » : corps jaune à tête et nageoires bleu-rouge",
@@ -1264,7 +1264,7 @@
     },
     {
      "text": "Murago-Farbvariante: Brauner Körper mit blassgelben Streifen und Punkten",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/56a56818/Cichlid_Blunthead_headshot_Melanistic.png",
+     "img": "assets/farbmorphen/Cichlid_Blunthead_headshot_Melanistic.png",
      "texts": {
       "en": "Murago morph: Brown body with pale yellow banding and spots",
       "fr": "Variété Murago : corps brun à bandes et taches jaune pâle",
@@ -1285,7 +1285,7 @@
     },
     {
      "text": "Bemba-Farbvariante: Schwarzer Körper mit hell-orangefarbenem Streifen",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/56a56818/Cichlid_Blunthead_headshot_Axanthic.png",
+     "img": "assets/farbmorphen/Cichlid_Blunthead_headshot_Axanthic.png",
      "texts": {
       "en": "Bemba morph: Black body with bright orange band",
       "fr": "Variété Bemba : corps noir à bandes orange vif",
@@ -1484,7 +1484,7 @@
    "morphs": [
     {
      "text": "Braune Mutation: Hellbraunes Gefieder mit weißem Bauch und braunen Flecken",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/1b6fe767/Penguin_African_headshot_Albino.png",
+     "img": "assets/farbmorphen/Penguin_African_headshot_Albino.png",
      "texts": {
       "en": "Brown mutation: Pale brown feathers with white front and brown spots",
       "fr": "Mutation brune : plumes brun pâle avec ventre blanc et taches brunes",
@@ -1505,7 +1505,7 @@
     },
     {
      "text": "Teils leuzistisch: Weißes Gefieder mit teilweise schwarz gefleckter Musterung",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/1b6fe767/Penguin_African_headshot_Erythristic.png",
+     "img": "assets/farbmorphen/Penguin_African_headshot_Erythristic.png",
      "texts": {
       "en": "Part-Leucistic: White feathers with partial black mottled markings",
       "fr": "Mi-leucique : plumage blanc à marbrures partielles noires",
@@ -1526,7 +1526,7 @@
     },
     {
      "text": "Albino: Weißes Gefieder",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/1b6fe767/Penguin_African_headshot_Leucistic.png",
+     "img": "assets/farbmorphen/Penguin_African_headshot_Leucistic.png",
      "texts": {
       "en": "Albino: White feathers",
       "fr": "Albinos : plumage blanc",
@@ -1963,7 +1963,7 @@
    "morphs": [
     {
      "text": "Weiße Farbvariante: Blauweißer Körper mit weißen Punkten und schwarzen Flossen",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/d082e123/Damselfish_Threespot_headshot_Leucistic.png",
+     "img": "assets/farbmorphen/Damselfish_Threespot_headshot_Leucistic.png",
      "texts": {
       "en": "White morph: Blue-white body with white dot and black fins",
       "fr": "Variété blanche : corps bleu et blanc avec tache blanche et nageoires noires",
@@ -1984,7 +1984,7 @@
     },
     {
      "text": "Pazifik-Farbvariante: Blauschwarzer Körper mit weißen Punkten, schwarz-weißer Rückenflosse und schwarzen Flossen",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/d082e123/Damselfish_Threespot_headshot_Melanistic.png",
+     "img": "assets/farbmorphen/Damselfish_Threespot_headshot_Melanistic.png",
      "texts": {
       "en": "Pacific Ocean morph: Blue-black body with white dot, black-white dorsal fin and black fins",
       "fr": "Variété océan Pacifique : corps bleu et noir avec tache blanche, nageoire dorsale noire et blanche et nageoires noires",
@@ -2287,7 +2287,7 @@
    "morphs": [
     {
      "text": "Albino: Weiße Haut und weißer Panzer",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/a3b60e69/Turtle_Hawksbill_headshot_Albino.png",
+     "img": "assets/farbmorphen/Turtle_Hawksbill_headshot_Albino.png",
      "texts": {
       "en": "Albino: White skin and carapace",
       "fr": "Albinos : peau et carapace blanches",
@@ -2411,7 +2411,7 @@
    "morphs": [
     {
      "text": "Albino: weiße Haut",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/c1066a19/Aardvark_headshot_Albino.png",
+     "img": "assets/farbmorphen/Aardvark_headshot_Albino.png",
      "texts": {
       "en": "Albino: White skin",
       "fr": "Albinos : peau blanche",
@@ -2535,7 +2535,7 @@
    "morphs": [
     {
      "text": "Leuzistisch: Weißes Fell mit schwarzen Rückenstreifen",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/e01b43c9/Meerkat_headshot_Albino.png",
+     "img": "assets/farbmorphen/Meerkat_headshot_Albino.png",
      "texts": {
       "en": "Leucistic: White fur with dark banding on back",
       "fr": "Leucique : fourrure blanche et bandes noires sur le dos",
@@ -2556,7 +2556,7 @@
     },
     {
      "text": "Albino: Weißes Fell und rosafarbene Haut",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/e01b43c9/Meerkat_headshot_Leucistic.png",
+     "img": "assets/farbmorphen/Meerkat_headshot_Leucistic.png",
      "texts": {
       "en": "Albino: White fur and pink skin",
       "fr": "Albinos : fourrure blanche et peau rose",
@@ -2685,7 +2685,7 @@
    "morphs": [
     {
      "text": "Leuzistisch: Schmutzig weißes Fell mit blassen Flecken",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/bd4f6b05/Lynx_Eurasian_headshot_Albino.png",
+     "img": "assets/farbmorphen/Lynx_Eurasian_headshot_Albino.png",
      "texts": {
       "en": "Leucistic: Dirty white fur with faint markings",
       "fr": "Leucique : fourrure blanc sale, marques à peine visibles",
@@ -2812,7 +2812,7 @@
    "morphs": [
     {
      "text": "Dunkelbraunes dichtes Fell",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/8a1a80ac/Beaver_Eurasian_headshot_Albino.png",
+     "img": "assets/farbmorphen/Beaver_Eurasian_headshot_Albino.png",
      "texts": {
       "en": "Dark brown thick fur",
       "fr": "Fourrure brun foncé épaisse",
@@ -2944,7 +2944,7 @@
    "morphs": [
     {
      "text": "Leuzistisch: Weißes Fell",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/2603f25f/Bear_EurasianBrown_headshot_Albino.png",
+     "img": "assets/farbmorphen/Bear_EurasianBrown_headshot_Albino.png",
      "texts": {
       "en": "Leucistic: White fur",
       "fr": "Leucique : fourrure blanche",
@@ -3073,7 +3073,7 @@
    "morphs": [
     {
      "text": "Leuzistisch: Weißes Fell und zottelige Mähne",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/ea0effdf/Bison_European_headshot_Leucistic.png",
+     "img": "assets/farbmorphen/Bison_European_headshot_Leucistic.png",
      "texts": {
       "en": "Leucistic: White fur and shaggy mane",
       "fr": "Leucique : fourrure et crinière hirsute blanches",
@@ -3172,7 +3172,7 @@
    "morphs": [
     {
      "text": "Albino: Dunkelrosafarbene Haut mit länglichen gelben Punkten",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/3e57e529/Salamander_Fire_headshot_Albino.png",
+     "img": "assets/farbmorphen/Salamander_Fire_headshot_Albino.png",
      "texts": {
       "en": "Albino: Dark pink skin with elongated yellow spots",
       "fr": "Albinos : corps rose foncé avec taches jaunes allongées",
@@ -3301,7 +3301,7 @@
    "morphs": [
     {
      "text": "Leuzistisch: Rosafarbene Haut",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/5ca986c0/Hippopotamus_Common_headshot_Albino.png",
+     "img": "assets/farbmorphen/Hippopotamus_Common_headshot_Albino.png",
      "texts": {
       "en": "Leucistic: Pink skin",
       "fr": "Leucique : peau rose",
@@ -3322,7 +3322,7 @@
     },
     {
      "text": "Leuzistisch: rosafarbene Haut mit schwarzer Sprenkelung",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/5ca986c0/Hippopotamus_Common_headshot_Leucistic.png",
+     "img": "assets/farbmorphen/Hippopotamus_Common_headshot_Leucistic.png",
      "texts": {
       "en": "Leucistic: Pink skin with black mottling",
       "fr": "Leucique : peau rose à marbrures noires",
@@ -3543,7 +3543,7 @@
    "morphs": [
     {
      "text": "Leuzistisch: Hellgraue schuppige Haut mit schwarzer Zeichnung",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/64870c43/Gharial_headshot_Albino.png",
+     "img": "assets/farbmorphen/Gharial_headshot_Albino.png",
      "texts": {
       "en": "Leucistic: Light grey scaled skin with black markings",
       "fr": "Leucique : peau à écailles gris clair avec marques noires",
@@ -3666,7 +3666,7 @@
    "morphs": [
     {
      "text": "Leuzistisch: Weißer Körper",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/2a1cb22c/Ray_SpottedEagle_headshot_Albino.png",
+     "img": "assets/farbmorphen/Ray_SpottedEagle_headshot_Albino.png",
      "texts": {
       "en": "Leucistic: White body",
       "fr": "Leucique : corps blanc",
@@ -3765,7 +3765,7 @@
    "morphs": [
     {
      "text": "Albino: Weißer Körper mit gelber Musterung",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/518ac83f/Constrictor_YellowAnaconda_headshot_Albino.png",
+     "img": "assets/farbmorphen/Constrictor_YellowAnaconda_headshot_Albino.png",
      "texts": {
       "en": "Albino: White body with yellow markings",
       "fr": "Albinos : corps blanc à marques jaunes",
@@ -4545,7 +4545,7 @@
    "morphs": [
     {
      "text": "Leuzistisch: weißes Fell",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/865bfc37/Bear_Grizzly_headshot_Albino.png",
+     "img": "assets/farbmorphen/Bear_Grizzly_headshot_Albino.png",
      "texts": {
       "en": "Leucistic: White fur",
       "fr": "Leucique : fourrure blanche",
@@ -4767,7 +4767,7 @@
    "morphs": [
     {
      "text": "Albino: Weiße Haut",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/6b305007/Shark_GreatHammerhead_headshot_Albino.png",
+     "img": "assets/farbmorphen/Shark_GreatHammerhead_headshot_Albino.png",
      "texts": {
       "en": "Albino: White skin",
       "fr": "Albinos : peau blanche",
@@ -4890,7 +4890,7 @@
    "morphs": [
     {
      "text": "Albino: weißes Fell",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/ef7fe7c4/Panda_Giant_headshot_Albino.png",
+     "img": "assets/farbmorphen/Panda_Giant_headshot_Albino.png",
      "texts": {
       "en": "Albino: White fur",
       "fr": "Albinos : fourrure blanche",
@@ -5393,7 +5393,7 @@
    "morphs": [
     {
      "text": "Albino: Weiße Haut",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/9d0b900f/Shark_IndoPacificLeopard_headshot_Albino.png",
+     "img": "assets/farbmorphen/Shark_IndoPacificLeopard_headshot_Albino.png",
      "texts": {
       "en": "Albino: White skin",
       "fr": "Albinos : peau blanche",
@@ -5414,7 +5414,7 @@
     },
     {
      "text": "Dunkle Farbvariante: Braun marmorierte Haut",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/9d0b900f/Shark_IndoPacificLeopard_headshot_Erythristic.png",
+     "img": "assets/farbmorphen/Shark_IndoPacificLeopard_headshot_Erythristic.png",
      "texts": {
       "en": "Dark morph: Brown marbled skin",
       "fr": "Variété foncée : corps à marbrures brunes",
@@ -5435,7 +5435,7 @@
     },
     {
      "text": "Helle Farbvariante: Weiße Haut mit grauen Punkten",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/9d0b900f/Shark_IndoPacificLeopard_headshot_Leucistic.png",
+     "img": "assets/farbmorphen/Shark_IndoPacificLeopard_headshot_Leucistic.png",
      "texts": {
       "en": "Light morph: White skin with grey dots",
       "fr": "Variété claire : corps blanc à taches grises",
@@ -5864,7 +5864,7 @@
    "morphs": [
     {
      "text": "Leuzistisch: weißes Fell, Schwanz mit schwarzen und weißen Ringen",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/293ac75a/Lemur_RingTailed_headshot_Albino.png",
+     "img": "assets/farbmorphen/Lemur_RingTailed_headshot_Albino.png",
      "texts": {
       "en": "Leucistic: White fur, white and black ringed tail",
       "fr": "Leucique : fourrure blanche et queue rayée blanc et noir",
@@ -5988,7 +5988,7 @@
    "morphs": [
     {
      "text": "Leuzistisch: Hellrotes Fell mit schwarzen Beinen und blass gestreiftem Schwanz",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/478676c1/Panda_Red_headshot_Albino.png",
+     "img": "assets/farbmorphen/Panda_Red_headshot_Albino.png",
      "texts": {
       "en": "Leucistic: Pale red fur with black legs and faintly striped tail",
       "fr": "Leucique : fourrure roux pâle, pattes noires et queue légèrement rayée",
@@ -6171,7 +6171,7 @@
    "morphs": [
     {
      "text": "Tanchō: Weißer Körper, roter Punkt auf dem Kopf",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/ec06151b/Carp_Koi_headshot_Erythristic.png",
+     "img": "assets/farbmorphen/Carp_Koi_headshot_Erythristic.png",
      "texts": {
       "en": "Tanchō: White body, red spot on head",
       "fr": "Tanchō : corps blanc, tache rouge sur la tête",
@@ -6192,7 +6192,7 @@
     },
     {
      "text": "Karasu: Schwarzer Körper, goldfarbener Bauch",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/ec06151b/Carp_Koi_headshot_Albino.png",
+     "img": "assets/farbmorphen/Carp_Koi_headshot_Albino.png",
      "texts": {
       "en": "Karasu: Black body, golden belly",
       "fr": "Karasu : corps noir, ventre doré",
@@ -6213,7 +6213,7 @@
     },
     {
      "text": "Orenji Ogon: Orangefarbene Schuppen",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/ec06151b/Carp_Koi_headshot_Leucistic.png",
+     "img": "assets/farbmorphen/Carp_Koi_headshot_Leucistic.png",
      "texts": {
       "en": "Orenji Ogon: Orange scales",
       "fr": "Orenji Ogon : écailles orangées",
@@ -6234,7 +6234,7 @@
     },
     {
      "text": "Asagi: Weißgrauer Rücken mit Netzmuster, orangefarbener Bauch",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/ec06151b/Carp_Koi_headshot_Melanistic.png",
+     "img": "assets/farbmorphen/Carp_Koi_headshot_Melanistic.png",
      "texts": {
       "en": "Asagi: White-grey webbed back, orange belly",
       "fr": "Asagi : dos gris-blanc à l’aspect tacheté, ventre orange",
@@ -6255,7 +6255,7 @@
     },
     {
      "text": "Aka Matsuba: Schwarzer Rücken mit Netzmuster, orangefarbener Körper",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/ec06151b/Carp_Koi_headshot_Axanthic.png",
+     "img": "assets/farbmorphen/Carp_Koi_headshot_Axanthic.png",
      "texts": {
       "en": "Aka Matsuba: Black webbed back, orange body",
       "fr": "Aka Matsuba : dos noir à l’aspect tacheté, corps orange",
@@ -6276,7 +6276,7 @@
     },
     {
      "text": "Bekkō: Schwarze Sprenkelung auf einfarbigem Körper",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/ec06151b/Carp_Koi_headshot_Piebald.png",
+     "img": "assets/farbmorphen/Carp_Koi_headshot_Piebald.png",
      "texts": {
       "en": "Bekkō: Black mottling on solid body colour",
       "fr": "Bekkō : marbrures noires sur corps à couleur unie",
@@ -6830,7 +6830,7 @@
    "morphs": [
     {
      "text": "Albino: Grauweiße schuppige Haut mit dunkelgrüner Musterung",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/4d53f7bd/Crocodile_Saltwater_headshot_Albino.png",
+     "img": "assets/farbmorphen/Crocodile_Saltwater_headshot_Albino.png",
      "texts": {
       "en": "Albino: Off-white scaled skin with dark green markings",
       "fr": "Albinos : peau à écailles blanc cassé et taches vert foncé",
@@ -7054,7 +7054,7 @@
    "morphs": [
     {
      "text": "Leuzistisch: Weißes Fell und weiße Mähne",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/f4618f20/Lion_African_headshot_Erythristic.png",
+     "img": "assets/farbmorphen/Lion_African_headshot_Erythristic.png",
      "texts": {
       "en": "Leucistic: White fur and mane",
       "fr": "Leucique : fourrure et crinière blanches",
@@ -7075,7 +7075,7 @@
     },
     {
      "text": "Beigegraues Fell und beigegraue Mähne",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/f4618f20/Lion_African_headshot_Melanistic.png",
+     "img": "assets/farbmorphen/Lion_African_headshot_Melanistic.png",
      "texts": {
       "en": "Grey-beige fur and mane",
       "fr": "Fourrure et crinière gris-beige",
@@ -7200,7 +7200,7 @@
    "morphs": [
     {
      "text": "Leuzistisch: Weißes Fell",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/3032d26a/Tapir_Malayan_headshot_Albino.png",
+     "img": "assets/farbmorphen/Tapir_Malayan_headshot_Albino.png",
      "texts": {
       "en": "Leucistic: White coat",
       "fr": "Leucique : pelage blanc",
@@ -7327,7 +7327,7 @@
    "morphs": [
     {
      "text": "Leuzistisch: weißes Fell mit blassgrauen Flecken",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/234e9b8c/Giraffe_Masai_headshot_Albino.png",
+     "img": "assets/farbmorphen/Giraffe_Masai_headshot_Albino.png",
      "texts": {
       "en": "Leucistic: White coat with faint grey spots",
       "fr": "Leucique : pelage blanc à taches gris pâle",
@@ -7433,7 +7433,7 @@
    "morphs": [
     {
      "text": "Olivefarben-gelber Körper mit braunen Punkten und heller Unterseite",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/0e1941db/Trout_Brown_headshot_Erythristic.png",
+     "img": "assets/farbmorphen/Trout_Brown_headshot_Erythristic.png",
      "texts": {
       "en": "Olive-yellow body with brown spots and pale underside",
       "fr": "Corps jaune et olive à taches brunes et ventre clair",
@@ -7454,7 +7454,7 @@
     },
     {
      "text": "Kupferbrauner Körper mit braunen Punkten und heller Unterseite",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/0e1941db/Trout_Brown_headshot_Leucistic.png",
+     "img": "assets/farbmorphen/Trout_Brown_headshot_Leucistic.png",
      "texts": {
       "en": "Copper-brown body with brown spots and pale underside",
       "fr": "Corps cuivré et brun à taches brunes et ventre clair",
@@ -7626,7 +7626,7 @@
    "morphs": [
     {
      "text": "Leuzistisch: Weiße Flügel mit schwarzen Streifen und Rändern",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/cb943142/Butterfly_Monarch_headshot_Leucistic.png",
+     "img": "assets/farbmorphen/Butterfly_Monarch_headshot_Leucistic.png",
      "texts": {
       "en": "Leucistic: White wings with black veins and edges",
       "fr": "Leucique : ailes blanches à veines et bords noirs",
@@ -7747,7 +7747,7 @@
    "morphs": [
     {
      "text": "Leuzistisch: Weißgrau gefleckte Haut",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/0ba4870c/Sunfish_Ocean_headshot_Leucistic.png",
+     "img": "assets/farbmorphen/Sunfish_Ocean_headshot_Leucistic.png",
      "texts": {
       "en": "Leucistic: White-grey mottled skin",
       "fr": "Leucique : corps à marbrures gris-blanc",
@@ -7973,7 +7973,7 @@
    "morphs": [
     {
      "text": "Leuzistisch: Weißes Fell mit blassgrauen Flecken",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/5c388f78/Giraffe_Reticulated_headshot_Albino.png",
+     "img": "assets/farbmorphen/Giraffe_Reticulated_headshot_Albino.png",
      "texts": {
       "en": "Leucistic: White coat with faint grey spots",
       "fr": "Leucique : pelage blanc à taches gris pâle",
@@ -7994,7 +7994,7 @@
     },
     {
      "text": "Ohne Zeichnung: Rotbraunes Fell",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/5c388f78/Giraffe_Reticulated_headshot_Erythristic.png",
+     "img": "assets/farbmorphen/Giraffe_Reticulated_headshot_Erythristic.png",
      "texts": {
       "en": "Spotless: Red-brown fur",
       "fr": "Sans tache : fourrure brun-roux",
@@ -8118,7 +8118,7 @@
    "morphs": [
     {
      "text": "Albino: helle Haut mit hellgelber Musterung",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/b3a07407/Lizard_NileMonitor_headshot_Albino.png",
+     "img": "assets/farbmorphen/Lizard_NileMonitor_headshot_Albino.png",
      "texts": {
       "en": "Albino: Pale skin with pale yellow markings",
       "fr": "Albinos : peau pâle avec marques jaune pâle",
@@ -8217,7 +8217,7 @@
    "morphs": [
     {
      "text": "Albino: Grauweißes Fell",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/65367be7/Frog_AmericanBull_headshot_Albino.png",
+     "img": "assets/farbmorphen/Frog_AmericanBull_headshot_Albino.png",
      "texts": {
       "en": "Albino: Off-white body",
       "fr": "Albinos : corps blanc cassé",
@@ -8523,7 +8523,7 @@
    "morphs": [
     {
      "text": "Weißer Nyala: Blassgrau mit weißen Streifen",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/cfa1ec7a/Antelope_Nyala_headshot_Albino.png",
+     "img": "assets/farbmorphen/Antelope_Nyala_headshot_Albino.png",
      "texts": {
       "en": "White nyala: Pale grey with white stripes",
       "fr": "Nyala blanc : gris pâle à rayures blanches",
@@ -8544,7 +8544,7 @@
     },
     {
      "text": "Gescheckt: Hellbraun und blassgrau geflecktes Fell mit weißen Streifen",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/cfa1ec7a/Antelope_Nyala_headshot_Piebald.png",
+     "img": "assets/farbmorphen/Antelope_Nyala_headshot_Piebald.png",
      "texts": {
       "en": "Piebald: Tan and pale grey pied coat with white stripes",
       "fr": "Pie : pelage brun clair et gris pâle à rayures blanches",
@@ -8644,7 +8644,7 @@
    "morphs": [
     {
      "text": "Weiße schuppige Haut",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/d71b5b7f/Viper_EasternBrown_headshot_Albino.png",
+     "img": "assets/farbmorphen/Viper_EasternBrown_headshot_Albino.png",
      "texts": {
       "en": "White scaled skin",
       "fr": "Corps à écailles blanches",
@@ -8968,7 +8968,7 @@
    "morphs": [
     {
      "text": "Indischer-Ozean-Farbvariante: Königsblauer Körper mit schwarzem Rücken, gelbem Bauch und gelber Schwanzflosse",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/eb5fc3cc/Surgeonfish_Palette_headshot_Albino.png",
+     "img": "assets/farbmorphen/Surgeonfish_Palette_headshot_Albino.png",
      "texts": {
       "en": "Indian Ocean morph: Royal blue body with black back, yellow belly and yellow tail fin",
       "fr": "Variété océan Indien : corps bleu roi avec dos noir et ventre et queue jaunes",
@@ -8989,7 +8989,7 @@
     },
     {
      "text": "Indischer-Ozean-Farbvariante: Königsblauer Körper mit schwarzem Rücken, gelbem Bauch und gelber Schwanzflosse",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/eb5fc3cc/Surgeonfish_Palette_headshot_Erythristic.png",
+     "img": "assets/farbmorphen/Surgeonfish_Palette_headshot_Erythristic.png",
      "texts": {
       "en": "Indian Ocean morph: Royal blue body with black back, yellow belly and yellow tail fin",
       "fr": "Variété océan Indien : corps bleu roi avec dos noir et ventre et queue jaunes",
@@ -9174,7 +9174,7 @@
    "morphs": [
     {
      "text": "Teils leuzistisch: Gelbrosa gestreifter Körper, orangefarbene Flossen",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/12490997/Loach_Clown_headshot_Albino.png",
+     "img": "assets/farbmorphen/Loach_Clown_headshot_Albino.png",
      "texts": {
       "en": "Part-Leucistic: Yellow-pink banded body, orange fins",
       "fr": "Mi-leucique : corps à bandes jaunes et roses, nageoires orange",
@@ -9195,7 +9195,7 @@
     },
     {
      "text": "Oliveschwarz gestreifter Körper, rote Flossen",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/12490997/Loach_Clown_headshot_Leucistic.png",
+     "img": "assets/farbmorphen/Loach_Clown_headshot_Leucistic.png",
      "texts": {
       "en": "Olive-black banded body, red fins",
       "fr": "Corps à bandes noires et olive, nageoires rouges",
@@ -9500,7 +9500,7 @@
    "morphs": [
     {
      "text": "Albino: Rosafarbener Körper mit dunkler Sprenkelung",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/05475603/Gourami_Giant_headshot_Albino.png",
+     "img": "assets/farbmorphen/Gourami_Giant_headshot_Albino.png",
      "texts": {
       "en": "Albino: Pink body with darker mottling",
       "fr": "Albinos : corps rose à marbrures foncées",
@@ -9521,7 +9521,7 @@
     },
     {
      "text": "Goldfarben: Hellgelber Körper",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/05475603/Gourami_Giant_headshot_Erythristic.png",
+     "img": "assets/farbmorphen/Gourami_Giant_headshot_Erythristic.png",
      "texts": {
       "en": "Golden: Pale yellow body",
       "fr": "Doré : corps jaune pâle",
@@ -9642,7 +9642,7 @@
    "morphs": [
     {
      "text": "Teils leuzistisch: Schwarzweiß geflecktes Gefieder, weißer Hals und Schwanz, orangefarbener Schnabel",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/eaf3f3ba/Toucan_Toco_headshot_Albino.png",
+     "img": "assets/farbmorphen/Toucan_Toco_headshot_Albino.png",
      "texts": {
       "en": "Part Leucistic: Black-white mottled plumage, white neck and tail, and orange beak",
       "fr": "Mi-leucique : plumage à marbrures noires et blanches, cou et queue blancs, bec orange",
@@ -9872,7 +9872,7 @@
    "morphs": [
     {
      "text": "Melanistisch: Schwarzes Gefieder, graue Beine",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/ed2bd5af/Flamingo_Greater_headshot_Melanistic.png",
+     "img": "assets/farbmorphen/Flamingo_Greater_headshot_Melanistic.png",
      "texts": {
       "en": "Melanistic: Black feathers, grey legs",
       "fr": "Mélanique : plumage noir, pattes grises",
@@ -10051,7 +10051,7 @@
    "morphs": [
     {
      "text": "Goldfarbener Körper mit roten Flossen",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/6deea619/Rudd_Common_headshot_Erythristic.png",
+     "img": "assets/farbmorphen/Rudd_Common_headshot_Erythristic.png",
      "texts": {
       "en": "Golden body with red fins",
       "fr": "Corps doré avec nageoires rouges",
@@ -10277,7 +10277,7 @@
    "morphs": [
     {
      "text": "Leuzistisch: Grauweißes Fell",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/7ee0682a/Deer_Red_headshot_Leucistic.png",
+     "img": "assets/farbmorphen/Deer_Red_headshot_Leucistic.png",
      "texts": {
       "en": "Leucistic: Off-white coat",
       "fr": "Leucique : pelage blanc cassé",
@@ -10298,7 +10298,7 @@
     },
     {
      "text": "Melanistisch: Schwarzes Fell",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/7ee0682a/Deer_Red_headshot_Melanistic.png",
+     "img": "assets/farbmorphen/Deer_Red_headshot_Melanistic.png",
      "texts": {
       "en": "Melanistic: Black coat",
       "fr": "Mélanique : pelage noir",
@@ -10420,7 +10420,7 @@
    "morphs": [
     {
      "text": "Albino: Weiße Haut",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/43ea6bd5/Shark_SandTiger_headshot_Albino.png",
+     "img": "assets/farbmorphen/Shark_SandTiger_headshot_Albino.png",
      "texts": {
       "en": "Albino: White skin",
       "fr": "Albinos : peau blanche",
@@ -11081,7 +11081,7 @@
    "morphs": [
     {
      "text": "Albino: Weiß geflecktes Fell",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/c82b795f/Buffalo_Cape_headshot_Albino.png",
+     "img": "assets/farbmorphen/Buffalo_Cape_headshot_Albino.png",
      "texts": {
       "en": "Albino: White mottled coat",
       "fr": "Albinos : pelage tacheté blanc",
@@ -11202,7 +11202,7 @@
    "morphs": [
     {
      "text": "Gelbe Farbvariante: Gelb mit schwarzen Punkten",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/4538d732/Puffer_Blackspotted_headshot_Albino.png",
+     "img": "assets/farbmorphen/Puffer_Blackspotted_headshot_Albino.png",
      "texts": {
       "en": "Yellow morph: Yellow with black spots",
       "fr": "Variété jaune : jaune à taches noires",
@@ -11223,7 +11223,7 @@
     },
     {
      "text": "Blaue Farbvariante: Blau mit schwarzen Punkten",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/4538d732/Puffer_Blackspotted_headshot_Erythristic.png",
+     "img": "assets/farbmorphen/Puffer_Blackspotted_headshot_Erythristic.png",
      "texts": {
       "en": "Blue morph: Blue with black spots",
       "fr": "Variété bleue : bleu à taches noires",
@@ -11244,7 +11244,7 @@
     },
     {
      "text": "Gescheckt: Gelbe Flecken und schwarze Punkte",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/4538d732/Puffer_Blackspotted_headshot_Piebald.png",
+     "img": "assets/farbmorphen/Puffer_Blackspotted_headshot_Piebald.png",
      "texts": {
       "en": "Piebald: Yellow blotches and black spots",
       "fr": "Pie : taches jaunes et noires",
@@ -11367,7 +11367,7 @@
    "morphs": [
     {
      "text": "Leuzistisch: Weiße Haut, schwarze Flossenspitzen",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/fbd9dbf5/Shark_BlacktipReef_headshot_Albino.png",
+     "img": "assets/farbmorphen/Shark_BlacktipReef_headshot_Albino.png",
      "texts": {
       "en": "Leucistic: White skin, black fin tips",
       "fr": "Leucique : corps blanc, extrémités des nageoires noires",
@@ -11388,7 +11388,7 @@
     },
     {
      "text": "Gescheckt: Graubraun und weiß gefleckte Haut, weißer Bauch, schwarze Flossenspitzen",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/fbd9dbf5/Shark_BlacktipReef_headshot_Piebald.png",
+     "img": "assets/farbmorphen/Shark_BlacktipReef_headshot_Piebald.png",
      "texts": {
       "en": "Piebald: Brown-grey and white mottled skin, white belly, black fin tips",
       "fr": "Pie : corps marbré de gris-brun et de blanc, ventre blanc, extrémités des nageoires noires",
@@ -12025,7 +12025,7 @@
    "morphs": [
     {
      "text": "Albino: Weißes Fell",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/93896954/Oryx_Gemsbok_headshot_Albino.png",
+     "img": "assets/farbmorphen/Oryx_Gemsbok_headshot_Albino.png",
      "texts": {
       "en": "Albino: White coat",
       "fr": "Albinos : pelage blanc",
@@ -12046,7 +12046,7 @@
     },
     {
      "text": "Erythristisch: Goldgelbes Fell mit weißer Musterung",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/93896954/Oryx_Gemsbok_headshot_Erythristic.png",
+     "img": "assets/farbmorphen/Oryx_Gemsbok_headshot_Erythristic.png",
      "texts": {
       "en": "Erythristic: Golden coat with white markings",
       "fr": "Érythristique : pelage doré avec marques blanches",
@@ -12272,7 +12272,7 @@
    "morphs": [
     {
      "text": "Weißer Springbock: weißes Fell",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/8f8de8cb/Antelope_Springbok_headshot_Albino.png",
+     "img": "assets/farbmorphen/Antelope_Springbok_headshot_Albino.png",
      "texts": {
       "en": "White springbok: White coat",
       "fr": "Springbok blanc : pelage blanc",
@@ -12293,7 +12293,7 @@
     },
     {
      "text": "Kaffeefarben: Braunes Fell mit dunkelbrauner Musterung und weißem Bauch",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/8f8de8cb/Antelope_Springbok_headshot_Erythristic.png",
+     "img": "assets/farbmorphen/Antelope_Springbok_headshot_Erythristic.png",
      "texts": {
       "en": "Coffee: Brown coat with dark brown markings and white belly",
       "fr": "Café : pelage brun à marbrures brun foncé avec ventre blanc",
@@ -12314,7 +12314,7 @@
     },
     {
      "text": "Elfenbeinfarben: Grauweißes Fell mit hellbrauner Musterung und weißem Bauch",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/8f8de8cb/Antelope_Springbok_headshot_Leucistic.png",
+     "img": "assets/farbmorphen/Antelope_Springbok_headshot_Leucistic.png",
      "texts": {
       "en": "Ivory: Off-white coat with tan markings and white belly",
       "fr": "Ivoire : pelage blanc cassé à marbrures brun clair avec ventre blanc",
@@ -12335,7 +12335,7 @@
     },
     {
      "text": "Schwarzer Springbock: Dunkelbraunes Fell mit schwarzer Musterung",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/8f8de8cb/Antelope_Springbok_headshot_Melanistic.png",
+     "img": "assets/farbmorphen/Antelope_Springbok_headshot_Melanistic.png",
      "texts": {
       "en": "Black springbok: Dark brown coat with black markings",
       "fr": "Springbok noir : pelage brun foncé à marbrures noires",
@@ -12356,7 +12356,7 @@
     },
     {
      "text": "Kupfer-Springbock: Hellbraunes Fell mit dunkelbrauner Musterung",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/8f8de8cb/Antelope_Springbok_headshot_Axanthic.png",
+     "img": "assets/farbmorphen/Antelope_Springbok_headshot_Axanthic.png",
      "texts": {
       "en": "Copper springbok: Tan coat with dark brown markings",
       "fr": "Springbok fauve : pelage brun clair à marbrures brun foncé",
@@ -12377,7 +12377,7 @@
     },
     {
      "text": "Königsspringbock: Weiß geflecktes Fell mit dunkler Flankenzeichnung",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/8f8de8cb/Antelope_Springbok_headshot_Piebald.png",
+     "img": "assets/farbmorphen/Antelope_Springbok_headshot_Piebald.png",
      "texts": {
       "en": "King springbok: White pied coat with dark flank markings",
       "fr": "Springbok roi : pelage pie blanc avec marques sombres sur les flancs",
@@ -12609,7 +12609,7 @@
    "morphs": [
     {
      "text": "Erythristisch: Rot-weiß gestreiftes Fell",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/48ec061b/Zebra_Plains_headshot_Albino.png",
+     "img": "assets/farbmorphen/Zebra_Plains_headshot_Albino.png",
      "texts": {
       "en": "Erythristic: Red and white striped coat",
       "fr": "Érythristique : pelage à rayures rousses et blanches",
@@ -12630,7 +12630,7 @@
     },
     {
      "text": "Amelanistisch: Blasses und weiß gestreiftes Fell",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/48ec061b/Zebra_Plains_headshot_Erythristic.png",
+     "img": "assets/farbmorphen/Zebra_Plains_headshot_Erythristic.png",
      "texts": {
       "en": "Amelanistic: Pale and white striped coat",
       "fr": "Amélanique : pelage à rayures pâles et blanches",
@@ -12651,7 +12651,7 @@
     },
     {
      "text": "Teils melanistisch: Schwarz-weiß gestreiftes Fell mit großen schwarzen Flecken",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/48ec061b/Zebra_Plains_headshot_Leucistic.png",
+     "img": "assets/farbmorphen/Zebra_Plains_headshot_Leucistic.png",
      "texts": {
       "en": "Part Melanistic: Black and white striped coat with large black blotches",
       "fr": "Mi-mélanique : pelage à rayures noires et blanches avec de grosses taches noires",
@@ -12672,7 +12672,7 @@
     },
     {
      "text": "Pseudomelanistisch: Dunkles Fell mit weißen Punkten",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/48ec061b/Zebra_Plains_headshot_Melanistic.png",
+     "img": "assets/farbmorphen/Zebra_Plains_headshot_Melanistic.png",
      "texts": {
       "en": "Pseudomelanistic: Dark coat with white spots",
       "fr": "Pseudo-mélanique : pelage foncé et taches blanches",
@@ -12796,7 +12796,7 @@
    "morphs": [
     {
      "text": "Albino: Weißes Fell mit cremefarbenen Streifen",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/c732811c/Wildebeest_Blue_headshot_Albino.png",
+     "img": "assets/farbmorphen/Wildebeest_Blue_headshot_Albino.png",
      "texts": {
       "en": "Albino: White fur with cream stripes",
       "fr": "Albinos : fourrure blanche avec rayures crème",
@@ -12817,7 +12817,7 @@
     },
     {
      "text": "Erythristisch: Rotgoldenes Fell mit orangefarbenen Streifen",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/c732811c/Wildebeest_Blue_headshot_Erythristic.png",
+     "img": "assets/farbmorphen/Wildebeest_Blue_headshot_Erythristic.png",
      "texts": {
       "en": "Erythristic: Red-gold fur with orange stripes",
       "fr": "Érythristique : pelage roux doré avec rayures orangées",
@@ -12838,7 +12838,7 @@
     },
     {
      "text": "Weißes Streifengnu: Braunes Fell mit weißer Musterung an Mähne und Schwanz",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/c732811c/Wildebeest_Blue_headshot_Piebald.png",
+     "img": "assets/farbmorphen/Wildebeest_Blue_headshot_Piebald.png",
      "texts": {
       "en": "King Wildebeest: White patch, mane and tail on brown fur",
       "fr": "Gnou royal : fourrure brune avec tache, crinière et queue blanches",
@@ -12966,7 +12966,7 @@
    "morphs": [
     {
      "text": "Albino: weißes Fell und rosafarbene Haut",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/734b8322/Orangutan_Sumatran_headshot_Albino.png",
+     "img": "assets/farbmorphen/Orangutan_Sumatran_headshot_Albino.png",
      "texts": {
       "en": "Albino: White fur and pink skin",
       "fr": "Albinos : fourrure blanche et peau rose",
@@ -13089,7 +13089,7 @@
    "morphs": [
     {
      "text": "Leuzistisch: Weißes Fell mit dunkelbraunen Streifen",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/a76b1ada/Tiger_Sumatran_headshot_Albino.png",
+     "img": "assets/farbmorphen/Tiger_Sumatran_headshot_Albino.png",
      "texts": {
       "en": "Leucistic: White coat with dark brown stripes",
       "fr": "Leucique : pelage blanc à rayures brun foncé",
@@ -13110,7 +13110,7 @@
     },
     {
      "text": "Golden Tabby: Blassorangefarbenes Fell mit braunen Streifen",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/a76b1ada/Tiger_Sumatran_headshot_Erythristic.png",
+     "img": "assets/farbmorphen/Tiger_Sumatran_headshot_Erythristic.png",
      "texts": {
       "en": "Golden Tiger: Pale orange coat with brown stripes",
       "fr": "Tigre doré : pelage orange clair à rayures marron",
@@ -13131,7 +13131,7 @@
     },
     {
      "text": "Pseudomelanistisch: Orangefarbenes Fell mit dicken schwarzen Streifen",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/a76b1ada/Tiger_Sumatran_headshot_Leucistic.png",
+     "img": "assets/farbmorphen/Tiger_Sumatran_headshot_Leucistic.png",
      "texts": {
       "en": "Pseudomelanistic: Orange coat with thick black stripes",
       "fr": "Pseudo-mélanique : pelage orange à larges rayures noires",
@@ -13400,7 +13400,7 @@
    "morphs": [
     {
      "text": "Weißer geschuppter Körper mit gelbem Diamantmuster",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/db6e1446/Viper_WesternDiamondback_headshot_Albino.png",
+     "img": "assets/farbmorphen/Viper_WesternDiamondback_headshot_Albino.png",
      "texts": {
       "en": "White scaled body with yellow diamond markings",
       "fr": "Corps à écailles blanches avec marques jaunes en forme de losange",
@@ -13523,7 +13523,7 @@
    "morphs": [
     {
      "text": "Leuzistisch: Weißes Fell",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/4f0e28b0/Gazelle_Thomsons_headshot_Albino.png",
+     "img": "assets/farbmorphen/Gazelle_Thomsons_headshot_Albino.png",
      "texts": {
       "en": "Leucistic: White coat",
       "fr": "Leucique : pelage blanc",
@@ -13731,7 +13731,7 @@
    "morphs": [
     {
      "text": "Leuzistisch: Weißes Fell",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/842f87c2/Camel_Bactrian_headshot_Albino.png",
+     "img": "assets/farbmorphen/Camel_Bactrian_headshot_Albino.png",
      "texts": {
       "en": "Leucistic: White wool coat",
       "fr": "Leucique : fourrure épaisse blanche",
@@ -13773,7 +13773,7 @@
     },
     {
      "text": "Gescheckt: Sandfarben und weiß geflecktes Fell",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/842f87c2/Camel_Bactrian_headshot_Piebald.png",
+     "img": "assets/farbmorphen/Camel_Bactrian_headshot_Piebald.png",
      "texts": {
       "en": "Piebald: Sandy and white pied wool coat",
       "fr": "Pie : fourrure épaisse pie sable et blanc",
@@ -13901,7 +13901,7 @@
    "morphs": [
     {
      "text": "Leuzistisch: Rötliches Fell mit blassbraunen Punkten",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/9ce5814b/Hyena_Spotted_headshot_Leucistic.png",
+     "img": "assets/farbmorphen/Hyena_Spotted_headshot_Leucistic.png",
      "texts": {
       "en": "Leucistic: Reddish coat with faint brown spots",
       "fr": "Leucique : pelage rougeâtre à taches brun pâle",
@@ -14030,7 +14030,7 @@
    "morphs": [
     {
      "text": "Weißes Gefieder, rote Augen",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/7b6774dd/Owl_LongEared_headshot_Albino.png",
+     "img": "assets/farbmorphen/Owl_LongEared_headshot_Albino.png",
      "texts": {
       "en": "White feathers, red eyes",
       "fr": "Plumage blanc, yeux rouges",
@@ -14154,7 +14154,7 @@
    "morphs": [
     {
      "text": "Leuzistisch: weißgraue struppige Behaarung",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/da6591bb/Warthog_Common_headshot_Albino.png",
+     "img": "assets/farbmorphen/Warthog_Common_headshot_Albino.png",
      "texts": {
       "en": "Leucistic: White-grey coarse hairs",
       "fr": "Leucique : poils rêches blanc-gris",
@@ -14379,7 +14379,7 @@
    "morphs": [
     {
      "text": "Albino: weißes Fell",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/45bc9eb0/Wildebeest_Black_headshot_Albino.png",
+     "img": "assets/farbmorphen/Wildebeest_Black_headshot_Albino.png",
      "texts": {
       "en": "Albino: White coat",
       "fr": "Albinos : pelage blanc",
@@ -14507,7 +14507,7 @@
    "morphs": [
     {
      "text": "Albino: weiße Behaarung und rosafarbene Haut",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/780f5e36/Gorilla_WesternLowland_headshot_Albino.png",
+     "img": "assets/farbmorphen/Gorilla_WesternLowland_headshot_Albino.png",
      "texts": {
       "en": "Albino: White hairs and pink skin",
       "fr": "Albinos : poils blancs et peau rose",
@@ -14634,7 +14634,7 @@
    "morphs": [
     {
      "text": "Leuzistisch: weiße Behaarung und rosafarbene Haut",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/8e37091e/Chimpanzee_Western_headshot_Albino.png",
+     "img": "assets/farbmorphen/Chimpanzee_Western_headshot_Albino.png",
      "texts": {
       "en": "Leucistic: White hairs and pink skin",
       "fr": "Leucique : poils blancs et peau rose",
@@ -14655,7 +14655,7 @@
     },
     {
      "text": "Schwarze Behaarung und dunkelbraune Haut",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/8e37091e/Chimpanzee_Western_headshot_Melanistic.png",
+     "img": "assets/farbmorphen/Chimpanzee_Western_headshot_Melanistic.png",
      "texts": {
       "en": "Black hairs and dark brown skin",
       "fr": "Pelage noir et peau brun foncé",
@@ -14789,7 +14789,7 @@
    "morphs": [
     {
      "text": "Leuzistisch: weiße zottelige Borsten",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/04442165/Boar_Wild_headshot_Leucistic.png",
+     "img": "assets/farbmorphen/Boar_Wild_headshot_Leucistic.png",
      "texts": {
       "en": "Leucistic: White shaggy bristles",
       "fr": "Leucique : poils hirsutes blancs",
@@ -14918,7 +14918,7 @@
    "morphs": [
     {
      "text": "Weißes Fell mit grauer Sprenkelung",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/8bb3d123/Wolf_Grey_headshot_Albino.png",
+     "img": "assets/farbmorphen/Wolf_Grey_headshot_Albino.png",
      "texts": {
       "en": "White fur coat with grey mottling",
       "fr": "Fourrure blanche à marbrures grises",
@@ -14939,7 +14939,7 @@
     },
     {
      "text": "Melanistisch: Schwarzer Pelz",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/8bb3d123/Wolf_Grey_headshot_Erythristic.png",
+     "img": "assets/farbmorphen/Wolf_Grey_headshot_Erythristic.png",
      "texts": {
       "en": "Melanistic: Black fur coat",
       "fr": "Mélanique : fourrure noire",
@@ -14960,7 +14960,7 @@
     },
     {
      "text": "Rotes Fell mit schwarzer Sprenkelung",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/8bb3d123/Wolf_Grey_headshot_Leucistic.png",
+     "img": "assets/farbmorphen/Wolf_Grey_headshot_Leucistic.png",
      "texts": {
       "en": "Red fur coat with black mottling",
       "fr": "Fourrure rousse à marbrures noires",
@@ -15233,7 +15233,7 @@
    "morphs": [
     {
      "text": "Albino: weißes dichtes Fell",
-     "img": "https://hosting.zaonce.net/websites/planet-zoo-2/animals/3e510077/Otter_AsianSmallClawed_headshot_Albino.png",
+     "img": "assets/farbmorphen/Otter_AsianSmallClawed_headshot_Albino.png",
      "texts": {
       "en": "Albino: White dense fur",
       "fr": "Albinos : fourrure épaisse blanche",
