@@ -308,6 +308,31 @@ def read_names(wb):
     return out
 
 
+def read_morph_texts(wb):
+    """Blatt „Farbmorphen (Sprachen)“ -> { (deutscher Tiername klein, Nr): { sprache: "Name: Beschreibung" } }
+    Spalten: Tierart | Nr | Deutsch (de) | English (en) | … – Nr = Reihenfolge wie in „Alle Tiere“ (1, 2, …)."""
+    out = {}
+    if Z.MORPHS_SHEET not in wb.sheetnames:
+        return out
+    ws = wb[Z.MORPHS_SHEET]
+    header = [clean(c) for c in next(ws.iter_rows(min_row=1, max_row=1, values_only=True))]
+    cols = {}
+    for i, hname in enumerate(header):
+        for code, label in Z.NAME_LANGS + [("de", "Deutsch")]:
+            if hname == Z.name_head(code, label) or hname == code:
+                cols[i] = code
+    for row in ws.iter_rows(min_row=2, values_only=True):
+        if not row or not clean(row[0]) or clean(row[1]) is None:
+            continue
+        try:
+            nr = int(float(clean(row[1])))
+        except ValueError:
+            continue
+        texts = {code: str(clean(row[i])) for i, code in cols.items() if i < len(row) and clean(row[i])}
+        out[(re.sub(r"\s+", " ", str(clean(row[0]))).lower(), nr)] = texts
+    return out
+
+
 def read_info(wb, key):
     """Blatt „Info“: Wert der Zeile mit der Angabe „key“ (z. B. Version, GoatCounter-Code)."""
     if "Info" not in wb.sheetnames:
@@ -512,6 +537,17 @@ def main():
             a["names"] = n
         else:
             untranslated += 1
+    mt = read_morph_texts(wb)
+    open_morphs = 0
+    for a in animals:
+        for i, m in enumerate(a.get("morphs") or []):
+            tx = {k: v for k, v in mt.get((a["name"].lower(), i + 1), {}).items() if k != "de"}
+            if tx:
+                m["texts"] = tx
+            if len(tx) < len(Z.NAME_LANGS) - 1:  # es-419 darf leer sein (nutzt es)
+                open_morphs += 1
+    if open_morphs:
+        warn(Z.MORPHS_SHEET, f"{open_morphs} Farbmorph(e) nicht in allen Sprachen übersetzt – dort wird Englisch bzw. Deutsch angezeigt")
     if untranslated:
         warn(Z.NAMES_SHEET, f"{untranslated} Tierart(en) ohne Übersetzung – dort wird überall der deutsche Name angezeigt")
     if MISSING:

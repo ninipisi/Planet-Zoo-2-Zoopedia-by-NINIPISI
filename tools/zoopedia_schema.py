@@ -47,6 +47,7 @@ NAME_LANGS = [("en", "English"), ("fr", "Français"), ("it", "Italiano"), ("es",
               ("da", "Dansk"), ("nl", "Nederlands"), ("ja", "日本語"), ("ko", "한국어"), ("pl", "Polski"), ("pt-BR", "Português (Brasil)"),
               ("ru", "Русский"), ("zh-CN", "简体中文"), ("es-419", "Español (Latinoamérica)"), ("th", "ไทย"), ("zh-TW", "繁體中文")]
 NAMES_SHEET = "Tiernamen"
+MORPHS_SHEET = "Farbmorphen (Sprachen)"
 MAIN_SHEET = "Alle Tiere"
 FIRST_ROW = 5
 

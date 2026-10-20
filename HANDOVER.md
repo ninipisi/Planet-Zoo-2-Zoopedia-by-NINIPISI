@@ -84,6 +84,16 @@ Veröffentlichen: GitHub-Repo, Settings → Pages → Deploy from branch (main, 
 Lebenszyklus als Text („3 Jahre“, „20 Monate“, „4 Wochen“, „10 Tage“) → `[Zahl, Einheit]`, auf der Seite übersetzt. Wurfgröße/Nur ♂/Nur ♀ als „1-6“.
 Zusammenleben: „Erfolgreiche Beziehungen“ = diese Art profitiert von den genannten; „Neutrale Beziehungen“ = verträglich ohne Bonus; Namen mit Komma getrennt, „keine“ = leer.
 
+## Stand (20.10.2026, 15. Runde) – Farbmorphen in allen Sprachen, Version 1.0.5.1023906
+- Neues Excel-Blatt **„Farbmorphen (Sprachen)“** (`Z.MORPHS_SHEET`): je Farbmorph eine Zeile (Tierart, Nr = Reihenfolge in „Alle Tiere“, 17 Sprachspalten wie „Tiernamen“, Quelle).
+  en/fr/it/es/pt-BR/ja/zh-CN = offizielle Zoopedia-Texte (Abruf 20.10.2026 über den Browser, Zuordnung über den Bildtyp `_headshot_<Typ>`);
+  cs/da/nl/ko/pl/ru/th = KI-Übersetzung aus dem Englischen; zh-TW = OpenCC (s2twp) aus zh-CN; es-419 leer → es.
+  Drei Morphs gibt es offiziell nur auf Deutsch (Nyala „Weißer Nyala“, Trampeltier „Schokoladenbraunes Fell“, Erdmännchen „Albino“ – auf den anderen Sprachseiten fehlen sie bzw. stehen Platzhalter) → alle Sprachen übersetzt.
+- Konverter: `read_morph_texts()` → `morph.texts {lang: text}` (ohne de); Warnung, wenn ein Morph nicht in allen Sprachen übersetzt ist.
+- App: Text = `texts[lang] → FALLBACK → en → de-Text`; Name/Beschreibung werden auch bei „：“ (Chinesisch) und „ : “ (Französisch) getrennt, Beschreibung beginnt groß. Hinweis `detail.morphsDe` entfernt.
+- Info: Version 1.0.5.1023906, Letztes Update 20.10.2026.
+- Übersetzungs-Audit (alle 17 Sprachen, Startseite, 4 Tabs, Tierprofile, Zooplaner): keine fehlenden Schlüssel, keine Platzhalter-Abweichungen, keine deutschen Reste; alle 136 Tiernamen in allen Sprachen.
+
 ## Stand (14.10.2026, 14. Runde) – Link zur Schwesterseite
 - Kopfzeile rechts, Zeile mit Ko-fi: Button „Zum Zoopedia für Planet Zoo“ (`#sisterLink`, `SISTER_URL` in app.js, Schlüssel `nav.sister`), beginnt bündig unter „Meine Spielinhalte“, öffnet https://ninipisi.github.io/Planet-Zoo-Zoopedia-by-NINIPISI/#home in neuem Tab. Umsetzung exakt nach Ninas Anleitung `ANLEITUNG_Button_PZ2.md` (index.html `.top-links`, CSS, Übersetzung).
 

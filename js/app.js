@@ -1046,19 +1046,21 @@
     /* Farbmorphen mit Beispielbildern der offiziellen Zoopedia */
     if (a.morphs && a.morphs.length) {
       const card = m => {
-        const i = m.text.indexOf(":");
-        const name = i > 0 ? m.text.slice(0, i) : "", desc = i > 0 ? m.text.slice(i + 1).trim() : m.text;
+        const tx = m.texts || {}, L = S.state.lang;
+        const text = (L === "de" ? m.text : tx[L] || tx[FALLBACK[L]] || tx.en) || m.text;
+        const mt = text.match(/^([^:：]{1,60}?)\s*[:：]\s*(.+)$/);  /* „Name: Beschreibung“, auch mit „：“ (Chinesisch) */
+        const name = mt ? mt[1].trim() : "", raw = mt ? mt[2].trim() : text;
+        const desc = raw.charAt(0).toLocaleUpperCase(L) + raw.slice(1);
         const pic = h("span", { class: "morph-pic" });
         if (m.img) {
-          const img = h("img", { src: asset(m.img), alt: m.text, loading: "lazy", referrerpolicy: "no-referrer" });
+          const img = h("img", { src: asset(m.img), alt: text, loading: "lazy", referrerpolicy: "no-referrer" });
           img.addEventListener("error", () => { pic.innerHTML = ""; pic.appendChild(svg(PAW_SVG)); });
           pic.appendChild(img);
         } else pic.appendChild(svg(PAW_SVG));
-        return h("figure", { class: "morph", title: m.text }, [pic, h("figcaption", {}, [name ? h("b", { text: name }) : null, h("span", { text: desc })])]);
+        return h("figure", { class: "morph", title: text }, [pic, h("figcaption", {}, [name ? h("b", { text: name }) : null, h("span", { text: desc })])]);
       };
       body.push(h("section", { class: "d-sec" }, [h("h3", { text: t("detail.morphs") }),
-        h("div", { class: "morphs" }, a.morphs.map(card)),
-        S.state.lang !== "de" ? h("p", { class: "f-hint", style: "margin:8px 0 0", text: t("detail.morphsDe") }) : null]));
+        h("div", { class: "morphs" }, a.morphs.map(card))]));
     }
 
     /* Zusammenleben: Namen anklickbar, öffnen das Profil der anderen Art */
